@@ -132,24 +132,24 @@ function First() {
                         Watch this short video to discover the secret method
                     </p>
                     <iframe
-                        className=" w-full aspect-video border-b-2 rounded-b-lg"
+                        className=" w-full aspect-video md:w-[544px] md:h-[330px]  border-b-2 rounded-b-lg"
                         src="https://www.youtube.com/embed/VIDEO_ID"
                         title="video"
                         allowFullScreen></iframe>
                 </div>
 
-                <div className="mx-9 flex justify-center">
+                <div className="mx-9 flex justify-center mt-9">
                     <ul className="list-none mt-5">
                         <li className="mb-1">
                             {" "}
                             <img
                                 src={li1}
                                 alt="li1"
-                                className="inline-block h-10 w-10"></img>{" "}
+                                className="inline-block h-11 w-11"></img>{" "}
                             Find <strong>Winning Products</strong> in less than 2 minutes
                         </li>
                         <li className="mb-1">
-                            <img src={li2} alt="li2" className="inline-block h-10 w-10"></img>{" "}
+                            <img src={li2} alt="li2" className="inline-block h-11 w-11"></img>{" "}
                             <p className="inline-block">
                                 {" "}
                                 Check <strong>which Products</strong> are getting
@@ -160,11 +160,11 @@ function First() {
                             </p>
                         </li>
                         <li className="mb-1">
-                            <img src={li3} alt="li3" className="inline-block h-10 w-10"></img>{" "}
+                            <img src={li3} alt="li3" className="inline-block h-11 w-11"></img>{" "}
                             Discover the <strong>Rising Starts in your Niche</strong>{" "}
                         </li>
                         <li className="mb-1">
-                            <img src={li4} alt="li4" className="inline-block h-10 w-10"></img>{" "}
+                            <img src={li4} alt="li4" className="inline-block h-11 w-11"></img>{" "}
                             <p className="inline-block">
                                 <strong>Analyze any listing</strong> to see it's
                                 <strong>perfomance</strong>
@@ -174,7 +174,7 @@ function First() {
                             </p>
                         </li>
                         <li className="mb-1">
-                            <img src={li5} alt="li5" className="inline-block h-10 w-10"></img>{" "}
+                            <img src={li5} alt="li5" className="inline-block h-11 w-11"></img>{" "}
                             Find the <strong>Conversion Rate</strong> of the Products
                         </li>
                     </ul>
