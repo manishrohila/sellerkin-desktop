@@ -71,19 +71,19 @@ function First() {
                 </div>
                 <div className='ml-10'>
                     <ul className='list-none  mt-5'>
-                        <li className='mb-1'> <img src={li1} className='inline-block h-10 w-10'></img>  Find <strong>Winning Products</strong> in less than 2
+                        <li className='mb-1'> <img src={li1} alt='li1' className='inline-block h-10 w-10'></img>  Find <strong>Winning Products</strong> in less than 2
                             minutes</li>
-                        <li className='mb-1'><img src={li2} className='inline-block h-10 w-10'></img> <p className='inline-block'> Check <strong>which Products</strong> are getting
+                        <li className='mb-1'><img src={li2 } alt='li2' className='inline-block h-10 w-10'></img> <p className='inline-block'> Check <strong>which Products</strong> are getting
                             <strong> Eyeballs </strong> </p>
                             <p className='relative ml-12'>and <strong>Attention</strong></p>
                         </li>
-                        <li className='mb-1'><img src={li3} className='inline-block h-10 w-10'></img> Discover the <strong>Rising Starts in your
+                        <li className='mb-1'><img src={li3} alt='li3' className='inline-block h-10 w-10'></img> Discover the <strong>Rising Starts in your
                             Niche</strong> </li>
-                        <li className='mb-1'><img src={li4} className='inline-block h-10 w-10'></img> <p className='inline-block'><strong>Analyze any listing</strong> to see it's
+                        <li className='mb-1'><img src={li4} alt='li4' className='inline-block h-10 w-10'></img> <p className='inline-block'><strong>Analyze any listing</strong> to see it's
                             <strong>perfomance</strong></p>  <p className='relative ml-12'>& insider <strong>hidden details</strong>
                             </p>
                         </li>
-                        <li className='mb-1'><img src={li5} className='inline-block h-10 w-10'></img>  Find the <strong>Conversion Rate</strong> of the
+                        <li className='mb-1'><img src={li5} alt='li5' className='inline-block h-10 w-10'></img>  Find the <strong>Conversion Rate</strong> of the
                             Products</li>
 
 
@@ -99,23 +99,23 @@ function First() {
             </div>
             <div className='flex justify-center mt-5'>
                 <div>
-                    <img src={left_arrow}></img>
+                    <img src={left_arrow} alt='left arrow'></img>
                 </div>
                 <div className='bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg'>
                     <p>Scale your Etsy Business Today</p>
                 </div>
                 <div>
-                    <img src={right_arrow}></img>
+                    <img src={right_arrow} src='right arrow'></img>
                 </div>
 
             </div>
 
             <div className='m-5 flex justify-center '>
-                <img src={shopping_cart_2}></img>
+                <img src={shopping_cart_2} alt='shooping cart'></img>
                 <p className='mx-1 mr-2'> Buy once, Use Forever</p>
-                <img src={cloud}></img>
+                <img src={cloud} alt='cloud'></img>
                 <p className='mx-1 mr-2'> Works on Cloud</p>
-                <img src={graph}></img>
+                <img src={graph} alt='graph'></img>
                 <p className='mx-1'> Unlocks Exponential Growth</p>
 
             </div>
