@@ -109,7 +109,7 @@ function First() {
                     <img
                         src={underline}
                         alt="underline"
-                        className="relative w-3/5 "></img>
+                        className="relative hidden md:block ml-32 w-3/5 "></img>
                     <h2 className="text-3xl tracking-wide font-bold word-spacing ">
                         <span className="text-custom-color-1 inline-block word-spacing">
                             Finding The{" "}
@@ -132,7 +132,7 @@ function First() {
                         Watch this short video to discover the secret method
                     </p>
                     <iframe
-                        className=" w-full aspect-video md:w-[544px] md:h-[330px]  border-b-2 rounded-b-lg"
+                        className=" w-full aspect-video md:w-[544px] md:h-[300px]  border-b-2 rounded-b-lg"
                         src="https://www.youtube.com/embed/VIDEO_ID"
                         title="video"
                         allowFullScreen></iframe>
