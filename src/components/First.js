@@ -14,12 +14,13 @@ import right_arrow from "../img/mingcute_arrows-right-line (1).png";
 import shopping_cart_2 from "../img/mdi_cart.png";
 import cloud from "../img/iconamoon_cloud-yes-fill.png";
 import graph from "../img/mdi_graph-box.png";
-import secure from "../img/lock.png";
+import secure from "../img/lock1.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
-import visa from "../img/visa.png";
-import days from "../img/7days.png";
-import mac from "../img/mac.png";
-import window from "../img/windows.png";
+
+import days from "../img/7days1.svg";
+import mac from "../img/mac1.svg";
+import window from "../img/windows1.svg";
+import visa1 from "../img/toppng 4.svg"
 function First() {
     const [showMenu, setShowMenu] = useState(false);
     const menu = [
@@ -95,6 +96,7 @@ function First() {
             </div>
             <div className="flex justify-center align-center text-center gap-8 mt-2.5 mx-8">
                 <div>
+                    
                     <h2 className="text-3xl tracking-wide font-bold word-spacing ">
                         {" "}
                         <span>
@@ -249,7 +251,7 @@ function First() {
 
             <div className="md:flex md:justify-center">
                 <div className="flex justify-center mb-5">
-                    <img src={visa} alt="payment"></img>
+                    <img src={visa1} alt="payment"></img>
                 </div>
                 <div className="flex justify-center mb-5">
                     <img src={secure} alt="payment"></img>
