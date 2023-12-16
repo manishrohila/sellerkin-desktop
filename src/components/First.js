@@ -344,7 +344,7 @@ function First() {
                                 className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
                             <ul className="list-none">
                                 <li className="xl:text-xl">
-                                    Find <strong>Winning Products</strong> in less than 2 minutes
+                                    Find <strong>Winning Products</strong> in less than<strong>2 minutes</strong> 
                                 </li>
                             </ul>
                         </div>
