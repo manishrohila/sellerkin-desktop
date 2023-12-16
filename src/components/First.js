@@ -218,8 +218,11 @@ function First() {
                 <div>
                     <img src={left_arrow} alt="left arrow"></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg">
-                    <p>Scale your Etsy Business Today</p>
+                <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row">
+                    <p>Scale your Etsy</p>
+                    <p>
+                        Business Today
+                    </p>
                 </div>
                 <div>
                     <img src={right_arrow} alt="right arrow 2"></img>
