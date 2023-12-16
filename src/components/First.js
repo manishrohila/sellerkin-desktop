@@ -4,16 +4,16 @@ import logo from "../img/Mask group.png";
 import shopping_cart from "../img/noto_shopping-cart.png";
 import achievement from "../img/Group 193.png";
 import underline from "../img/Vector 2.png";
-import li1 from "../img/li1.png";
-import li2 from "../img/li2.png";
-import li3 from "../img/li3.png";
-import li4 from "../img/li4.png";
-import li5 from "../img/li5.png";
+import li1 from "../img/li11.svg";
+import li2 from "../img/li22.svg";
+import li3 from "../img/li33.svg";
+import li4 from "../img/li44.svg";
+import li5 from "../img/li55.svg";
 import left_arrow from "../img/mingcute_arrows-right-line.png";
 import right_arrow from "../img/mingcute_arrows-right-line (1).png";
-import shopping_cart_2 from "../img/mdi_cart.png";
-import cloud from "../img/iconamoon_cloud-yes-fill.png";
-import graph from "../img/mdi_graph-box.png";
+import shopping_cart_2 from "../img/mdi_cart1.svg";
+import cloud from "../img/iconamoon_cloud-yes-fill1.svg";
+import graph from "../img/mdi_graph-box1.svg";
 import secure from "../img/lock1.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import speaker from "../img/speaker.svg"
@@ -300,7 +300,7 @@ function First() {
                 </div>
             </div>
 
-            <div className="m-5 flex flex-col md:flex md:flex-row justify-center font-serif ">
+            <div className="m-5 flex flex-col gap-2 md:flex md:flex-row justify-center font-serif ">
                 <div className="flex justify-center">
                     <img src={graph} alt="graph" className="h-5 w-5"></img>
                     <p className="mx-1"> Unlocks Exponential Growth</p>
@@ -333,25 +333,25 @@ function First() {
                 <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
             </div>
 
-            <div className="mx-9 block md:hidden justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color">
-                <ul className="list-none mt-5 xl:mt-0 ">
+            <div className="mx-5 block md:hidden justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color">
+                <ul className="list-none mt-5  ">
 
-                    <li className="mb-1 xl:mb-3 ">
-                        <div className="flex gap-2 xl:gap-3">
+                    <li className="mb-3  ">
+                        <div className="flex gap-3 xl:gap-3">
                             <img
                                 src={li1}
                                 alt="li1"
-                                className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
+                                className="inline-block h-13 w-13 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
                             <ul className="list-none">
                                 <li className="xl:text-xl">
-                                    Find <strong>Winning Products</strong> in less than<strong>2 minutes</strong> 
+                                    Find <strong>Winning Products</strong> in less than <strong>2 minutes</strong> 
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li className="mb-1 xl:mb-3">
-                        <div className="flex gap-2 xl:gap-3">
-                            <img src={li2} alt="li2" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
+                    <li className="mb-2">
+                        <div className="flex gap-3 xl:gap-3">
+                            <img src={li2} alt="li2" className="inline-block h-13 w-13 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
                             <ul className="list-none">
                                 <li className="xl:text-xl">
                                     {" "}
@@ -362,10 +362,10 @@ function First() {
                         </div>
                     </li>
 
-                    <li className="mb-1 xl:mb-3">
+                    <li className="mb-2">
 
-                        <div className="flex gap-2 xl:gap-3">
-                            <img src={li3} alt="li3" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
+                        <div className="flex gap-3 xl:gap-3">
+                            <img src={li3} alt="li3" className="inline-block h-13 w-13 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
                             <ul className="list-none">
                                 <li className="xl:text-xl">
                                     Discover the <strong>Rising Starts in your Niche</strong>{" "}
@@ -376,10 +376,10 @@ function First() {
 
 
                     </li>
-                    <li className="mb-1 xl:mb-3">
+                    <li className="mb-2">
 
-                        <div className="flex gap-2 xl:gap-3">
-                            <img src={li4} alt="li4" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
+                        <div className="flex gap-3 xl:gap-3">
+                            <img src={li4} alt="li4" className="inline-block h-13 w-13 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
                             <ul className="list-none">
                                 <li className="xl:text-xl">
                                     {" "}
@@ -389,10 +389,10 @@ function First() {
                             </ul>
                         </div>
                     </li>
-                    <li className="mb-1 xl:mb-3">
+                    <li className="mb-2">
 
-                        <div className="flex gap-2 xl:gap-3">
-                            <img src={li5} alt="li5" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
+                        <div className="flex gap-3 xl:gap-3">
+                            <img src={li5} alt="li5" className="inline-block h-13 w-13 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
                             <ul className="list-none">
                                 <li className="xl:text-xl">
                                     Find the <strong>Conversion Rate</strong> of the Products
