@@ -16,6 +16,7 @@ import cloud from "../img/iconamoon_cloud-yes-fill.png";
 import graph from "../img/mdi_graph-box.png";
 import secure from "../img/lock1.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
+import speaker from "../img/speaker.svg"
 
 import days from "../img/7days1.svg";
 import mac from "../img/mac1.svg";
@@ -42,21 +43,21 @@ function First() {
             <nav className="flex md:justify-around justify-between md:px-10 px-3 py-6 ">
                 <div className="flex">
                     <img src={logo} alt="SellerKin logo" className="relative -mt-4"></img>
-                    <span className="pr-20 font-bold">SellerKin</span>
+                    <span className="text-3xl font-bold ">SellerKin</span>
                 </div>
                 {/* ul list  */}
                 <div className="flex gap-8">
                     <div>
                         <ul className=" justify-center list-none ml-4 hidden md:flex space-x-5">
-                            <li className="">How it Works</li>
-                            <li>Testimonials</li>
-                            <li>Pricing</li>
+                            <li className="text-lg">How it Works</li>
+                            <li className="text-lg"> Testimonials</li>
+                            <li className="text-lg">Pricing</li>
                         </ul>
                     </div>
 
                     {/* button */}
                     <div className="space-x-10 hidden md:flex -mt-2 md:justify-end">
-                        <button className="border-2 rounded border-custom-color-1 px-2.5 py-0.5">
+                        <button className="border-2 rounded border-custom-color-1 px-2.5 py-0.5 text-xl">
                             Log in
                         </button>
                         <button className="border-2 rounded border-custom-color-1 bg-custom-color-1 px-2.5 py-0.5">
@@ -80,16 +81,21 @@ function First() {
                     </a>
                 </div>
             </nav>
-            <div className="border-2 rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center">
+            <div className="border-2 rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white">
                 This is an invite-only page...
             </div>
 
             <div className="flex justify-center text-center align-center mt-6 mx-4 text-base ">
                 <div>
                     <h4>
-                        Golden Scaling Gateway for all Ecom Businesses & Digital{" "}
+                        Golden Scaling Gateway for {" "}
                         <span className=" font-bold">
-                            Product Owners Selling on Etsy Marketplace
+                        all Ecom Businesses & Digital 
+                        </span>
+                    </h4>
+                    <h4>
+                        <span className=" font-bold">
+                         Product Owners Selling on Etsy Marketplace
                         </span>
                     </h4>
                 </div>
@@ -123,18 +129,21 @@ function First() {
                         </span>
                         <span> And</span>
                     </h2>
-                    <h2 className="text-3xl tracking-wider font-bold word-spacing">
+                    <h2 className="text-3xl tracking-wider font-bold word-spacing italic">
                         Copying Them For Your Instant Sucess
                     </h2>
                 </div>
             </div>
             <div className=" md:flex justify-center mt-6">
                 <div className="mt-6 mx-6 rounded-lg flex justify-center flex-col">
-                    <p className="text-center text-[12px] bg-custom-color-1 border-t-2 p-3 rounded-t-2xl text-white ">
-                        Watch this short video to discover the secret method
+                    <p className="text-center text-[9px] bg-custom-color-1 border-t-2 p-2 rounded-t-2xl text-white flex justify-center gap-1 ">
+                        
+                        <img src={speaker} alt="speaker"></img>
+                        
+                        Watch this short video to discover the <span className="border-b-2 rounded-sm">secret</span>  method
                     </p>
                     <iframe
-                        className=" w-full aspect-video md:w-[544px] md:h-[300px]  border-b-2 rounded-b-lg"
+                        className=" w-full aspect-video md:w-[542px] md:h-[287px]  border-b-2 rounded-b-xl"
                         src="https://www.youtube.com/embed/VIDEO_ID"
                         title="video"
                         allowFullScreen></iframe>
@@ -220,8 +229,8 @@ function First() {
                 <div>
                     <img src={left_arrow} alt="left arrow"></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row">
-                    <p>Scale your Etsy</p>
+                <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
+                    <p className="mr-1 md:mr-1">Scale Your Etsy</p>
                     <p>
                         Business Today
                     </p>
@@ -231,7 +240,7 @@ function First() {
                 </div>
             </div>
 
-            <div className="m-5 flex flex-col md:flex justify-center ">
+            <div className="m-5 flex flex-col md:flex md:flex-row justify-center ">
                 <div className="flex justify-center">
                     <img src={graph} alt="graph" className="h-5 w-5"></img>
                     <p className="mx-1"> Unlocks Exponential Growth</p>
@@ -249,19 +258,19 @@ function First() {
                 </div>
             </div>
 
-            <div className="md:flex md:justify-center">
+            <div className="md:flex md:justify-center gap-4">
                 <div className="flex justify-center mb-5">
-                    <img src={visa1} alt="payment"></img>
+                    <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
                 </div>
-                <div className="flex justify-center mb-5">
-                    <img src={secure} alt="payment"></img>
-                    <img src={days} alt="payment"></img>
+                <div className="flex justify-center mb-5 gap-3">
+                    <img src={secure} alt="payment" className="relative mb-2"></img>
+                    <img src={days} alt="payment" className="relative mb-2"></img>
                 </div>
             </div>
 
-            <div className="flex justify-center mb-5">
-                <img src={mac} alt="payment"></img>
-                <img src={window} alt="payment"></img>
+            <div className="flex justify-center mb-5 gap-4">
+                <img src={mac} alt="payment" className="w-24 md:w-auto "></img>
+                <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
             </div>
         </div>
     );
