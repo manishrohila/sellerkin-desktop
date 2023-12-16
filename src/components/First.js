@@ -135,7 +135,7 @@ function First() {
                     <img
                         src={underline}
                         alt="underline"
-                        className="relative md:block justify-center ml-80  w-2/5 "></img>
+                        className="flex justify-center ml-80  w-2/5 xl:w-2/6 xl:ml-26"></img>
                     <h2 className="text-3xl tracking-wide font-bold word-spacing ">
                         <span className="text-custom-color-1 inline-block word-spacing">
                             Finding The{" "}
