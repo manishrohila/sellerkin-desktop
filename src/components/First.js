@@ -138,7 +138,7 @@ function First() {
                         allowFullScreen></iframe>
                 </div>
 
-                <div className="mx-9 flex justify-center mt-9">
+                <div className="mx-9 flex justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color">
                     <ul className="list-none mt-5">
 
                         <li className="mb-1 ">
