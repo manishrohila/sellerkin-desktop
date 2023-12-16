@@ -85,7 +85,7 @@ function First() {
                 This is an invite-only page...
             </div>
 
-            <div className="flex justify-center text-center align-center mt-6 mx-4 text-base ">
+            <div className=" hidden md:block justify-center text-center align-center mt-6 mx-4 text-base ">
                 <div>
                     <h4>
                         Golden Scaling Gateway for {" "}
@@ -96,6 +96,24 @@ function First() {
                     <h4>
                         <span className=" font-bold">
                             Product Owners Selling on Etsy Marketplace
+                        </span>
+                    </h4>
+                </div>
+            </div>
+            <div className=" block md:hidden justify-center text-center align-center mt-6 mx-4 text-base ">
+                <div>
+                    <h4>
+                        Golden Scaling Gateway for {" "}
+                        <span className=" font-bold">
+                            all Ecom
+                        </span>
+                    </h4>
+                    <h4 className=" font-bold">
+                        Businesses & Digital Product Owners 
+                    </h4>
+                    <h4>
+                        <span className=" font-bold">
+                            Selling on Etsy Marketplace
                         </span>
                     </h4>
                 </div>
@@ -153,7 +171,7 @@ function First() {
                                 alt="shopping cart"
                                 className="h-9 w-9 inline-block "></img>
                         </span>
-                        By <span className="text-custom-color-1 inline-block word-spacing">Finding</span> 
+                        By <span className="text-custom-color-1 inline-block word-spacing">Finding</span>
                     </h2>
 
                     <h2 className="text-2xl tracking-wide font-bold  ">
