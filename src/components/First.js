@@ -117,7 +117,7 @@ function First() {
                     <img
                         src={underline}
                         alt="underline"
-                        className="relative hidden md:block ml-32 w-3/5 "></img>
+                        className="relative md:block justify-center ml-80  w-2/5 "></img>
                     <h2 className="text-3xl tracking-wide font-bold word-spacing ">
                         <span className="text-custom-color-1 inline-block word-spacing">
                             Finding The{" "}
@@ -134,10 +134,10 @@ function First() {
                     </h2>
                 </div>
             </div>
-            <div className="flex justify-center align-center text-center gap-8 mt-2.5 mx-8 md:block">
+            <div className="flex justify-center align-center text-center gap-8 mt-2.5 mx-8 md:hidden">
                 <div>
 
-                    <h2 className="text-3xl tracking-wide font-bold word-spacing ">
+                    <h2 className="text-2xl tracking-wide font-bold word-spacing ">
                         {" "}
                         <span>
                             Skyrocket Your Etsy {" "}
@@ -145,7 +145,7 @@ function First() {
                         </span>{" "}
 
                     </h2 >
-                    <h2 className="text-3xl tracking-wide font-bold word-spacing ">
+                    <h2 className="text-2xl tracking-wide font-bold word-spacing ">
                         Business
                         <span>
                             <img
@@ -156,7 +156,7 @@ function First() {
                         By <span className="text-custom-color-1 inline-block word-spacing">Finding</span> 
                     </h2>
 
-                    <h2 className="text-3xl tracking-wide font-bold  ">
+                    <h2 className="text-2xl tracking-wide font-bold  ">
                         <span className="text-custom-color-1 inline-block word-spacing">
                             The
                             <img
@@ -167,10 +167,10 @@ function First() {
                         </span>
 
                     </h2>
-                    <h2 className="text-3xl tracking-wider font-bold  italic">
+                    <h2 className="text-2xl tracking-wider font-bold  italic">
                         And Copying Them For
                     </h2>
-                    <h2 className="text-3xl tracking-wider font-bold word-spacing italic">
+                    <h2 className="text-2xl tracking-wider font-bold word-spacing italic">
                         Your Instant Sucess
                     </h2>
                 </div>
