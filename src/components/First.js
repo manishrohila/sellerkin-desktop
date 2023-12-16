@@ -149,7 +149,7 @@ function First() {
                         allowFullScreen></iframe>
                 </div>
 
-                <div className="mx-9 flex justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color">
+                <div className="mx-9 hidden md:block justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color">
                     <ul className="list-none mt-5 xl:mt-0 ">
 
                         <li className="mb-1 xl:mb-3 ">
@@ -272,6 +272,76 @@ function First() {
                 <img src={mac} alt="payment" className="w-24 md:w-auto "></img>
                 <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
             </div>
+
+            <div className="mx-9 block md:hidden justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color">
+                    <ul className="list-none mt-5 xl:mt-0 ">
+
+                        <li className="mb-1 xl:mb-3 ">
+                            <div className="flex gap-2 xl:gap-3">
+                                <img
+                                    src={li1}
+                                    alt="li1"
+                                    className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
+                                <ul className="list-none">
+                                    <li className="xl:text-xl">
+                                        Find <strong>Winning Products</strong> in less than 2 minutes
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li className="mb-1 xl:mb-3">
+                            <div className="flex gap-2 xl:gap-3">
+                                <img src={li2} alt="li2" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
+                                <ul className="list-none">
+                                    <li className="xl:text-xl">
+                                        {" "}
+                                        Check <strong>which Products</strong> are getting
+                                        <strong> Eyeballs </strong>{" "} and <strong>Attention</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li className="mb-1 xl:mb-3">
+
+                            <div className="flex gap-2 xl:gap-3">
+                                <img src={li3} alt="li3" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
+                                <ul className="list-none">
+                                    <li className="xl:text-xl">
+                                        Discover the <strong>Rising Starts in your Niche</strong>{" "}
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                        </li>
+                        <li className="mb-1 xl:mb-3">
+
+                            <div className="flex gap-2 xl:gap-3">
+                                <img src={li4} alt="li4" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
+                                <ul className="list-none">
+                                    <li className="xl:text-xl">
+                                        {" "}
+                                        <strong>Analyze any listing</strong> to see it's {" "}
+                                        <strong>perfomance</strong> & insider <strong>hidden details</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li className="mb-1 xl:mb-3">
+
+                            <div className="flex gap-2 xl:gap-3">
+                                <img src={li5} alt="li5" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
+                                <ul className="list-none">
+                                    <li className="xl:text-xl">
+                                        Find the <strong>Conversion Rate</strong> of the Products
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
         </div>
     );
 }
