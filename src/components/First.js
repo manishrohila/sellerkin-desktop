@@ -17,7 +17,8 @@ import graph from "../img/mdi_graph-box1.svg";
 import secure from "../img/lock1.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import speaker from "../img/speaker.svg"
-
+import top1 from "../img/1top.png"
+import top2 from '../img/2top.png'
 import days from "../img/7days1.svg";
 import mac from "../img/mac1.svg";
 import window from "../img/windows1.svg";
@@ -81,9 +82,17 @@ function First() {
                     </a>
                 </div>
             </nav>
-            <div className="border-2 font-sans rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white">
-                This is an invite-only page...
+            <div className="relative" >
+                <p className="border-2 font-sans rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white ">
+                    This is an invite-only page...
+                </p>
+                <div className="relative">
+                <img src={top1} alt="top1 " className="opacity-25 z-0 hidden md:block absolute  m-4 left-0"></img>
+                <img src={top2} alt="top1 " className="opacity-25 z-0 hidden md:block absolute  m-4 right-0"></img>
+                </div>
+                
             </div>
+            
 
             <div className=" hidden md:block justify-center text-center align-center mt-6 mx-4 text-base ">
                 <div>
@@ -100,6 +109,7 @@ function First() {
                     </h4>
                 </div>
             </div>
+
             <div className=" block md:hidden font-sans justify-center text-center align-center mt-6 mx-4 text-base ">
                 <div>
                     <h4 className="font-sans">
