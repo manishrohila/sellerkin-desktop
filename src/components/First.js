@@ -222,7 +222,7 @@ function First() {
             <div className="mt-5 flex justify-center text-xl">
                 <div>
                     <p>Simple way to Reach Etsy Success in</p>
-                    <p className="ml-5">Minutes without Trial and Error</p>
+                    <p className="ml-5">Minutes without <span className="font-bold">Trial and Error</span> </p>
                 </div>
             </div>
             <div className="flex justify-center mt-5">
