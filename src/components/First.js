@@ -140,42 +140,70 @@ function First() {
 
                 <div className="mx-9 flex justify-center mt-9">
                     <ul className="list-none mt-5">
-                        <li className="mb-1">
-                            {" "}
-                            <img
-                                src={li1}
-                                alt="li1"
-                                className="inline-block h-11 w-11"></img>{" "}
-                            Find <strong>Winning Products</strong> in less than 2 minutes
+
+                        <li className="mb-1 ">
+                            <div className="flex gap-2">
+                                <img
+                                    src={li1}
+                                    alt="li1"
+                                    className="inline-block h-11 w-11 "></img>{" "}
+                                <ul className="list-none">
+                                    <li className="text-center">
+                                        Find <strong>Winning Products</strong> in less than 2 minutes
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li className="mb-1">
-                            <img src={li2} alt="li2" className="inline-block h-11 w-11"></img>{" "}
-                            <p className="inline-block">
-                                {" "}
-                                Check <strong>which Products</strong> are getting
-                                <strong> Eyeballs </strong>{" "}
-                            </p>
-                            <p className="relative ml-12">
-                                and <strong>Attention</strong>
-                            </p>
+                            <div className="flex gap-2">
+                                <img src={li2} alt="li2" className="inline-block h-11 w-11"></img>{" "}
+                                <ul className="list-none">
+                                    <li>
+                                        {" "}
+                                        Check <strong>which Products</strong> are getting
+                                        <strong> Eyeballs </strong>{" "} and <strong>Attention</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li className="mb-1">
+
+                            <div className="flex gap-2">
+                                <img src={li3} alt="li3" className="inline-block h-11 w-11"></img>{" "}
+                                <ul className="list-none">
+                                    <li>
+                                        Discover the <strong>Rising Starts in your Niche</strong>{" "}
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
                         </li>
                         <li className="mb-1">
-                            <img src={li3} alt="li3" className="inline-block h-11 w-11"></img>{" "}
-                            Discover the <strong>Rising Starts in your Niche</strong>{" "}
+
+                            <div className="flex gap-2">
+                                <img src={li4} alt="li4" className="inline-block h-11 w-11"></img>{" "}
+                                <ul className="list-none">
+                                    <li>
+                                        {" "}
+                                        <strong>Analyze any listing</strong> to see it's
+                                        <strong>perfomance</strong> & insider <strong>hidden details</strong>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li className="mb-1">
-                            <img src={li4} alt="li4" className="inline-block h-11 w-11"></img>{" "}
-                            <p className="inline-block">
-                                <strong>Analyze any listing</strong> to see it's
-                                <strong>perfomance</strong>
-                            </p>{" "}
-                            <p className="relative ml-12">
-                                & insider <strong>hidden details</strong>
-                            </p>
-                        </li>
-                        <li className="mb-1">
-                            <img src={li5} alt="li5" className="inline-block h-11 w-11"></img>{" "}
-                            Find the <strong>Conversion Rate</strong> of the Products
+
+                            <div className="flex gap-2">
+                                <img src={li5} alt="li5" className="inline-block h-11 w-11"></img>{" "}
+                                <ul className="list-none">
+                                    <li>
+                                        Find the <strong>Conversion Rate</strong> of the Products
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
                 </div>
