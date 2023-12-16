@@ -138,9 +138,9 @@ function First() {
                 <div className="mt-6 mx-6 rounded-lg flex justify-center flex-col">
                     <p className="text-center text-[9px] bg-custom-color-1 border-t-2 p-2 rounded-t-2xl text-white flex justify-center gap-1 ">
                         
-                        <img src={speaker} alt="speaker"></img>
+                        <img src={speaker} alt="speaker" className="hidden md:block"></img>
                         
-                        Watch this short video to discover the <span className="border-b-2 rounded-sm">secret</span>  method
+                        Watch this short video to discover the <span className="border-b-2 rounded-sm hidden md:block ">secret</span>  method
                     </p>
                     <iframe
                         className=" w-full aspect-video md:w-[542px] md:h-[287px]  border-b-2 rounded-b-xl"
@@ -199,7 +199,7 @@ function First() {
                                 <ul className="list-none">
                                     <li>
                                         {" "}
-                                        <strong>Analyze any listing</strong> to see it's
+                                        <strong>Analyze any listing</strong> to see it's {" "}
                                         <strong>perfomance</strong> & insider <strong>hidden details</strong>
                                     </li>
                                 </ul>
