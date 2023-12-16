@@ -138,15 +138,15 @@ function First() {
                         allowFullScreen></iframe>
                 </div>
 
-                <div className="mx-9 flex justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color">
-                    <ul className="list-none mt-5">
+                <div className="mx-9 flex justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color">
+                    <ul className="list-none mt-5 ">
 
                         <li className="mb-1 ">
                             <div className="flex gap-2">
                                 <img
                                     src={li1}
                                     alt="li1"
-                                    className="inline-block h-11 w-11 "></img>{" "}
+                                    className="inline-block h-11 w-11 relative bottom-2 "></img>{" "}
                                 <ul className="list-none">
                                     <li >
                                         Find <strong>Winning Products</strong> in less than 2 minutes
@@ -156,7 +156,7 @@ function First() {
                         </li>
                         <li className="mb-1">
                             <div className="flex gap-2">
-                                <img src={li2} alt="li2" className="inline-block h-11 w-11"></img>{" "}
+                                <img src={li2} alt="li2" className="inline-block h-11 w-11 relative bottom-2 "></img>{" "}
                                 <ul className="list-none">
                                     <li>
                                         {" "}
@@ -170,7 +170,7 @@ function First() {
                         <li className="mb-1">
 
                             <div className="flex gap-2">
-                                <img src={li3} alt="li3" className="inline-block h-11 w-11"></img>{" "}
+                                <img src={li3} alt="li3" className="inline-block h-11 w-11 relative bottom-2 "></img>{" "}
                                 <ul className="list-none">
                                     <li>
                                         Discover the <strong>Rising Starts in your Niche</strong>{" "}
@@ -184,7 +184,7 @@ function First() {
                         <li className="mb-1">
 
                             <div className="flex gap-2">
-                                <img src={li4} alt="li4" className="inline-block h-11 w-11"></img>{" "}
+                                <img src={li4} alt="li4" className="inline-block h-11 w-11 relative bottom-2 "></img>{" "}
                                 <ul className="list-none">
                                     <li>
                                         {" "}
@@ -197,7 +197,7 @@ function First() {
                         <li className="mb-1">
 
                             <div className="flex gap-2">
-                                <img src={li5} alt="li5" className="inline-block h-11 w-11"></img>{" "}
+                                <img src={li5} alt="li5" className="inline-block h-11 w-11 relative bottom-2 "></img>{" "}
                                 <ul className="list-none">
                                     <li>
                                         Find the <strong>Conversion Rate</strong> of the Products
