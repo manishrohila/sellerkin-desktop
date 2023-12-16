@@ -81,45 +81,45 @@ function First() {
                     </a>
                 </div>
             </nav>
-            <div className="border-2 rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white">
+            <div className="border-2 font-sans rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white">
                 This is an invite-only page...
             </div>
 
             <div className=" hidden md:block justify-center text-center align-center mt-6 mx-4 text-base ">
                 <div>
-                    <h4>
+                    <h4 className="font-sans">
                         Golden Scaling Gateway for {" "}
-                        <span className=" font-bold">
+                        <span className=" font-sans font-bold">
                             all Ecom Businesses & Digital
                         </span>
                     </h4>
                     <h4>
-                        <span className=" font-bold">
+                        <span className="font-sans font-bold">
                             Product Owners Selling on Etsy Marketplace
                         </span>
                     </h4>
                 </div>
             </div>
-            <div className=" block md:hidden justify-center text-center align-center mt-6 mx-4 text-base ">
+            <div className=" block md:hidden font-sans justify-center text-center align-center mt-6 mx-4 text-base ">
                 <div>
-                    <h4>
+                    <h4 className="font-sans">
                         Golden Scaling Gateway for {" "}
-                        <span className=" font-bold">
+                        <span className=" font-sans font-bold">
                             all Ecom
                         </span>
                     </h4>
-                    <h4 className=" font-bold">
+                    <h4 className=" font-sans font-bold">
                         Businesses & Digital Product Owners 
                     </h4>
                     <h4>
-                        <span className=" font-bold">
+                        <span className="font-sans font-bold">
                             Selling on Etsy Marketplace
                         </span>
                     </h4>
                 </div>
             </div>
             <div className=" hidden md:block justify-center align-center text-center gap-8 mt-2.5 mx-8">
-                <div>
+                <div className="font-sans">
 
                     <h2 className="text-3xl tracking-wide font-bold word-spacing ">
                         {" "}
@@ -195,8 +195,8 @@ function First() {
             </div>
 
             <div className=" md:flex justify-center mt-6">
-                <div className="mt-6 mx-6 rounded-lg flex justify-center flex-col xl:ml-24">
-                    <p className="text-center text-[9px] bg-custom-color-1 border-t-2 p-2 rounded-t-2xl text-white flex justify-center gap-1 ">
+                <div className="mt-6 mx-6 rounded-lg flex justify-center flex-col xl:ml-24 font-serif">
+                    <p className="text-center text-[15px] bg-custom-color-1 border-t-2 p-2 rounded-t-2xl text-white flex justify-center gap-1 ">
 
                         <img src={speaker} alt="speaker" className="hidden md:block"></img>
 
@@ -209,7 +209,7 @@ function First() {
                         allowFullScreen></iframe>
                 </div>
 
-                <div className="mx-9 hidden md:block justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color">
+                <div className="mx-9 hidden md:block justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color font-sans">
                     <ul className="list-none mt-5 xl:mt-0 ">
 
                         <li className="mb-1 xl:mb-3 ">
@@ -279,13 +279,13 @@ function First() {
                     </ul>
                 </div>
             </div>
-            <div className="mt-5 flex justify-center text-xl">
+            <div className="mt-5 flex justify-center text-2xl font-sans">
                 <div>
                     <p>Simple way to Reach Etsy Success in</p>
                     <p className="ml-5">Minutes without <span className="font-bold">Trial and Error</span> </p>
                 </div>
             </div>
-            <div className="flex justify-center mt-5">
+            <div className="flex justify-center mt-5 font-sans">
                 <div>
                     <img src={left_arrow} alt="left arrow"></img>
                 </div>
@@ -300,7 +300,7 @@ function First() {
                 </div>
             </div>
 
-            <div className="m-5 flex flex-col md:flex md:flex-row justify-center ">
+            <div className="m-5 flex flex-col md:flex md:flex-row justify-center font-serif ">
                 <div className="flex justify-center">
                     <img src={graph} alt="graph" className="h-5 w-5"></img>
                     <p className="mx-1"> Unlocks Exponential Growth</p>

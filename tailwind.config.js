@@ -11,6 +11,10 @@ module.exports = {
       margin: {
         '26': '26rem',
       },
+      fontFamily: {
+        'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
+        'serif': ['Poppins', 'ui-serif', 'Georgia'],
+      },
     },
   },
   plugins: [],
