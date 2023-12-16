@@ -148,7 +148,7 @@ function First() {
                                     alt="li1"
                                     className="inline-block h-11 w-11 "></img>{" "}
                                 <ul className="list-none">
-                                    <li className="text-center">
+                                    <li >
                                         Find <strong>Winning Products</strong> in less than 2 minutes
                                     </li>
                                 </ul>
