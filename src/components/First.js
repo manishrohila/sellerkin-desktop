@@ -289,7 +289,7 @@ function First() {
                     </ul>
                 </div>
             </div>
-            <div className="mt-5 flex justify-center text-2xl font-sans">
+            <div className="mt-5 flex justify-center text-center text-2xl font-sans">
                 <div>
                     <p>Simple way to Reach Etsy Success in</p>
                     <p className="ml-5">Minutes without <span className="font-bold">Trial and Error</span> </p>

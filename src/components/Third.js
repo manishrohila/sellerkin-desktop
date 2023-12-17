@@ -38,12 +38,12 @@ const Third = () => {
 
 
                 </div>
-                <div className='flex justify-center relative'>
-                <img src={curveline} alt="curve line" className='w-11/12 relative' />
+                <div className='flex justify-center'>
+                <img src={curveline} alt="curve line" className='w-11/12 absolute top-24 bottom-0 left-14 right-0 ' />
                 </div>
                 
 
-                <div className='flex justify-center font-serif'>
+                <div className='flex justify-center font-serif mt-14'>
                     <div className='border-2 w-72 h-32 border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col'>
                         <p></p>
                         <p>Then to find out what</p>
