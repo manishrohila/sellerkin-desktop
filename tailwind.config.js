@@ -15,6 +15,10 @@ module.exports = {
         'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
         'serif': ['Poppins', 'ui-serif', 'Georgia'],
       },
+      boxShadow: {
+        custom: '7px 7px rgba(249, 87, 0, 0.3)'
+        // Replace the rgba values with your custom color (for #F95700)
+    }
     },
   },
   plugins: [],
