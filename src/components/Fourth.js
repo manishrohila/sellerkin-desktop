@@ -9,9 +9,9 @@ import macbook from "../img/Group 229.svg"
 
 const Fourth = () => {
     return (
-        <div className='bg-[#FEFAE7] mt-20 relative  '>
-            <div className='hidden md:block md:justify-center flex-row mb-10 '>
-                <p className='text-5xl flex items-center justify-center gap-3'>Introducing <span><img src={logo} alt="logo" /></span> SellerKin</p>
+        <div className='bg-[#FEFAE7]    '>
+            <div className='hidden md:flex md:justify-center flex-row mb-10 mt-10 '>
+                <p className='text-5xl flex items-center justify-center gap-3 h-10 pt-24 '>Introducing <span><img src={logo} alt="logo" /></span> SellerKin</p>
             </div>
             <div className='md:hidden flex flex-col justify-center items-center'>
                 <p className='text-2xl flex gap-3 text-custom-color-1'>Introducing </p>
