@@ -1,0 +1,21 @@
+
+
+.floating-box {
+  
+    gap: 20px;
+    padding: 20px;
+    width: 90vw;
+    height: auto;
+    background-color: #FEFAE7;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 30px auto; /* Center horizontally and add margin at the top and bottom */
+}
+
+
+
+
+
+
+
+
+

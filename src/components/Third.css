@@ -1,3 +1,15 @@
 .word-spacing {
     word-spacing: 0.25rem; 
   }
+
+  .container::before {
+    content: " ";
+    position: absolute;
+    
+    width: 100px;
+    height: 100px;
+    left: -87px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    top: -5px;
+  }

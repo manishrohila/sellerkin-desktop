@@ -17,9 +17,14 @@ import li35 from "../img/li35.svg"
 import li36 from "../img/li36.svg"
 import li37 from "../img/li37.svg"
 import li38 from "../img/li38.svg"
+import left_arrow from "../img/mingcute_arrows-right-line.png";
+import right_arrow from "../img/mingcute_arrows-right-line (1).png";
+import visa1 from "../img/toppng 4.svg"
+import secure from "../img/lock1.svg";
+import days from "../img/7days1.svg";
 const Third = () => {
     return (
-        <div className='bg-custom-color-2 pb-5 mt-7'>
+        <div className='bg-custom-color-2 pb-5 mt-7 mb-2'>
             <div className='flex flex-col text-center md:flex-row font-sans justify-center md:text-5xl text-lg my-12 '>
                 <h1 className='font-bold'>
                     The <span className='text-custom-color-1 font-bold'>Winning &nbsp;</span>
@@ -140,21 +145,22 @@ const Third = () => {
                 <p className='word-spacing'>through which you can:</p>
             </div>
 
-            <div className='text-lg  flex md:hidden justify-center flex-col items-center  font-bold font-serif mb-10'>
+            <div className='text-2xl  flex md:hidden justify-center flex-col items-center  font-bold font-serif mb-10'>
                 <p >But <span className='text-custom-color-1'>what if you had a </span></p>
                 <p> <span className='text-custom-color-1'>solution,</span> through</p>
                 <p> which you can:</p>
             </div>
 
-            <div className='mt-10'>
+            <div className='mt-10 hidden md:block'>
                 <div className='flex justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
+
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container relative  '>
                         <p>Remove the manual effort and frustration</p>
                         <p>of second guessing your Business winners.</p>
                     </div >
                     <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
                         <p className='h-6'>Find Winning Niches within first 2 minutes</p>
-                        
+
                     </div>
                 </div>
                 <div className='flex justify-center items-center gap-8 mb-8'>
@@ -165,7 +171,7 @@ const Third = () => {
                     <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
                         <p>Go from No Product to your first sale with</p>
                         <p>literally <strong>ZERO trial and erro</strong></p>
-                        
+
                     </div>
                 </div>
                 <div className='flex justify-center items-center gap-8 mb-8'>
@@ -177,7 +183,7 @@ const Third = () => {
                     <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
                         <p>Reduce your anxiety and get a <strong>peaceful</strong> </p>
                         <p><strong>sleep</strong>knowing your business is growing.</p>
-                        
+
                     </div>
                 </div>
                 <div className='flex justify-center items-center gap-8 mb-8'>
@@ -190,11 +196,49 @@ const Third = () => {
                         <p>watch your<strong>money grow,</strong> ensuring a </p>
                         <p><strong>stable future</strong> and giving you opportunities</p>
                         <p>for fun investments and great experiences</p>
-                        
+
                     </div>
                 </div>
             </div>
 
+            <div className="hidden md:flex md:flex-row justify-center mt-5 font-sans mb-10">
+                <div>
+                    <img src={left_arrow} alt="left arrow"></img>
+                </div>
+                <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-col text-white mb-10">
+                    <p className="mr-1 md:mr-1">Get instant Access to Sellerkin</p>
+
+                    <p className=' text-base'>Soon, Prices are going to be increased</p>
+                </div>
+                <div>
+                    <img src={right_arrow} alt="right arrow 2"></img>
+                </div>
+            </div>
+            <div className="flex flex-row  md:hidden justify-center mt-5 font-sans mb-10">
+                <div>
+                    <img src={left_arrow} alt="left arrow"></img>
+                </div>
+                <div className="bg-custom-color-1 m-1 text-base px-5 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold">
+                    <p className="mr-1 md:mr-1">Get instant Access</p>
+                    <p>
+                        to Sellerkin
+                    </p>
+
+                </div>
+                <div>
+                    <img src={right_arrow} alt="right arrow 2"></img>
+                </div>
+            </div>
+
+            <div className="md:flex md:justify-center gap-4 mb-44">
+                <div className="flex justify-center mb-5">
+                    <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
+                </div>
+                <div className="flex justify-center mb-5 gap-3">
+                    <img src={secure} alt="payment" className="relative mb-2"></img>
+                    <img src={days} alt="payment" className="relative mb-2"></img>
+                </div>
+            </div>
 
 
 
