@@ -36,7 +36,7 @@ const Third = () => {
 
 
             <div className='flex flex-col relative items-center md:h-[500px]'>
-                <div className='flex justify-center w-11/12 font-serif flex-col md:flex md:flex-row space-x-5'>
+                <div className='flex justify-center w-11/12 font-serif flex-col md:flex md:flex-row '>
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 md:-mr-px rounded-md flex-col relative'>
                         <p className='flex justify-center'><img src={quora} alt='quora image' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
                         <p> <strong><span className='underline-offset-1 underline'>Go</span> to Quora</strong>  and look for</p>
@@ -74,7 +74,7 @@ const Third = () => {
 
                 {/* UNDER LINE */}
 
-                <div className='flex justify-center'>
+                <div className='md:flex hidden justify-center'>
                     <img src={curveline} alt="curve line" className='w-11/12 relative top-24 hidden md:block md:w-[1250px] lg:w-[1250px] lg:left-0 bottom-0 lg:bottom-4 lg:-top-24 left-14 right-0 ml-10' />
 
                     {/* <img src={curveline} alt="curve line" className='w-[1400px]' /> */}
@@ -90,7 +90,7 @@ const Third = () => {
 
 
 
-                <div className='flex justify-center w-11/12 font-serif mt-10 flex-col md:flex md:flex-row relative lg:-top-56 space-x-5'>
+                <div className='flex justify-center w-11/12 font-serif mt-10 flex-col md:flex md:flex-row relative lg:-top-56 '>
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 md:-mr-px rounded-md flex-col relative'>
                         <p className='flex justify-center'><img src={checkbook} alt='check image' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
                         <p>Then to find out<strong>what</strong> </p>
