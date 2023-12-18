@@ -230,7 +230,7 @@ const Third = () => {
                 </div>
             </div>
 
-            <div className="md:flex md:justify-center gap-4 mb-44">
+            <div className="md:flex md:justify-center gap-4 -mb-24">
                 <div className="flex justify-center mb-5">
                     <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
                 </div>

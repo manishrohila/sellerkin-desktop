@@ -5,11 +5,12 @@ import first from "../img/Group 592.svg"
 import second from "../img/Group 593.svg"
 import third from "../img/Group 594.svg"
 import vector from "../img/Vector.svg"
+import macbook from "../img/Group 229.svg"
 
 const Fourth = () => {
     return (
         <div className='bg-[#FEFAE7] mt-20 relative  '>
-            <div className='hidden md:block md:justify-center flex-row mb-10'>
+            <div className='hidden md:block md:justify-center flex-row mb-10 '>
                 <p className='text-5xl flex items-center justify-center gap-3'>Introducing <span><img src={logo} alt="logo" /></span> SellerKin</p>
             </div>
             <div className='md:hidden flex flex-col justify-center items-center'>
@@ -17,7 +18,7 @@ const Fourth = () => {
                 <p className='text-5xl flex gap-3'><span><img src={logo} alt="logo" /></span> SellerKin</p>
             </div>
 
-            <div className='flex'>
+            <div className='hidden md:flex'>
                 <div className='relative ml-20 mt-24'>
                     <div className='text-base mb-10'>
                         <p>Sellerkin is a tool for Etsy sellers to help them</p>
@@ -27,8 +28,8 @@ const Fourth = () => {
                     </div>
                     <div className='text-base mb-10'>
                         <p>It works like a charm and can give you </p>
-                        <p>the Winners faster than you can say</p>
-                        <p>cheese.</p>
+                        <p>the Winners faster than you can say Cheese.</p>
+
                     </div>
                     <div className='text-base mb-10 flex flex-col gap-2'>
                         <div className='flex gap-3'>
@@ -38,27 +39,61 @@ const Fourth = () => {
                         <div className='flex gap-3 flex-row'>
                             <p><img className="w-4 h-4 relative top-1" src={vector} alt="dot"></img></p>
                             <div className='flex flex-col'>
-                            <p>Even if... You have never done any </p>
-                            <p>Business before</p>
+                                <p>Even if... You have never done any </p>
+                                <p>Business before</p>
                             </div>
-                            
                         </div >
                         <div className='flex gap-3'>
                             <p><img className="w-4 h-4 relative top-1" src={vector} alt="dot"></img></p>
                             <p>Even if... You got stuck where to start</p>
                         </div>
-
-
                     </div>
                 </div>
-
                 <div>
                     <img src={bgimage} alt="image w-11/12 " className='' />
                 </div>
-
-
             </div>
+            <div className='md:hidden flex justify-center items-center flex-wrap mt-10  gap-4 text-base mb-10'>
+                <div className='mb-7'>
+                    <img src={macbook} alt='image'></img>
+                </div>
+                <div className='flex flex-col justify-center items-center'>
+                    <p>Sellerkin is a tool for Etsy sellers to </p>
+                    <p>help them <strong>find the winning products & </strong> </p>
+                    <p><strong> increase revenue </strong> for their Etsy</p>
+                    <p>in less than <strong>60 seconds</strong></p>
+                    <p><strong>without trial & error</strong></p>
+                </div>
 
+                <div className='flex flex-col justify-center items-center'>
+                    <p>It works like a charm and can</p>
+                    <p> give you the Winners faster </p>
+                    <p>then you can say Cheese</p>
+                </div>
+                <div className='text-base mb-10 flex flex-col gap-2'>
+                    <div className='flex gap-3 flex-row'>
+                        <p><img className="w-4 h-4 relative top-1" src={vector} alt="dot"></img></p>
+                        <div className='flex flex-col'>
+                            <p>Even if... You are New in </p>
+                            <p>the Game</p>
+                        </div>
+                    </div >
+                    <div className='flex gap-3 flex-row'>
+                        <p><img className="w-4 h-4 relative top-1" src={vector} alt="dot"></img></p>
+                        <div className='flex flex-col'>
+                            <p>Even if... You have never </p>
+                            <p>done any Business before</p>
+                        </div>
+                    </div >
+                    <div className='flex gap-3 flex-row'>
+                        <p><img className="w-4 h-4 relative top-1" src={vector} alt="dot"></img></p>
+                        <div className='flex flex-col'>
+                            <p>Even if... You got stuck </p>
+                            <p>where to start</p>
+                        </div>
+                    </div >
+                </div>
+            </div>
 
 
 
