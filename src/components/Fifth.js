@@ -46,7 +46,7 @@ const Fifth = () => {
                         <img src={second} alt="family picture" className='w-80 h-80' />
                     </div>
 
-                    <div className='text-base flex flex-col gap-5 border-2 rounded-xl border-custom-color-1 bg-custom-color justify-center p-16 shadow-xl '>
+                    <div className='text-base flex flex-col gap-5 border-2 rounded-xl border-custom-color-1 bg-custom-color justify-center p-16 shadow-xl z-20 '>
 
                         <div>
                             <p>Say <strong> goodbye to worries </strong> about which products </p>
@@ -62,8 +62,8 @@ const Fifth = () => {
 
 
                     </div>
-                    <div className='relative z-0'>
-                        <img src={circle} alt="circle" className='absolute -top-14 -right-10 ' />
+                    <div className='relative z-10 '>
+                        <img src={circle} alt="circle" className='relative left-0' />
                     </div>
 
 
@@ -226,7 +226,7 @@ const Fifth = () => {
                     <img src={right_arrow} alt="right arrow 2"></img>
                 </div>
             </div>
-            <div className="flex flex-row  md:hidden justify-center mt-5 font-sans mb-40">
+            <div className="flex flex-row  md:hidden justify-center mt-5 font-sans mb-12 md:mb-40">
                 <div>
                     <img src={left_arrow} alt="left arrow"></img>
                 </div>
@@ -242,12 +242,12 @@ const Fifth = () => {
                 </div>
             </div>
 
-            <div className='flex justify-center items-center md:hidden'>
+            {/* <div className='flex justify-center items-center md:hidden'>
                 <p>Soon, Prices are going to be increased</p>
-            </div>
+            </div> */}
 
 
-            <div className="md:flex md:justify-center gap-4 ">
+            <div className="md:flex md:justify-center gap-4  h-20 ">
                 <div className="flex justify-center mb-5">
                     <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
                 </div>

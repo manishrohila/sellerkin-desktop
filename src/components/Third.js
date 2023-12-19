@@ -81,8 +81,9 @@ const Third = () => {
                 <div className='md:flex hidden justify-center'>
                     <img src={curveline} alt="curve line" className='w-11/12 relative top-24 hidden md:block md:w-[1250px] lg:w-[1250px] lg:left-0 bottom-0 lg:bottom-4 lg:-top-24 left-14 right-0 ml-10' />
 
-                    {/* <img src={curveline} alt="curve line" className='w-[1400px]' /> */}
+                    
                 </div>
+                {/* <img src={curveline} alt="curve line" className='w-[1400px]' /> */}
 
                 {/* arrow sign */}
                 <div className='flex justify-center md:hidden items-center'>
