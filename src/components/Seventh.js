@@ -36,7 +36,7 @@ const Seventh = () => {
 
                         <img src={speaker} alt="speaker" className="hidden md:block"></img>
 
-                        Make sure Your Sound Is Turned On! (Please Wait For Video To Fully Load)
+                        Make sure Your Sound Is Turned On! (Please Wait For Video To Fully Load) 
                     </p>
                     <iframe
                         className=" w-full aspect-video md:w-[736px] md:h-[388px]  border-b-2 rounded-b-xl"
