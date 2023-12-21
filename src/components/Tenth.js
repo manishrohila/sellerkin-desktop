@@ -103,6 +103,13 @@ const Tenth = () => {
 
                         </tr>
                         <tr>
+                            <td>Etsy Fee Calculator</td>
+                            <td><img src={correct} alt="tick" /></td>
+                            <td><img src={correct} alt="tick" /></td>
+                            <td><img src={correct} alt="tick" /></td>
+
+                        </tr>
+                        <tr>
                             <td>
                                 <div>
                                     <p className='font-bold'>Use to Launch Unlimited</p> 
@@ -123,6 +130,13 @@ const Tenth = () => {
                             <td>500</td>
                             <td>1500</td>
                             <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td>Export data</td>
+                            <td><img src={correct} alt="tick" /></td>
+                            <td><img src={correct} alt="tick" /></td>
+                            <td><img src={correct} alt="tick" /></td>
+
                         </tr>
                         <tr>
                             <td>Adavanced data feartures</td>
