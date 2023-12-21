@@ -1,0 +1,22 @@
+table{
+    border: 1px solid #F95700;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid #F95700;
+    background-color: #F95700;
+    color: white;
+}
+tr{
+    border: 1px solid #F95700;
+}
+td{
+    text-align: left;
+    
+}
+
+
+.cut-text {
+    text-decoration: line-through;
+  }
+  
