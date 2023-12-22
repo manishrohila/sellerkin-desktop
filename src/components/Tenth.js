@@ -661,11 +661,15 @@ const Tenth = () => {
 
             </div>
 
-            <div className='bg-custom-color w-4/5 md:hidden'>
-                <div className='flex flex-col '>
+            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 '>
+                <div className='relative'>
+                    <img src={rectangle} alt="" />
+                    <p className='absolute left-24 top-0 bottom-0 text-2xl'>Basic</p>
+                </div>
+                <div className='flex flex-col justify-center ml-8 gap-4 mt-5'>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1' />
                         </div>
                         <div className='flex flex-col'>
                             <p>Searchable Products</p>
@@ -674,7 +678,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1' />
                         </div>
                         <div className='flex flex-col'>
                             <p>Product Finder</p>
@@ -684,7 +688,7 @@ const Tenth = () => {
 
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1' />
                         </div>
                         <div className='flex flex-col'>
                             <p>Listing Analyzer</p>
@@ -693,7 +697,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1' />
                         </div>
                         <div className='flex flex-col'>
                             <p>shop Analyzer</p>
@@ -702,7 +706,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p>Connect multiple shops</p>
@@ -711,7 +715,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p>keyword Finder:</p>
@@ -722,7 +726,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p className='font-bold'>Use to Launch Unlimited</p>
@@ -732,7 +736,27 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='font-bold'>5000 Searches per</p>
+                            <p className='font-bold'>month for lifetime </p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='font-bold'>500 Searches per</p>
+                            <p className='font-bold'>month for lifetime </p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p>Adavanced data features</p>
@@ -741,7 +765,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p><strong>Premium metrics</strong></p>
@@ -752,7 +776,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p>Advanced Filters</p>
@@ -761,7 +785,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p><strong>Additional Shop</strong></p>
@@ -774,7 +798,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p>Tag Analyzer- Can</p>
@@ -784,7 +808,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p><strong>Additional Listing</strong></p>
@@ -796,7 +820,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p>All updates and</p>
@@ -807,7 +831,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p><strong>Bonus 1:</strong> Listing </p>
@@ -817,7 +841,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p><strong>Bonus 2:</strong> Etsy</p>
@@ -827,7 +851,7 @@ const Tenth = () => {
                     </div>
                     <div className='flex gap-3 '>
                         <div>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
                             <p><strong>Bonus 3:</strong>Private</p>
@@ -835,17 +859,408 @@ const Tenth = () => {
 
                         </div>
                     </div>
-                    <div className='text-center'>
-                        <p>Total Value: <span className='cut-text'>Subscription</span></p>
-                        <p className='text-2xl text-custom-color-1'>Today's Price:</p>
-                        <p className='text-2xl text-custom-color-1'>$97 $497</p>
-                        <p>One Time Payment</p>
+                    <div className='text-center mb-10 flex flex-col gap-2 '>
+                        <p className='text-2xl'>Total Value: <span className='cut-text'>Subscription</span></p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>$97 $497</p>
+                        <p className='text-2xl'>One Time Payment</p>
                         <button className='bg-custom-color-1 p-2 text-white'>Buy Now</button>
                     </div>
                 </div>
 
 
             </div>
+            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5'>
+                <div className='relative'>
+                    <img src={rectangle} alt="" />
+                    <p className='absolute left-24 top-0 bottom-0 text-2xl'>Standard</p>
+                </div>
+                <div className='flex flex-col justify-center ml-8 gap-4 mt-5'>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1' />
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Searchable Products</p>
+                            <p>via Category</p>
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1' />
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Product Finder</p>
+
+                        </div>
+                    </div>
+
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1' />
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Listing Analyzer</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1' />
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>shop Analyzer</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Connect multiple shops</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>keyword Finder:</p>
+                            <p>Related Keyword</p>
+                            <p>Ideas only</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='font-bold'>Use to Launch Unlimited</p>
+                            <p className='font-bold'>Products (Priceless) </p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='font-bold'>1500 Searches per</p>
+                            <p className='font-bold'>month for lifetime </p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Adavanced data features</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Premium metrics</strong></p>
+                            <p><strong>conversion rate,</strong></p>
+                            <p><strong>Total views + more</strong></p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Advanced Filters</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Additional Shop</strong></p>
+                            <p><strong>Insights:Shop Age,</strong></p>
+                            <p><strong>Sales, Conversion Rate,</strong></p>
+                            <p><strong>Total views, Sales per</strong></p>
+                            <p><strong>listings,Review count</strong></p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Tag Analyzer- Can</p>
+                            <p>check Tags of any</p>
+                            <p>listing in one click</p>
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Additional Listing</strong></p>
+                            <p><strong> Insights- Quantity</strong></p>
+                            <p>left, Listing Age,</p>
+                            <p>Favorites+More</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>All updates and</p>
+                            <p>Upgrades for all</p>
+                            <p>above mentioned</p>
+                            <p>features for lifetime</p>
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Bonus 1:</strong> Listing </p>
+                            <p>Optimization Guide</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Bonus 2:</strong> Etsy</p>
+                            <p>Success Guidebook</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Bonus 3:</strong>Private</p>
+                            <p>Community Access</p>
+
+                        </div>
+                    </div>
+                    <div className='text-center mb-10 flex flex-col gap-2 '>
+                        <p className='text-2xl'>Total Value: <span className='cut-text'>Subscription</span></p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>$147 $897</p>
+                        <p className='text-2xl'>One Time Payment</p>
+                        <button className='bg-custom-color-1 p-2 text-white'>Buy Now</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-10'>
+                <div className='relative'>
+                    <img src={rectangle} alt="" />
+                    <p className='absolute left-32 top-0 bottom-0 text-2xl'>Pro</p>
+                </div>
+                <div className='flex flex-col justify-center ml-8 gap-4 mt-5'>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1' />
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Searchable Products</p>
+                            <p>via Category</p>
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1' />
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Product Finder</p>
+
+                        </div>
+                    </div>
+
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1' />
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Listing Analyzer</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1' />
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>shop Analyzer</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Connect multiple shops</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>keyword Finder:</p>
+                            <p>Related Keyword</p>
+                            <p>Ideas only</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='font-bold'>Use to Launch Unlimited</p>
+                            <p className='font-bold'>Products (Priceless) </p>
+
+                        </div>
+                    </div>
+                    
+                    
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Adavanced data features</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Premium metrics</strong></p>
+                            <p><strong>conversion rate,</strong></p>
+                            <p><strong>Total views + more</strong></p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Advanced Filters</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Additional Shop</strong></p>
+                            <p><strong>Insights:Shop Age,</strong></p>
+                            <p><strong>Sales, Conversion Rate,</strong></p>
+                            <p><strong>Total views, Sales per</strong></p>
+                            <p><strong>listings,Review count</strong></p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Tag Analyzer- Can</p>
+                            <p>check Tags of any</p>
+                            <p>listing in one click</p>
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Additional Listing</strong></p>
+                            <p><strong> Insights- Quantity</strong></p>
+                            <p>left, Listing Age,</p>
+                            <p>Favorites+More</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>All updates and</p>
+                            <p>Upgrades for all</p>
+                            <p>above mentioned</p>
+                            <p>features for lifetime</p>
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Bonus 1:</strong> Listing </p>
+                            <p>Optimization Guide</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Bonus 2:</strong> Etsy</p>
+                            <p>Success Guidebook</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p><strong>Bonus 3:</strong>Private</p>
+                            <p>Community Access</p>
+
+                        </div>
+                    </div>
+                    <div className='text-center mb-10 flex flex-col gap-2 '>
+                        <p className='text-2xl'>Total Value: <span className='cut-text'>Subscription</span></p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>$297 $1497</p>
+                        <p className='text-2xl'>One Time Payment</p>
+                        <button className='bg-custom-color-1 p-2 text-white'>Buy Now</button>
+                    </div>
+                </div>
+
+
+            </div>
+            
 
         </div>
     )

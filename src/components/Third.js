@@ -81,7 +81,7 @@ const Third = () => {
                 <div className='md:flex hidden justify-center'>
                     <img src={curveline} alt="curve line" className='w-11/12 relative top-24 hidden md:block md:w-[1250px] lg:w-[1250px] lg:left-0 bottom-0 lg:bottom-4 lg:-top-24 left-14 right-0 ml-10' />
 
-                    
+
                 </div>
                 {/* <img src={curveline} alt="curve line" className='w-[1400px]' /> */}
 
@@ -164,48 +164,50 @@ const Third = () => {
             </div>
 
             {/* six points  */}
-            <div className='mt-10 hidden md:flex flex-wrap justify-center'>
-                <div className='flex justify-center items-center gap-8 mb-8'>
+            <div className='mt-10 hidden md:flex flex-col  justify-center'>
 
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container relative  flex flex-col '>
+                <div className='flex justify-center items-center gap-40 mb-8 '>
+
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container1 relative   flex flex-col shadow-2xl '>
                         <p>Remove the manual effort and frustration</p>
                         <p>of second guessing your Business winners.</p>
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 flex flex-col'>
-                        <p className='h-6'>Find Winning Niches within first 2 minutes</p>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container2 relative   flex flex-col shadow-2xl '>
+                        <p className='p-3'>Find Winning Niches within first 2 minutes</p>
 
                     </div>
                 </div>
-                <div className='flex justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
+                
+                <div className='flex justify-center items-center gap-40 mb-8'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container3 relative   flex flex-col shadow-2xl '>
                         <p>PinPoint the <strong>Winning Product</strong> in less than</p>
                         <p>60 seconds at the click of a Button.</p>
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container4 relative   flex flex-col shadow-2xl '>
                         <p>Go from No Product to your first sale with</p>
                         <p>literally <strong>ZERO trial and erro</strong></p>
 
                     </div>
                 </div>
-                <div className='flex justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
+                <div className='flex justify-center items-center gap-40 mb-8'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container5 relative   flex flex-col shadow-2xl '>
                         <p>Get back the <strong>last time</strong> and hours with</p>
                         <p>finding winners faster so that you can</p>
                         <p>enjoy the <strong>found time with family.</strong></p>
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container6 relative   flex flex-col shadow-2xl '>
                         <p>Reduce your anxiety and get a <strong>peaceful</strong> </p>
                         <p><strong>sleep</strong>knowing your business is growing.</p>
 
                     </div>
                 </div>
-                <div className='flex justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
+                <div className='flex justify-center items-center gap-40 mb-8'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container7 relative   flex flex-col shadow-2xl '>
                         <p>See your money pile up as your product</p>
                         <p>Selecting <strong>bring in a regular income.</strong></p>
                         <p>making your financial life easier.</p>
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container8 relative   flex flex-col shadow-2xl '>
                         <p>watch your<strong>money grow,</strong> ensuring a </p>
                         <p><strong>stable future</strong> and giving you opportunities</p>
                         <p>for fun investments and great experiences</p>
