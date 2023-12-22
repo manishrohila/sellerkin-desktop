@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import line from "../img/money back.svg"
 import image from "../img/money-back-guarantee 1.svg"
-import correct from "../img/Mask group.svg"
+import correct from "../img/Mask group (1).svg"
 
-import Slider from "react-slick";
 import "./Tenth.css"
 import rectangle from "../img/Rectangle 323.svg"
 import vector from "../img/Vector.svg"

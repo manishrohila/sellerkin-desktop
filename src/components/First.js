@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./First.css";
-import logo from "../img/Mask group.png";
+import logo from "../img/logo.svg";
 import shopping_cart from "../img/noto_shopping-cart.png";
 import achievement from "../img/Group 193.png";
 import underline from "../img/Vector 2.png";
