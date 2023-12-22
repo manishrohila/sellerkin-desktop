@@ -4,7 +4,7 @@ import second from "../img/Group 240.svg"
 
 const Sixth = () => {
     return (
-        <div className='bg-custom-color mb-20 '>
+        <div className='bg-custom-color mb-20 mt-10 '>
             <div className='flex text-5xl flex-col md:flex-row gap-3 justify-center items-center pt-20'>
                 <p className=''>Sellerkin works in </p>
                 <p><span className='text-custom-color-1'> 2 Easy Steps</span></p>

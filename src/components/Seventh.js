@@ -14,7 +14,7 @@ import mac from "../img/mac1.svg";
 import window from "../img/windows1.svg";
 const Seventh = () => {
     return (
-        <div className='bg-custom-color-2 mb-80 md:mb-0'>
+        <div className='bg-custom-color-2 mb-20 md:mb-0'>
             <div className='text-5xl hidden md:flex flex-col items-center justify-center '>
                 <p className='mt-5'>Don't believe what we say</p>
                 <p className='text-custom-color-1'>Check out for Yourself!</p>

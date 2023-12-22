@@ -834,7 +834,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p><strong>Bonus 1:</strong> Listing </p>
+                            <p><strong>Bonus 1: </strong> Listing </p>
                             <p>Optimization Guide</p>
 
                         </div>
@@ -844,7 +844,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p><strong>Bonus 2:</strong> Etsy</p>
+                            <p><strong>Bonus 2: </strong> Etsy</p>
                             <p>Success Guidebook</p>
 
                         </div>
@@ -854,7 +854,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p><strong>Bonus 3:</strong>Private</p>
+                            <p><strong>Bonus 3: </strong>Private</p>
                             <p>Community Access</p>
 
                         </div>
@@ -864,7 +864,7 @@ const Tenth = () => {
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
                         <p className='text-2xl text-custom-color-1 font-bold'>$97 $497</p>
                         <p className='text-2xl'>One Time Payment</p>
-                        <button className='bg-custom-color-1 p-2 text-white'>Buy Now</button>
+                        <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md'>Buy Now</button>
                     </div>
                 </div>
 
@@ -1033,7 +1033,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p><strong>Bonus 1:</strong> Listing </p>
+                            <p><strong>Bonus 1: </strong> Listing </p>
                             <p>Optimization Guide</p>
 
                         </div>
@@ -1043,7 +1043,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p><strong>Bonus 2:</strong> Etsy</p>
+                            <p><strong>Bonus 2: </strong> Etsy</p>
                             <p>Success Guidebook</p>
 
                         </div>
@@ -1053,7 +1053,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p><strong>Bonus 3:</strong>Private</p>
+                            <p><strong>Bonus 3: </strong>Private</p>
                             <p>Community Access</p>
 
                         </div>
@@ -1063,7 +1063,7 @@ const Tenth = () => {
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
                         <p className='text-2xl text-custom-color-1 font-bold'>$147 $897</p>
                         <p className='text-2xl'>One Time Payment</p>
-                        <button className='bg-custom-color-1 p-2 text-white'>Buy Now</button>
+                        <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md'>Buy Now</button>
                     </div>
                 </div>
 
@@ -1224,7 +1224,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p><strong>Bonus 1:</strong> Listing </p>
+                            <p><strong>Bonus 1: </strong> Listing </p>
                             <p>Optimization Guide</p>
 
                         </div>
@@ -1234,7 +1234,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p><strong>Bonus 2:</strong> Etsy</p>
+                            <p><strong>Bonus 2: </strong> Etsy</p>
                             <p>Success Guidebook</p>
 
                         </div>
@@ -1244,7 +1244,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p><strong>Bonus 3:</strong>Private</p>
+                            <p><strong>Bonus 3: </strong>Private</p>
                             <p>Community Access</p>
 
                         </div>
@@ -1254,7 +1254,7 @@ const Tenth = () => {
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
                         <p className='text-2xl text-custom-color-1 font-bold'>$297 $1497</p>
                         <p className='text-2xl'>One Time Payment</p>
-                        <button className='bg-custom-color-1 p-2 text-white'>Buy Now</button>
+                        <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md'>Buy Now</button>
                     </div>
                 </div>
 
