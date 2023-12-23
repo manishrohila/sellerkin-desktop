@@ -1,4 +1,4 @@
-.table1 {
+/* .table1 {
     border: 1px solid #F95700;
     border-collapse: collapse;
 
@@ -7,17 +7,17 @@
 .middle {
     background-color: #FEFAE7;
     color: black;
-}
+} */
 
-td:nth-child(2) {
+/* td:nth-child(2) {
     background-color: #FEFAE7;
 
-}
+} */
 
-.change {
+/* .change {
     background-color: #FFFFFF;
 
-}
+} */
 
 /* th{
     border: 1px solid #F95700;

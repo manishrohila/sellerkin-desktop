@@ -104,7 +104,7 @@ const Tenth = () => {
                         <tr>
                             <th>Features</th>
                             <th>Basic</th>
-                            <th className='heading-color text-custom-color-1 border-none'>Standard</th>
+                            <th className='heading-color text-custom-color border-none'>Standard</th>
                             <th>Pro</th>
                         </tr>
                         <tr>
