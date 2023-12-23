@@ -14,7 +14,7 @@ import secure from "../img/lock1.svg";
 import logo from "../img/logo.svg";
 import wrong from "../img/wrong.svg"
 import correct from "../img/Mask group (1).svg"
-import "./Eight.css"
+import styles from "./Eight.module.css"
 const Eight = () => {
     return (
         <div className='bg-custom-color-2'>
@@ -203,36 +203,48 @@ const Eight = () => {
 
             </div>
             <div className='flex justify-center items-center mt-10 '>
-                <table className='w-3/5'>
+                <table className='w-3/5 table1 '>
                     <tr>
                         <th>Features</th>
                         <th>
-                            <div className='flex'>
+                            <div className='flex middle justify-center items-center'>
                                 <img src={logo} alt="" />
-                                <p>SellerKin</p>
+                                <p className='text-xl'>SellerKin</p>
                             </div>
                         </th>
                         <th>Other Tools</th>
                     </tr>
                     <tr>
                         <td>Pricing</td>
-                        <td>$97 One time</td>
-                        <td>Subscription based</td>
+                        <td className='flex justify-center items-center' >$97 One time</td>
+                        <td >
+                            <div className='flex justify-center items-center' >
+                                <p>Subscription based</p>
+                            </div></td>
                     </tr>
                     <tr>
                         <td>Money back Guarantee</td>
-                        <td>7 Days Guarantee</td>
-                        <td>
-                            <img src={wrong} alt="image" />
+                        <td className='flex justify-center items-center' >7 Days Guarantee</td>
+                        <td >
+                            <div className='flex justify-center items-center' >
+                                <img src={wrong} alt="image" />
+                            </div>
+
                         </td>
                     </tr>
                     <tr>
                         <td>Lifetime Access</td>
-                        <td>
-                            <img src={correct} alt="image" />
+                        <td >
+                            <div className='flex justify-center items-center'>
+                                <img src={correct} alt="image" />
+                            </div>
+
                         </td>
-                        <td>
-                            <img src={wrong} alt="image" />
+                        <td >
+                            <div className='flex justify-center items-center' >
+                                <img src={wrong} alt="image" />
+                            </div>
+
                         </td>
                     </tr>
                     <tr>
@@ -242,16 +254,25 @@ const Eight = () => {
                     </tr>
                     <tr>
                         <td>Rights</td>
-                        <td>Standard Rights</td>
-                        <td>Standard Rights</td>
+                        <td className='flex justify-center items-center'>Standard Rights</td>
+                        <td >
+                            <div className='flex justify-center items-center'>
+                                <p>Standard Rights</p>
+                            </div></td>
                     </tr>
                     <tr>
                         <td>Advanced Analytics</td>
                         <td>
-                            <img src={correct} alt="image" />
+                            <div className='flex justify-center items-center' >
+                                <img src={correct} alt="image" />
+                            </div>
+
                         </td>
-                        <td>
-                            <img src={wrong} alt="image" />
+                        <td >
+                            <div className='flex justify-center items-center' >
+                                <img src={wrong} alt="image" />
+                            </div>
+
                         </td>
                     </tr>
                 </table>

@@ -3,7 +3,7 @@ import line from "../img/money back.svg"
 import image from "../img/money-back-guarantee 1.svg"
 import correct from "../img/Mask group (1).svg"
 
-import "./Tenth.css"
+import styles from  "./Tenth.module.css"
 import rectangle from "../img/Rectangle 323.svg"
 import vector from "../img/Vector.svg"
 const Tenth = () => {

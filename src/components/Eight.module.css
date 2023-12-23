@@ -1,9 +1,25 @@
-table{
+.table1 {
     border: 1px solid #F95700;
     border-collapse: collapse;
-    
+
 }
-th{
+
+.middle {
+    background-color: #FEFAE7;
+    color: black;
+}
+
+td:nth-child(2) {
+    background-color: #FEFAE7;
+
+}
+
+.change {
+    background-color: #FFFFFF;
+
+}
+
+/* th{
     border: 1px solid #F95700;
     background-color: #F95700;
     color: white;
@@ -14,4 +30,4 @@ tr{
 }
 td{
     padding: 10px 10px;
-}
+} */
