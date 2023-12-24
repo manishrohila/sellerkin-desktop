@@ -17,14 +17,14 @@ const Tenth = () => {
     return (
         <div className='bg-custom-color-2'>
 
-            <div className='hidden md:flex gap-2 text-5xl items-center justify-center'>
+            <div className='hidden md:flex gap-2 text-5xl items-center justify-center '>
                 <p className='relative -top-1'>7 Days </p>
                 <div className='flex flex-col '>
                     <p><span className='text-custom-color-1'>Money Back Guarantee</span></p>
                     <img src={line} alt="image loading line" className='w-10/12' />
                 </div>
             </div>
-            <div className='flex flex-col  md:hidden gap-2 text-5xl items-center justify-center'>
+            <div className='flex flex-col  md:hidden gap-2 text-5xl items-center justify-center pt-10'>
                 <p className='relative -top-1'>7 Days <span className='text-custom-color-1'>Money</span> </p>
                 <div className='flex items-center justify-center '>
                     <p><span className='text-custom-color-1'>Back Guarantee</span></p>
@@ -660,10 +660,10 @@ const Tenth = () => {
 
             </div>
 
-            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 '>
+            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 mt-5 '>
                 <div className='relative'>
-                    <img src={rectangle} alt="" />
-                    <p className='absolute left-24 top-0 bottom-0 text-2xl'>Basic</p>
+                    <img src={rectangle} alt="" className='' />
+                    <p className='absolute left-24 top-0 bottom-0 text-2xl '>Basic</p>
                 </div>
                 <div className='flex flex-col justify-center ml-8 gap-4 mt-5'>
                     <div className='flex gap-3 '>
@@ -733,16 +733,7 @@ const Tenth = () => {
 
                         </div>
                     </div>
-                    <div className='flex gap-3 '>
-                        <div>
-                            <img src={vector} alt="dot" className='relative top-1'/>
-                        </div>
-                        <div className='flex flex-col'>
-                            <p className='font-bold'>5000 Searches per</p>
-                            <p className='font-bold'>month for lifetime </p>
-
-                        </div>
-                    </div>
+                    
                     <div className='flex gap-3 '>
                         <div>
                             <img src={vector} alt="dot" className='relative top-1'/>
@@ -770,6 +761,15 @@ const Tenth = () => {
                             <p><strong>Premium metrics</strong></p>
                             <p><strong>conversion rate,</strong></p>
                             <p><strong>Total views + more</strong></p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Quick sort ability</p>
 
                         </div>
                     </div>
@@ -869,7 +869,7 @@ const Tenth = () => {
 
 
             </div>
-            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5'>
+            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 mt-10'>
                 <div className='relative'>
                     <img src={rectangle} alt="" />
                     <p className='absolute left-24 top-0 bottom-0 text-2xl'>Standard</p>
@@ -977,6 +977,15 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
+                            <p>Quick Sort ability</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
                             <p>Advanced Filters</p>
 
                         </div>
@@ -1068,7 +1077,7 @@ const Tenth = () => {
 
 
             </div>
-            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-10'>
+            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-10 mt-10'>
                 <div className='relative'>
                     <img src={rectangle} alt="" />
                     <p className='absolute left-32 top-0 bottom-0 text-2xl'>Pro</p>
@@ -1160,6 +1169,15 @@ const Tenth = () => {
                             <p><strong>Premium metrics</strong></p>
                             <p><strong>conversion rate,</strong></p>
                             <p><strong>Total views + more</strong></p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Quick Sort ability</p>
 
                         </div>
                     </div>

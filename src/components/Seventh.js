@@ -20,7 +20,7 @@ const Seventh = () => {
                 <p className='text-custom-color-1'>Check out for Yourself!</p>
                 <img src={line} alt="imag loading" className='hidden md:block' />
             </div>
-            <div className='text-5xl flex md:hidden flex-col items-center justify-center '>
+            <div className='text-3xl font-bold mb-3 flex md:hidden flex-col items-center justify-center '>
                 <p className=' flex justify-center items-center'>Don't believe what </p>
                 <p className='flex justify-center gap-1 items-center'>we say,<span className='text-custom-color-1'>Check out </span></p>
                 <p className='flex justify-center items-center text-custom-color-1' >for Yourself!</p>

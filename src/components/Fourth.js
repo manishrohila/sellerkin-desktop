@@ -1,27 +1,28 @@
 import React from 'react'
-import logo from "../img/Mask group.png";
+import logo from "../img/logo.svg";
 import bgimage from "../img/Group 226.svg"
 import first from "../img/Group 592.svg"
 import second from "../img/Group 593.svg"
 import third from "../img/Group 594.svg"
 import vector from "../img/Vector.svg"
 import macbook from "../img/Group 229.svg"
+import shop_ana from "../img/Group 515.svg"
 
 const Fourth = () => {
     return (
         <div className='bg-[#FEFAE7]    '>
-            <div className='hidden md:flex md:justify-center flex-row mb-10 mt-10 '>
+            <div className='hidden md:flex md:justify-center flex-row mb-10 mt-10 font-bold font-sans '>
                 <p className='text-5xl flex items-center justify-center gap-3 h-10 pt-24 '>Introducing <span><img src={logo} alt="logo" /></span> SellerKin</p>
             </div>
-            <div className='md:hidden flex flex-col justify-center items-center'>
+            <div className='md:hidden flex flex-col justify-center items-center font-bold font-sans'>
                 <p className='text-2xl flex gap-3 text-custom-color-1'>Introducing </p>
                 <p className='text-5xl flex gap-3'><span><img src={logo} alt="logo" /></span> SellerKin</p>
             </div>
 
-            <div className='hidden md:flex'>
-                <div className='relative ml-20 mt-24'>
+            <div className='hidden md:flex relative '>
+                <div className='relative pl-32 mt-24'>
                     <div className='text-base mb-10'>
-                        <p>Sellerkin is a tool for Etsy sellers to help them</p>
+                        <p >Sellerkin is a tool for Etsy sellers to help them</p>
                         <p><strong>find the winning products & increase revenue for</strong></p>
                         <p>their Etsy shop in less than <strong>60 seconds</strong></p>
                         <p><strong>without trial & error</strong></p>
@@ -39,8 +40,8 @@ const Fourth = () => {
                         <div className='flex gap-3 flex-row'>
                             <p><img className="w-4 h-4 relative top-1" src={vector} alt="dot"></img></p>
                             <div className='flex flex-col'>
-                                <p>Even if... You have never done any </p>
-                                <p>Business before</p>
+                                <p>Even if... You have never done any Business before</p>
+                                <p></p>
                             </div>
                         </div >
                         <div className='flex gap-3'>
@@ -49,9 +50,13 @@ const Fourth = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src={bgimage} alt="image w-11/12 " className='' />
+                <div className='relative left-10'>
+                    <img src={bgimage} alt="image  " className='' />
                 </div>
+                <img src={shop_ana} alt="image" className=' absolute h-36 w-60 bottom-64 right-[34rem]  ' />
+
+
+
             </div>
             <div className='md:hidden flex justify-center items-center flex-wrap mt-10  gap-4 text-base mb-10'>
                 <div className='mb-7'>
@@ -98,9 +103,9 @@ const Fourth = () => {
 
 
 
-            <div className='flex gap-7 flex-col md:flex-row justify-center items-center'>
+            <div className='flex gap-7 flex-col md:flex-row justify-center pb-16 '>
 
-                <div className=' bg-custom-color-2 border-2 border-custom-color-1 rounded-md shadow-custom'>
+                <div className=' bg-custom-color-2 border-2 border-custom-color-1 rounded-md shadow-custom h-1/2'>
                     <div className='relative ml-3 top-2'>
                         <p><img src={first} alt=" img" className='h-16 w-16' /></p>
                     </div>
@@ -113,7 +118,7 @@ const Fourth = () => {
                     </div>
                 </div>
 
-                <div className=' bg-custom-color-2 border-2 border-custom-color-1 rounded-md shadow-custom'>
+                <div className=' bg-custom-color-2 border-2 border-custom-color-1 rounded-md shadow-custom h-3/5'>
                     <div className='relative ml-3 top-2'>
                         <p><img src={second} alt=" img" className='h-16 w-16' /></p>
                     </div>

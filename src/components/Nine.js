@@ -8,10 +8,17 @@ import bonus2 from "../img/Group 440.svg"
 import bonus3 from "../img/Group 441.svg"
 import trangle from "../img/Vector 42.svg"
 import trangle1 from "../img/Vector 41.svg"
+import left_arrow from "../img/mingcute_arrows-right-line.png";
+import right_arrow from "../img/mingcute_arrows-right-line (1).png";
+import visa1 from "../img/toppng 4.svg"
+import secure from "../img/lock1.svg";
+import days from "../img/7days1.svg";
+import mac from "../img/mac1.svg";
+import window from "../img/windows1.svg";
 const Nine = () => {
     return (
         <div className='bg-custom-color p-10 mt-10'>
-            <div className='flex flex-col text-5xl justify-center items-center'>
+            <div className='md:flex hidden flex-col text-5xl justify-center items-center'>
                 <div>
                     <p>Not just that, If you decide to take action today you</p>
                 </div>
@@ -26,8 +33,18 @@ const Nine = () => {
 
 
             </div>
+            {/* mobile version */}
+            <div className='md:hidden flex flex-col text-3xl justify-center items-center font-sans font-bold'>
+                <p className='flex justify-center items-center'>Not just that, <span className='text-custom-color-1'>If you</span> </p>
+                <p className='text-custom-color-1 flex justify-center items-center'>decide to take action</p>
+                <p className='flex justify-center items-center gap-2'>
+                    <span className='text-custom-color-1 '>today you</span> will be </p>
+                <p className='text-custom-color-1 flex justify-center items-center'>rewarded with Fast </p>
+                <p className='text-custom-color-1 flex justify-center items-center'>Action Bonuses:</p>
 
-            <div className='flex shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-4/5 mx-auto'>
+            </div>
+
+            <div className='md:flex hidden  shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-4/5 mx-auto'>
                 <div className=''>
                     <div>
                         <img src={bonus1} alt="image" className='relative  right-28' />
@@ -52,9 +69,9 @@ const Nine = () => {
                     <img src={frist} alt="image loading" className='' />
                 </div>
             </div>
-            <div className='flex shadow-xl justify-center items-center mt-24 bg-custom-color-2 w-4/5 mx-auto gap-10'>
+            <div className='md:flex hidden shadow-xl justify-center items-center mt-24 bg-custom-color-2 w-4/5 mx-auto gap-10'>
                 <div className='relative bottom-10'>
-                    <img src={frist} alt="image loading" className='' />
+                    <img src={second} alt="image loading" className='' />
                 </div>
                 <div className='relative left-28'>
 
@@ -79,7 +96,7 @@ const Nine = () => {
                 </div>
 
             </div>
-            <div className='flex shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-4/5 mx-auto p-10'>
+            <div className='md:flex hidden  shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-4/5 mx-auto p-10'>
                 <div className=''>
                     <div>
                         <img src={bonus3} alt="image" className='relative  right-14' />
@@ -104,6 +121,107 @@ const Nine = () => {
                     <img src={third} alt="image loading" className='' />
                 </div>
             </div>
+
+            {/* Mobile version */}
+
+            <div className='md:hidden flex flex-col shadow-xl justify-center items-center mt-16 bg-custom-color-2  p-10 '>
+                <div className=''>
+
+                    <div className='flex justify-center items-center mb-6 '>
+                        <img src={frist} alt="image loading" className='w-32 h-56' />
+                    </div>
+
+                    <div className='flex justify-center items-center'>
+                        <p className='font-bold'>(Value $X)</p>
+                    </div>
+                    <div>
+                        <p className='flex justify-center items-center'>A detailed guide on how to </p> 
+                        <p className='flex justify-center items-center'>optimize Etsy listings for better </p>
+                        <p className='flex justify-center items-center mb-4'>visibility and conversion.</p>
+                        <p className='flex justify-center items-center'>This can include tips on </p>
+                         <p className='flex justify-center items-center'>writing compelling</p>
+                        <p className='flex justify-center items-center'>Descriptions, choosing the </p>
+                        <p className='flex justify-center items-center'> right keywords, and using </p>
+                        <p className='flex justify-center items-center'>high-quality  images.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className='md:hidden flex flex-col shadow-xl justify-center items-center mt-16 bg-custom-color-2  p-10 '>
+                <div className=''>
+
+                    <div className='flex justify-center items-center mb-6'>
+                        <img src={second} alt="image loading" className='w-32 h-56' />
+                    </div>
+
+                    <div className='flex justify-center items-center'>
+                        <p className='font-bold'>(Value $X)</p>
+                    </div>
+                    <div>
+                        <p className='flex justify-center items-center'>A comprehensive ebook filled </p>
+                        <p className='flex justify-center items-center'> with tips, tricks, and stategies</p>
+                        <p className='flex justify-center items-center mb-4'>for succeeding on Etsy. </p>
+                        <p className='flex justify-center items-center'>It could cover everything from</p>
+                        <p className='flex justify-center items-center'>setting up a shop to marketing  </p>
+                        <p className='flex justify-center items-center'>and customer service.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div className='md:hidden flex flex-col shadow-xl justify-center items-center mt-16 bg-custom-color-2  p-10 '>
+                <div className=''>
+
+                    <div className='flex justify-center items-center mb-6'>
+                        <img src={third} alt="image loading" className='w-54 h-44' />
+                    </div>
+
+                    <div className='flex justify-center items-center'>
+                        <p className='font-bold'>(Value $X)</p>
+                    </div>
+                    <div>
+                    <p>An invitation to a private </p>
+                        <p className='flex justify-center items-center'> Facebook group or forum n</p>
+                        <p className='flex justify-center items-center'> where users ca network with </p>
+                        <p className='flex justify-center items-center'>other Sellerkin customers, </p>
+                        <p className='flex justify-center items-center'>share experiences, ask </p>
+                        <p className='flex justify-center items-center'> questions, and get support.</p>
+                       
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="flex flex-row  md:hidden mt-5 font-sans mb-4 ">
+                <div>
+                    <img src={left_arrow} alt="left arrow"></img>
+                </div>
+                <div className="bg-custom-color-1  text-base px-5 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold p">
+                    <p >Get instant Access </p>
+                    <p> to Sellerkin</p>
+                    
+
+                </div>
+                <div>
+                    <img src={right_arrow} alt="right arrow 2"></img>
+                </div>
+            </div>
+            <div className="md:flex md:justify-center gap-4 ">
+                <div className="flex justify-center mb-5">
+                    <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
+                </div>
+                <div className="flex justify-center mb-5 gap-3">
+                    <img src={secure} alt="payment" className="relative mb-2"></img>
+                    <img src={days} alt="payment" className="relative mb-2"></img>
+                </div>
+            </div>
+            <div className="flex justify-center mb-5 gap-4">
+                <img src={mac} alt="payment" className="w-24 md:w-auto "></img>
+                <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
+            </div>
+
+
+
         </div>
     )
 }
