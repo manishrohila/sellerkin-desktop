@@ -27,7 +27,7 @@ const Third = () => {
         <div className='bg-custom-color-2  mt-7 mb-2'>
 
             {/* winning formula */}
-            <div className='flex flex-col text-center md:flex-row font-sans justify-center md:text-5xl text-lg my-12 '>
+            <div className='flex flex-col  text-center md:flex-row font-sans justify-center md:text-5xl text-4xl my-12 '>
                 <h1 className='font-bold'>
                     The <span className='text-custom-color-1 font-bold'>Winning &nbsp;</span>
                 </h1>
@@ -48,7 +48,7 @@ const Third = () => {
                     </div>
                     <img src={arrow} alt="arrow sign" className='hidden md:block w-24' ></img>
                     <div className='flex justify-center md:hidden items-center'>
-                        <img src={arrow2} alt="arrow sign" className='block h-10 w-10' />
+                        <img src={arrow2} alt="arrow sign" className='relative right-2 h-10 w-10' />
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
@@ -59,7 +59,7 @@ const Third = () => {
                     </div>
                     <img src={arrow} alt="arrow sign" className='hidden md:block w-24' ></img>
                     <div className='flex justify-center md:hidden items-center'>
-                        <img src={arrow2} alt="arrow sign" className='block h-10 w-10' />
+                        <img src={arrow2} alt="arrow sign" className='relative right-2  h-10 w-10' />
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
@@ -87,7 +87,7 @@ const Third = () => {
 
                 {/* arrow sign */}
                 <div className='flex justify-center md:hidden items-center'>
-                    <img src={arrow2} alt="arrow sign" className='block h-10 w-10' />
+                    <img src={arrow2} alt="arrow sign" className='relative right-2  h-10 w-10' />
                 </div>
 
 
@@ -96,7 +96,7 @@ const Third = () => {
 
                 {/* Down three box */}
 
-                <div className='flex justify-center w-11/12 font-serif mt-10 flex-col md:flex md:flex-row relative lg:-top-56 '>
+                <div className='flex justify-center w-11/12 font-serif md:mt-10 flex-col md:flex md:flex-row relative lg:-top-56 '>
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 md:-mr-px rounded-md flex-col relative'>
                         <p className='flex justify-center'><img src={checkbook} alt='check image' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
                         <p>Then to find out<strong>what</strong> </p>
@@ -105,7 +105,7 @@ const Third = () => {
                     </div>
                     <img src={arrow} alt="arrow sign" className='hidden md:block w-24'></img>
                     <div className='flex justify-center md:hidden items-center'>
-                        <img src={arrow2} alt="arrow sign" className='block h-10 w-10' />
+                        <img src={arrow2} alt="arrow sign" className='relative right-2 h-10 w-10' />
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
@@ -116,7 +116,7 @@ const Third = () => {
                     </div>
                     <img src={arrow} alt="arrow sign" className='hidden md:block w-24' ></img>
                     <div className='flex justify-center md:hidden items-center'>
-                        <img src={arrow2} alt="arrow sign" className='block h-10 w-10' />
+                        <img src={arrow2} alt="arrow sign" className='relative right-2 h-10 w-10' />
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
