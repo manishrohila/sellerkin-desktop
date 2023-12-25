@@ -218,26 +218,26 @@ const Third = () => {
             <div className='mt-10 flex flex-col md:hidden flex-wrap justify-center'>
                 <div className='flex flex-col justify-center items-center gap-8 mb-8'>
 
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96  relative  flex flex-col items-center justify-center '>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  relative  flex flex-col items-center justify-center shadow-xl rounded-lg '>
                         <p>Remove the manual</p>
                         <p>effort and frustration of</p>
                         <p>second guessing your</p>
                         <p>Business winners.</p>
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 flex flex-col items-center justify-center'>
-                        <p className='h-6'>Find Winning Niches </p>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg '>
+                        <p >Find <strong>Winning Niches</strong>  </p>
                         <p> within first 2 minutes</p>
 
                     </div>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 flex flex-col items-center justify-center'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
                         <p>PinPoint the <strong>Winning</strong></p>
                         <p><strong> Product</strong> in less than</p>
                         <p>60 seconds at the </p>
                         <p>click of a Button.</p>
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 flex flex-col items-center justify-center'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
                         <p>Go from No Product</p>
                         <p> to your first <strong>sale </strong>with</p>
                         <p>literally <strong>ZERO trial</strong> </p>
@@ -246,14 +246,14 @@ const Third = () => {
                     </div>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 flex flex-col items-center justify-center'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
                         <p>Get back the <strong>last time</strong> </p>
                         <p>and hours with finding</p>
                         <p> winners faster so that you </p>
                         <p> can enjoy the <strong> new found</strong></p>
                         <p> <strong> time with family.</strong></p>
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 flex flex-col items-center justify-center'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg '>
                         <p>Reduce your anxiety
                             <p></p> and get a <strong>peaceful</strong> </p>
                         <p><strong>sleep</strong>knowing your</p>
@@ -262,13 +262,13 @@ const Third = () => {
                     </div>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 flex flex-col items-center justify-center'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
                         <p>See your money pile up as </p>
                         <p>your product Selecting bring </p>
                         <p> <strong>in a regular income, making </strong></p>
                         <p>your financial life easier.</p>
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 flex flex-col items-center justify-center'>
+                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
                         <p>watch your<strong>money grow,</strong></p>
                         <p>ensuring a <strong>stable future</strong> and </p>
                         <p>  giving you opportunities for</p>
