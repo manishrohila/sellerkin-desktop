@@ -6,6 +6,7 @@ import right_arrow from "../img/mingcute_arrows-right-line (1).png";
 import visa1 from "../img/toppng 4.svg"
 import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
+import comma from "../img/Vector (2).svg"
 const Eleven = () => {
     return (
         <div className='bg-custom-color pt-10'>
@@ -32,6 +33,9 @@ const Eleven = () => {
                         <div className='flex gap-3'>
                             <p className='font-bold'>Michael</p>
                             <img src={stars} alt="" />
+                            <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                         </div>
                         <div className='text-base'>
                             <p>Sellerkin simplifies our product research so</p>
@@ -43,6 +47,9 @@ const Eleven = () => {
                         <div className='flex gap-3 '>
                             <p className='font-bold'>Abhishek</p>
                             <img src={stars} alt="" />
+                            <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                         </div>
                         <div className='text-base'>
                             <p>Finally, now finding a new product</p>
@@ -51,9 +58,9 @@ const Eleven = () => {
                             <p>on my business and plan to scale</p>
                         </div>
                     </div>
-                    <div>
 
-                    </div>
+                    
+
                 </div>
             </div>
 
@@ -65,6 +72,9 @@ const Eleven = () => {
             <div className='grid grid-cols-1 md:hidden'>
                 <div className='flex md:hidden flex-col justify-center items-center gap-6 mt-10' >
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10  shadow-xl text-2xl gap-3'>
+                        <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Michael</p>
 
@@ -82,6 +92,9 @@ const Eleven = () => {
                         </div>
                     </div>
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10   shadow-xl text-2xl gap-3'>
+                    <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Ryan</p>
 
@@ -114,6 +127,9 @@ const Eleven = () => {
                     <div className='flex gap-3'>
                         <p className='font-bold'>Richa</p>
                         <img src={stars} alt="" />
+                        <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                     </div>
                     <div className='text-base'>
                         <p>Personally, I loved the listing Analyzer and</p>
@@ -126,6 +142,9 @@ const Eleven = () => {
                     <div className='flex gap-3'>
                         <p className='font-bold'>Ryan</p>
                         <img src={stars} alt="" />
+                        <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                     </div>
                     <div className='text-base'>
                         <p>Sellerkin simplifies our product research so</p>
@@ -138,6 +157,9 @@ const Eleven = () => {
             <div className='grid grid-cols-1 md:hidden'>
                 <div className='flex md:hidden flex-col justify-center items-center gap-6 ' >
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10  shadow-xl text-2xl gap-3'>
+                    <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Richa</p>
 
@@ -155,6 +177,9 @@ const Eleven = () => {
                         </div>
                     </div>
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10   shadow-xl text-2xl gap-3'>
+                    <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Abhishek</p>
 
@@ -185,6 +210,9 @@ const Eleven = () => {
                     <div className='flex gap-3'>
                         <p className='font-bold'>Emma</p>
                         <img src={stars} alt="" />
+                        <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                     </div>
                     <div className='text-base'>
                         <p>With the help of sellerkin, have launched 2</p>
@@ -197,6 +225,9 @@ const Eleven = () => {
                     <div className='flex gap-3'>
                         <p className='font-bold'>Richard</p>
                         <img src={stars} alt="" />
+                        <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                     </div>
                     <div className='text-base'>
                         <p>Good part is their support, they try</p>
@@ -210,6 +241,9 @@ const Eleven = () => {
             <div className='grid grid-cols-1 md:hidden' >
                 <div className='flex md:hidden flex-col justify-center items-center gap-6 ' >
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10  shadow-xl text-2xl gap-3'>
+                    <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Emma</p>
 
@@ -227,6 +261,9 @@ const Eleven = () => {
                         </div>
                     </div>
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10  shadow-xl text-2xl gap-3'>
+                    <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Richard</p>
 
@@ -257,6 +294,9 @@ const Eleven = () => {
                     <div className='flex gap-3'>
                         <p className='font-bold'>Vaishali</p>
                         <img src={stars} alt="" />
+                        <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                     </div>
                     <div className='text-base'>
                         <p>I have been using sellerkin from a good</p>
@@ -271,6 +311,9 @@ const Eleven = () => {
                     <div className='flex gap-3'>
                         <p className='font-bold'>Sahil</p>
                         <img src={stars} alt="" />
+                        <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                     </div>
                     <div className='text-base'>
                         <p>As I got the chance to interact with the</p>
@@ -293,6 +336,9 @@ const Eleven = () => {
                     <div className='flex gap-3'>
                         <p className='font-bold'>Ankit</p>
                         <img src={stars} alt="" />
+                        <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                     </div>
                     <div className='text-base'>
                         <p>I loved the product, it's very</p>
@@ -305,6 +351,9 @@ const Eleven = () => {
                     <div className='flex gap-3'>
                         <p className='font-bold'>Joseph</p>
                         <img src={stars} alt="" />
+                        <div className='flex-grow flex justify-end'>
+                                <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
+                            </div>
                     </div>
                     <div className='text-base'>
                         <p>I am really glad that i came to know</p>
@@ -320,6 +369,9 @@ const Eleven = () => {
             <div className='grid grid-cols-1 md:hidden'>
                 <div className='flex md:hidden flex-col justify-center items-center gap-6 ' >
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10  shadow-xl text-2xl gap-3'>
+                    <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Ankit</p>
 
@@ -335,6 +387,9 @@ const Eleven = () => {
                         </div>
                     </div>
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10  shadow-xl text-2xl gap-3'>
+                    <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Joseph</p>
 
@@ -360,6 +415,9 @@ const Eleven = () => {
             <div className='grid grid-cols-1 md:hidden'>
                 <div className='flex md:hidden flex-col justify-center items-center gap-6 ' >
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10  shadow-xl text-2xl gap-3'>
+                    <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Vaishali</p>
 
@@ -380,6 +438,9 @@ const Eleven = () => {
                         </div>
                     </div>
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10  shadow-xl text-2xl gap-3'>
+                    <div className='flex justify-center '>
+                            <img src={comma} alt="comma sign" />
+                        </div>
                         <div className='flex justify-center'>
                             <p className='font-bold'>Sahil</p>
 
