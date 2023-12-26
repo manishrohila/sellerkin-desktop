@@ -19,20 +19,20 @@ const Fourth = () => {
                 <p className='text-5xl flex gap-3'><span><img src={logo} alt="logo" /></span> SellerKin</p>
             </div>
 
-            <div className='hidden md:flex relative '>
+            <div className='hidden md:grid grid-cols-2 relative text-2xl '>
                 <div className='relative pl-32 mt-24'>
-                    <div className='text-base mb-10'>
+                    <div className=' mb-10'>
                         <p >Sellerkin is a tool for Etsy sellers to help them</p>
                         <p><strong>find the winning products & increase revenue for</strong></p>
                         <p>their Etsy shop in less than <strong>60 seconds</strong></p>
                         <p><strong>without trial & error</strong></p>
                     </div>
-                    <div className='text-base mb-10'>
+                    <div className='text-2xl mb-10'>
                         <p>It works like a charm and can give you </p>
                         <p>the Winners faster than you can say Cheese.</p>
 
                     </div>
-                    <div className='text-base mb-10 flex flex-col gap-2'>
+                    <div className=' mb-10 flex flex-col gap-2'>
                         <div className='flex gap-3'>
                             <p><img className="w-4 h-4 relative top-1" src={vector} alt="dot"></img></p>
                             <p>Even if... You are New in the Game</p>
@@ -50,10 +50,10 @@ const Fourth = () => {
                         </div>
                     </div>
                 </div>
-                <div className='relative left-10'>
+                <div className='relative '>
                     <img src={bgimage} alt="image  " className='' />
                 </div>
-                <img src={shop_ana} alt="image" className=' absolute h-36 w-60 bottom-64 right-[34rem]  ' />
+                <img src={shop_ana} alt="image" className=' absolute h-32 w-52 bottom-[9rem] right-[20rem]  ' />
 
 
 
@@ -102,6 +102,7 @@ const Fourth = () => {
 
 
 
+                {/* Three points */}
 
             <div className='md:flex hidden gap-7 flex-col md:flex-row justify-center pb-16 '>
 
