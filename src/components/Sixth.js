@@ -11,7 +11,7 @@ const Sixth = () => {
             </div>
             <div className='flex items-center gap-10  justify-evenly text-2xl mt-14 md:flex-row flex-col'>
                 <div>
-                    <img src={first} alt="image loading" className='w-80 h-54 md:w-full h-full' />
+                    <img src={first} alt="img loading" className='w-80 h-54 md:w-full h-full' />
                 </div>
                 <div className='  font-serif'>
                     <button className='border-2 bg-custom-color-1 rounded-md p-2 text-white font-serif'>Step 1:</button>
@@ -21,7 +21,7 @@ const Sixth = () => {
             </div>
             <div className='flex items-center gap-10 justify-evenly text-2xl mt-14 md:flex-row flex-col mb-20'>
                 <div className=' md:hidden'>
-                    <img src={second} alt="image loading" className='w-80 h-54 md:w-full h-full' />
+                    <img src={second} alt="img loading" className='w-80 h-54 md:w-full h-full' />
                 </div>
                 <div className='font-serif mb-40 '>
                     <button className='border-2 bg-custom-color-1 rounded-md p-2 text-white font-serif'>Step 2:</button>
@@ -29,7 +29,7 @@ const Sixth = () => {
                     <p>winning products data</p>
                 </div>
                 <div className='hidden md:block'>
-                    <img src={second} alt="image loading" className='w-80 h-54 md:w-full h-full' />
+                    <img src={second} alt="img loading" className='w-80 h-54 md:w-full h-full' />
                 </div>
             </div>
         </div>

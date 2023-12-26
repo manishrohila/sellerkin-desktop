@@ -9,14 +9,14 @@ import chat from "../img/chat 2.svg"
 import drive from "../img/drive.svg"
 import arrow from "../img/Line 12.svg"
 import arrow2 from "../img/Line 20.svg"
-import li31 from "../img/li31.svg"
-import li32 from "../img/li32.svg"
-import li33 from "../img/li333.svg"
-import li34 from "../img/li34.svg"
-import li35 from "../img/li35.svg"
-import li36 from "../img/li36.svg"
-import li37 from "../img/li37.svg"
-import li38 from "../img/li38.svg"
+// import li31 from "../img/li31.svg"
+// import li32 from "../img/li32.svg"
+// import li33 from "../img/li333.svg"
+// import li34 from "../img/li34.svg"
+// import li35 from "../img/li35.svg"
+// import li36 from "../img/li36.svg"
+// import li37 from "../img/li37.svg"
+// import li38 from "../img/li38.svg"
 import left_arrow from "../img/mingcute_arrows-right-line.png";
 import right_arrow from "../img/mingcute_arrows-right-line (1).png";
 import visa1 from "../img/toppng 4.svg"
@@ -42,7 +42,7 @@ const Third = () => {
                 {/* Above 3 box */}
                 <div className='flex justify-center w-11/12 font-serif flex-col md:flex md:flex-row '>
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 md:-mr-px rounded-md flex-col relative'>
-                        <p className='flex justify-center'><img src={quora} alt='quora image' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
+                        <p className='flex justify-center'><img src={quora} alt='quora ' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
                         <p> <strong><span className='underline-offset-1 underline'>Go</span> to Quora</strong>  and look for</p>
                         <p>what people are asking</p>
                     </div>
@@ -52,7 +52,7 @@ const Third = () => {
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
-                        <p className='flex justify-center ' ><img src={meta} alt='meta image' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-2 '></img></p>
+                        <p className='flex justify-center ' ><img src={meta} alt='meta ' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-2 '></img></p>
                         <p> <strong> <span className='underline-offset-1 underline'>Go</span> to facebook ads library</strong></p>
                         <p>and then find out what</p>
                         <p>people are running ads on</p>
@@ -63,7 +63,7 @@ const Third = () => {
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
-                        <p className='flex justify-center'><img src={drive} alt='drive image' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
+                        <p className='flex justify-center'><img src={drive} alt='drive ' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
                         <p> <strong><span className='underline-offset-1 underline'>Go</span> to google Ads Library</strong> and</p>
                         <p> find the ads being run</p>
                         <p>on different products</p>
@@ -98,7 +98,7 @@ const Third = () => {
 
                 <div className='flex justify-center w-11/12 font-serif md:mt-10 flex-col md:flex md:flex-row relative lg:-top-56 '>
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 md:-mr-px rounded-md flex-col relative'>
-                        <p className='flex justify-center'><img src={checkbook} alt='check image' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
+                        <p className='flex justify-center'><img src={checkbook} alt='check ' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
                         <p>Then to find out<strong>what</strong> </p>
                         <p><storn>people are commenting</storn></p>
                         <p> <strong>on ads</strong>  one by one</p>
@@ -109,7 +109,7 @@ const Third = () => {
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
-                        <p className='flex justify-center'><img src={trend} alt='trend image' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-2 h-9'></img></p>
+                        <p className='flex justify-center'><img src={trend} alt='trend' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-2 h-9'></img></p>
                         <p> <strong><span className='underline-offset-1 underline'>Go</span> to Google Trends</strong>  and</p>
                         <p>search for Increasing /</p>
                         <p>Decreasing Markets</p>
@@ -120,7 +120,7 @@ const Third = () => {
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
-                        <p className='flex justify-center'><img src={chat} alt='chat image' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
+                        <p className='flex justify-center'><img src={chat} alt='chat' className='absolute -top-4 font-sans border-2 border-custom-color-1 rounded-full bg-custom-color-2 p-1'></img></p>
                         <p>And then People can <strong>start</strong> </p>
                         <p><strong>guessing,</strong>  that this could</p>
                         <p> <strong className='underline underline-offset-1'>be the winning product</strong> </p>

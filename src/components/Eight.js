@@ -465,7 +465,7 @@ const Eight = () => {
                         <th>Features</th>
                         <th>
                             <div className='flex middle justify-center items-center'>
-                                <img src={logo} alt="" />
+                                <img src={logo} alt="" className='hidden'/>
                                 <p className='text-xl'>SellerKin</p>
                             </div>
                         </th>

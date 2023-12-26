@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import line from "../img/money back.svg"
 import image from "../img/money-back-guarantee 1.svg"
 import correct from "../img/Mask group (1).svg"
@@ -7,13 +7,7 @@ import   "./Tenth.css"
 import rectangle from "../img/Rectangle 323.svg"
 import vector from "../img/Vector.svg"
 const Tenth = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
+
     return (
         <div className='bg-custom-color-2'>
 
@@ -21,7 +15,7 @@ const Tenth = () => {
                 <p className='relative -top-1'>7 Days </p>
                 <div className='flex flex-col '>
                     <p><span className='text-custom-color-1'>Money Back Guarantee</span></p>
-                    <img src={line} alt="image loading line" className='w-10/12' />
+                    <img src={line} alt="img loading line" className='w-10/12' />
                 </div>
             </div>
             <div className='flex flex-col  md:hidden gap-2 text-5xl items-center justify-center pt-10'>
@@ -52,12 +46,12 @@ const Tenth = () => {
 
                 </div>
                 <div>
-                    <img src={image} alt="image loading" />
+                    <img src={image} alt="img loading" />
                 </div>
             </div>
             <div className='flex  flex-col md:hidden  justify-center items-center gap-10 mt-10'>
                 <div className='z-10'>
-                    <img src={image} alt="image loading " className='w-40 h-40' />
+                    <img src={image} alt="img loading " className='w-40 h-40' />
                 </div>
                 <div className='bg-custom-color flex flex-col gap-5 justify-start items-center p-14 text-left shadow-2xl relative -top-24 pt-20 z-0'>
 
@@ -92,7 +86,7 @@ const Tenth = () => {
             <div className='flex flex-col md:flex-row text-5xl  justify-center items-center -mt-10 md:mt-10 '>
                 <div className='flex flex-col gap-3' >
                     <p className='text-custom-color-1'>Pick the option</p>
-                    <img src={line} alt="image loading curve line" className='w-80 hidden md:block' />
+                    <img src={line} alt="img loading curve line" className='w-80 hidden md:block' />
                 </div>
                 <div className='relative bottom-2'>
                     <p className=''>that's best for you </p>

@@ -27,7 +27,7 @@ const Nine = () => {
                     <p className='ml-36'>Will be rewarded with </p>
                     <div className='flex flex-col text-custom-color-1 '>
                         <p>Fast Action Bonues:</p>
-                        <img src={underline} alt="image" className='w-4/5' />
+                        <img src={underline} alt="img" className='w-4/5' />
                     </div>
                 </div>
 
@@ -47,10 +47,10 @@ const Nine = () => {
             <div className='md:flex hidden  shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-4/5 mx-auto'>
                 <div className=''>
                     <div>
-                        <img src={bonus1} alt="image" className='relative  right-28' />
+                        <img src={bonus1} alt="img" className='relative  right-28' />
                     </div>
                     <div>
-                        <img src={trangle} alt="image" className='relative  right-28' />
+                        <img src={trangle} alt="img" className='relative  right-28' />
                     </div>
                     <div>
                         <p className='font-bold'>(Value $X)</p>
@@ -66,20 +66,20 @@ const Nine = () => {
                     </div>
                 </div>
                 <div className='relative bottom-10'>
-                    <img src={frist} alt="image loading" className='' />
+                    <img src={frist} alt="img loading" className='' />
                 </div>
             </div>
             <div className='md:flex hidden shadow-xl justify-center items-center mt-24 bg-custom-color-2 w-4/5 mx-auto gap-10'>
                 <div className='relative bottom-10'>
-                    <img src={second} alt="image loading" className='' />
+                    <img src={second} alt="img loading" className='' />
                 </div>
                 <div className='relative left-28'>
 
                     <div>
-                        <img src={bonus2} alt="image" className=' relative right-1 ' />
+                        <img src={bonus2} alt="img" className=' relative right-1 ' />
                     </div>
                     <div className='flex justify-end relative bottom-4 right-3'>
-                        <img src={trangle1} alt="image" className='' />
+                        <img src={trangle1} alt="img" className='' />
                     </div>
                     <div className="">
                         <p className='font-bold'>(Value $X)</p>
@@ -99,10 +99,10 @@ const Nine = () => {
             <div className='md:flex hidden  shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-4/5 mx-auto p-10'>
                 <div className=''>
                     <div>
-                        <img src={bonus3} alt="image" className='relative  right-14' />
+                        <img src={bonus3} alt="img" className='relative  right-14' />
                     </div>
                     <div>
-                        <img src={trangle} alt="image" className='relative  right-14' />
+                        <img src={trangle} alt="img" className='relative  right-14' />
                     </div>
                     <div>
                         <p className='font-bold'>(Value $X)</p>
@@ -118,7 +118,7 @@ const Nine = () => {
                     </div>
                 </div>
                 <div className=''>
-                    <img src={third} alt="image loading" className='' />
+                    <img src={third} alt="img loading" className='' />
                 </div>
             </div>
 
@@ -128,7 +128,7 @@ const Nine = () => {
                 <div className=''>
 
                     <div className='flex justify-center items-center mb-6 '>
-                        <img src={frist} alt="image loading" className='w-32 h-56' />
+                        <img src={frist} alt="img loading" className='w-32 h-56' />
                     </div>
 
                     <div className='flex justify-center items-center'>
@@ -152,7 +152,7 @@ const Nine = () => {
                 <div className=''>
 
                     <div className='flex justify-center items-center mb-6'>
-                        <img src={second} alt="image loading" className='w-32 h-56' />
+                        <img src={second} alt="img loading" className='w-32 h-56' />
                     </div>
 
                     <div className='flex justify-center items-center'>
@@ -173,7 +173,7 @@ const Nine = () => {
                 <div className=''>
 
                     <div className='flex justify-center items-center mb-6'>
-                        <img src={third} alt="image loading" className='w-54 h-44' />
+                        <img src={third} alt="img loading" className='w-54 h-44' />
                     </div>
 
                     <div className='flex justify-center items-center'>

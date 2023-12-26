@@ -29,7 +29,7 @@ const Seventh = () => {
 
             <div className='flex justify-center items-center'>
                 <div className=''>
-                    <img src={first} alt="image loading" className='hidden md:block' />
+                    <img src={first} alt="img loading" className='hidden md:block' />
                 </div>
                 <div className="mt-6 mx-6 rounded-lg flex justify-center flex-col xl:ml-24 font-serif z-20">
                     <p className="text-center text-[15px] bg-custom-color-1 border-t-2 p-2 rounded-t-2xl text-white flex justify-center gap-1 ">
@@ -45,7 +45,7 @@ const Seventh = () => {
                         allowFullScreen></iframe>
                 </div>
                 <div className='hidden md:flex'>
-                    <img src={second} alt="image loading" className='' />
+                    <img src={second} alt="img loading" className='' />
                 </div>
                 {/* <div className=''>
                     <img src={rectangle} alt="image loading" className='' />
