@@ -10,6 +10,7 @@ import Tenth from "./components/Tenth";
 import Eight from "./components/Eight";
 import Nine from "./components/Nine";
 import Eleven from "./components/Eleven";
+import Twelve from "./components/Twelve";
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
       <Nine></Nine>
       <Tenth></Tenth>
       <Eleven></Eleven>
+     <Twelve></Twelve>
     </div>
   );
 }
