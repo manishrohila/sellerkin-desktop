@@ -7,12 +7,14 @@ import graph from "../img/Component 5.svg"
 import first from "../img/Component 6.svg"
 import second from "../img/Component 7.svg"
 import arrow2 from "../img/Vector 39.svg"
+import underline from "../img/Vector 40.svg"
 const Thirteen = () => {
   return (
     <div className='bg-custom-color pt-10'>
       <div className='text-5xl flex place-items-center flex-col font-sans'>
         <p>Once you Know about this <span className='text-custom-color-1'>SECRET CODE,</span></p>
-        <p>half the battle is already Won</p>
+        <p>half the battle is already Won.</p>
+        <img src={underline} alt="img loading" className='hidden md:block mt-4' />
       </div>
 
       <div className='place-items-center text-2xl flex flex-col mt-5 font-serif'>

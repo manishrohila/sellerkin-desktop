@@ -1,11 +1,13 @@
 import React from 'react'
 import plus from "../img/plus sign.svg"
 import question from "../img/Group 184.svg"
+import underline from "../img/Vector 40.svg"
 const Seventeen = () => {
     return (
         <div className='bg-custom-color pt-10 '>
-            <div className='font-sans text-5xl flex justify-center'>
+            <div className='font-sans text-5xl flex flex-col justify-center items-center gap-3'>
                 <p> Frequently Asked <span className='text-custom-color-1'>Questions</span></p>
+                <img src={underline} alt="img loading" className='w-6/12 ' />
             </div>
             <div>
                 <img src={question} alt="" className='absolute left-20' />

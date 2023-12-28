@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../img/logo.svg";
 const Footer = () => {
     return (
-        <div className=' bg-black pt-10'>
+        <div className=' bg-[#2F363C] pt-10'>
             <div className='grid grid-cols-2 '>
                 <div className='text-white flex flex-col gap-4 ml-16'>
                     <div>
