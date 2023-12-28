@@ -11,6 +11,13 @@ import Eight from "./components/Eight";
 import Nine from "./components/Nine";
 import Eleven from "./components/Eleven";
 import Twelve from "./components/Twelve";
+import Thirteen from "./components/Thirteen";
+import Fourteen from "./components/Fourteen";
+import Fifteen from "./components/Fifteen";
+import Sixteen from "./components/Sixteen";
+import Seventeen from "./components/Seventeen";
+import Footer from "./components/Footer";
+import Eighteen from "./components/Eighteen";
 function App() {
   return (
     <div>
@@ -26,6 +33,13 @@ function App() {
       <Tenth></Tenth>
       <Eleven></Eleven>
      <Twelve></Twelve>
+     <Thirteen></Thirteen>
+     {/* <Fourteen></Fourteen>
+     <Fifteen></Fifteen>
+     <Sixteen></Sixteen>
+     <Seventeen></Seventeen>
+     <Eighteen></Eighteen>
+     <Footer></Footer> */}
     </div>
   );
 }

@@ -6,7 +6,7 @@ import line from "../img/money back.svg"
 const Twelve = () => {
     return (
         <div className='bg-custom-color-2 pt-10 mb-10'>
-            <div className='text-5xl flex flex-col justify-center items-center'>
+            <div className='text-5xl font-sans flex flex-col justify-center items-center'>
                 <p>This simply Means you will be able to</p>
                 <div className='flex gap-2'>
                     <div>
