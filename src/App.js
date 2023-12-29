@@ -36,10 +36,10 @@ function App() {
      <Thirteen></Thirteen>
      <Fourteen></Fourteen>
      <Fifteen></Fifteen>
-     {/* <Sixteen></Sixteen>
+     <Sixteen></Sixteen>
      <Seventeen></Seventeen>
      <Eighteen></Eighteen>
-     <Footer></Footer> */}
+     <Footer></Footer>
     </div>
   );
 }
