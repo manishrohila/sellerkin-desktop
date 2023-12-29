@@ -33,10 +33,10 @@ function App() {
       <Tenth></Tenth>
       <Eleven></Eleven>
      <Twelve></Twelve>
-     {/* <Thirteen></Thirteen> */}
-     {/* <Fourteen></Fourteen>
-     <Fifteen></Fifteen>
-     <Sixteen></Sixteen>
+     <Thirteen></Thirteen>
+     <Fourteen></Fourteen>
+     {/* <Fifteen></Fifteen> */}
+     {/* <Sixteen></Sixteen>
      <Seventeen></Seventeen>
      <Eighteen></Eighteen>
      <Footer></Footer> */}
