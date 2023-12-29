@@ -11,6 +11,7 @@ import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
 import upper from "../img/Rectangle 128.svg"
 import down from "../img/Rectangle 136.svg"
+
 const Fifth = () => {
     return (
         <div className='bg-custom-color-2 mt-10'>

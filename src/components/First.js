@@ -23,6 +23,8 @@ import days from "../img/7days1.svg";
 import mac from "../img/mac1.svg";
 import window from "../img/windows1.svg";
 import visa1 from "../img/toppng 4.svg"
+import cart from "../img/mdi-light_cart.svg"
+import graph_bg from "../img/Vector graph.svg"
 function First() {
     const [showMenu, setShowMenu] = useState(false);
     const menu = [
@@ -87,12 +89,12 @@ function First() {
                     This is an invite-only page...
                 </p>
                 <div className="relative">
-                <img src={top1} alt="top1 " className="opacity-25 z-0 hidden md:block absolute  m-4 left-0"></img>
-                <img src={top2} alt="top1 " className="opacity-25 z-0 hidden md:block absolute  m-4 right-0"></img>
+                    <img src={top1} alt="top1 " className="opacity-25 z-0 hidden md:block absolute  m-4 left-0"></img>
+                    <img src={top2} alt="top1 " className="opacity-25 z-0 hidden md:block absolute  m-4 right-0"></img>
                 </div>
-                
+
             </div>
-            
+
 
             <div className=" hidden md:block justify-center text-center align-center mt-6 mx-4 text-base ">
                 <div>
@@ -119,7 +121,7 @@ function First() {
                         </span>
                     </h4>
                     <h4 className=" font-sans font-bold">
-                        Businesses & Digital Product Owners 
+                        Businesses & Digital Product Owners
                     </h4>
                     <h4>
                         <span className="font-sans font-bold">
@@ -294,14 +296,20 @@ function First() {
                     <p>Simple way to Reach Etsy Success in</p>
                     <p className="ml-5">Minutes without <span className="font-bold">Trial and Error</span> </p>
                 </div>
+                <div className="relative">
+                    <img src={cart} alt="top1 " className=" hidden md:block absolute  m-4 left-20"></img>
+                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 right-20"></img>
+                </div>
             </div>
             <div className="mt-5 block md:hidden justify-center text-center text-xl font-sans">
                 <div>
                     <p>Simple way to Reach Etsy Success</p>
                     <p className="ml-5">in Minutes without <span className="font-bold">Trial and Error</span> </p>
                 </div>
+                
             </div>
             <div className="flex justify-center mt-5 font-sans">
+                
                 <div>
                     <img src={left_arrow} alt="left arrow"></img>
                 </div>
@@ -360,7 +368,7 @@ function First() {
                                 className="inline-block h-13 w-13 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
                             <ul className="list-none">
                                 <li className="xl:text-xl">
-                                    Find <strong>Winning Products</strong> in less than <strong>2 minutes</strong> 
+                                    Find <strong>Winning Products</strong> in less than <strong>2 minutes</strong>
                                 </li>
                             </ul>
                         </div>
