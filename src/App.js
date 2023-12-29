@@ -35,8 +35,8 @@ function App() {
      <Twelve></Twelve>
      <Thirteen></Thirteen>
      <Fourteen></Fourteen>
-     {/* <Fifteen></Fifteen>
-     <Sixteen></Sixteen>
+     <Fifteen></Fifteen>
+     {/* <Sixteen></Sixteen>
      <Seventeen></Seventeen>
      <Eighteen></Eighteen>
      <Footer></Footer> */}
