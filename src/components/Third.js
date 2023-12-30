@@ -9,14 +9,14 @@ import chat from "../img/Component 17.svg"
 import drive from "../img/Component 15.svg"
 import arrow from "../img/Line 12.svg"
 import arrow2 from "../img/Line 20.svg"
-// import li31 from "../img/li31.svg"
-// import li32 from "../img/li32.svg"
-// import li33 from "../img/li333.svg"
-// import li34 from "../img/li34.svg"
-// import li35 from "../img/li35.svg"
-// import li36 from "../img/li36.svg"
-// import li37 from "../img/li37.svg"
-// import li38 from "../img/li38.svg"
+import li31 from "../img/li31.svg"
+import li32 from "../img/li32.svg"
+import li33 from "../img/li33.svg"
+import li34 from "../img/li34.svg"
+import li35 from "../img/li35.svg"
+import li36 from "../img/li36.svg"
+import li37 from "../img/li37.svg"
+import li38 from "../img/li38.svg"
 import left_arrow from "../img/mingcute_arrows-right-line.png";
 import right_arrow from "../img/mingcute_arrows-right-line (1).png";
 import visa1 from "../img/toppng 4.svg"
@@ -180,52 +180,38 @@ const Third = () => {
             {/* six points  */}
             <div className='mt-20 font-serif hidden md:flex flex-col  justify-center'>
 
-                <div className='flex justify-center items-center gap-40 mb-8 '>
+                <div className='flex justify-center items-center gap-10  mb-8 '>
 
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container1 relative   flex flex-col shadow-2xl '>
-                        <p>Remove the manual effort and frustration</p>
-                        <p>of second guessing your Business winners.</p>
-                    </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container2 relative   flex flex-col shadow-2xl '>
-                        <p className='p-3'>Find Winning Niches within first 2 minutes</p>
-
+                    <div>
+                        <img src={li31} alt="img loading" />
+                    </div>
+                    <div>
+                        <img src={li32} alt="img loading" />
                     </div>
                 </div>
 
-                <div className='flex justify-center items-center gap-40 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container3 relative   flex flex-col shadow-2xl '>
-                        <p>PinPoint the <strong>Winning Product</strong> in less than</p>
-                        <p>60 seconds at the click of a Button.</p>
-                    </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container4 relative   flex flex-col shadow-2xl '>
-                        <p>Go from No Product to your first sale with</p>
-                        <p>literally <strong>ZERO trial and erro</strong></p>
-
+                <div className='flex justify-center items-center gap-10  mb-8'>
+                <div>
+                        <img src={li33} alt="img loading" />
+                    </div>
+                    <div>
+                        <img src={li34} alt="img loading" />
                     </div>
                 </div>
-                <div className='flex justify-center items-center gap-40 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container5 relative   flex flex-col shadow-2xl '>
-                        <p>Get back the <strong>last time</strong> and hours with</p>
-                        <p>finding winners faster so that you can</p>
-                        <p>enjoy the <strong>found time with family.</strong></p>
-                    </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container6 relative   flex flex-col shadow-2xl '>
-                        <p>Reduce your anxiety and get a <strong>peaceful</strong> </p>
-                        <p><strong>sleep</strong>knowing your business is growing.</p>
-
+                <div className='flex justify-center items-center gap-10 mb-8'>
+                <div>
+                        <img src={li35} alt="img loading" />
+                    </div>
+                    <div>
+                        <img src={li36} alt="img loading" />
                     </div>
                 </div>
-                <div className='flex justify-center items-center gap-40 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container7 relative   flex flex-col shadow-2xl '>
-                        <p>See your money pile up as your product</p>
-                        <p>Selecting <strong>bring in a regular income.</strong></p>
-                        <p>making your financial life easier.</p>
-                    </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-96 container8 relative   flex flex-col shadow-2xl '>
-                        <p>watch your<strong>money grow,</strong> ensuring a </p>
-                        <p><strong>stable future</strong> and giving you opportunities</p>
-                        <p>for fun investments and great experiences</p>
-
+                <div className='flex justify-center items-center gap-10 mb-8'>
+                <div>
+                        <img src={li37} alt="img loading" />
+                    </div>
+                    <div>
+                        <img src={li38} alt="img loading" />
                     </div>
                 </div>
             </div>
