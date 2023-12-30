@@ -45,10 +45,10 @@ const Nine = () => {
 
             </div>
 
-            <div className='md:flex hidden   shadow-xl justify-center items-center mt-20 bg-custom-color-2 w-9/12 mx-auto'>
+            <div className='md:flex hidden   shadow-xl justify-center items-center mt-20 bg-custom-color-2 w-10/12 mx-auto'>
                 <div className=''>
                     <div>
-                        <img src={bonus1} alt="img" className='relative  right-[7.5rem]' />
+                        <img src={bonus1} alt="img" className='relative  right-28' />
                     </div>
                     
                     <div className='relative right-6 font-serif mb-2'>
@@ -68,14 +68,14 @@ const Nine = () => {
                     <img src={frist} alt="img loading" className='' />
                 </div>
             </div>
-            <div className='md:flex hidden shadow-xl justify-center items-center mt-24 bg-custom-color-2 w-9/12 mx-auto gap-10'>
+            <div className='md:flex hidden shadow-xl justify-center items-center mt-24 bg-custom-color-2 w-10/12 mx-auto gap-10'>
                 <div className='relative bottom-10'>
                     <img src={second} alt="img loading" className='' />
                 </div>
                 <div className='relative left-28'>
 
                     <div>
-                        <img src={bonus2} alt="img" className=' relative right-1 ' />
+                        <img src={bonus2} alt="img" className=' relative right-3 ' />
                     </div>
                     
                     <div className='relative left-10 font-serif mb-2'>
@@ -93,7 +93,7 @@ const Nine = () => {
                 </div>
 
             </div>
-            <div className='md:flex hidden  shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-9/12 mx-auto p-10'>
+            <div className='md:flex hidden  shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-10/12 mx-auto p-10'>
                 <div className=''>
                     <div>
                         <img src={bonus3} alt="img" className='relative  right-16' />
