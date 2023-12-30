@@ -57,12 +57,12 @@ const Eighteen = () => {
                 <div className="bg-custom-color-1  text-2xl   p-3 border-2 rounded-lg flex justify-center flex-col  text-white font-sans font-bold  ">
                     <p className="flex justify-center   ">Get instant Access </p>
                     <p className="flex justify-center   "> To Sellerkin</p>
-</div>
-                <div className='font-serif'>
-                <p className=' text-base flex justify-center'>Soon, Prices are going </p>
-                <p className=' text-base flex justify-center'> to be increased</p>
                 </div>
-                
+                <div className='font-serif'>
+                    <p className=' text-base flex justify-center'>Soon, Prices are going </p>
+                    <p className=' text-base flex justify-center'> to be increased</p>
+                </div>
+
 
                 <div className="md:flex md:justify-center gap-4 ">
                     <div className="flex justify-center mb-5">

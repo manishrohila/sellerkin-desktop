@@ -9,15 +9,25 @@ import "./fifteen.css"
 const Fifteen = () => {
     return (
         <div className='bg-custom-color pt-10'>
-            <div className='text-5xl font-sans flex justify-center gap-2'>
+            <div className='text-5xl font-sans font-bold hidden md:flex justify-center gap-2'>
                 <p><span className='text-custom-color-1'>Imagine </span></p>
                 <div className='flex flex-col gap-2 justify-center'>
                     <p> where you would be in...</p>
                     <img src={underline} alt="img loading" className='w-10/12 hidden md:block' />
                 </div>
             </div>
+            <div className='text-3xl font-sans font-bold flex flex-col md:hidden justify-center '>
+                <div className='flex gap-2 justify-center '>
+                    <span className='text-custom-color-1'>Imagine </span>
+                    <p> where you</p>
 
-            <div className=" flex justify-center items-center  flex-wrap">
+                </div>
+                <div>
+                    <p className='flex justify-center'>  would be in...</p>
+                </div>
+            </div>
+
+            <div className=" md:flex hidden justify-center items-center  flex-wrap">
                 <div className='flex flex-col gap-4 border-2 bg-custom-color-2 rounded-lg shadow-lg p-10'>
 
                     <div className='relative font-sans'>
@@ -43,7 +53,7 @@ const Fifteen = () => {
                     <img src={first} alt="img loading" />
                 </div>
             </div>
-            <div className="mt-10 flex justify-center items-center flex-wrap">
+            <div className="mt-10 md:flex hidden justify-center items-center flex-wrap">
                 <div>
                     <img src={second} alt="img loading" />
                 </div>
@@ -51,7 +61,7 @@ const Fifteen = () => {
                     <img src={arrow} alt="" className='relative bottom-16' />
                 </div>
                 <div className='flex flex-col gap-4 border-2 bg-custom-color-2 rounded-lg shadow-lg p-10'>
-                <div className='relative font-sans'>
+                    <div className='relative font-sans'>
                         <img src={box} alt="img loading" className='relative -left-16' />
                         <p className='absolute top-1  text-white text-lg'>1 Month from Now:</p>
                     </div>
@@ -71,9 +81,9 @@ const Fifteen = () => {
 
 
             </div>
-            <div className="mt-10 flex justify-center items-center  flex-wrap">
+            <div className="mt-10 md:flex hidden justify-center items-center  flex-wrap">
                 <div className='flex flex-col gap-4 border-2 bg-custom-color-2 rounded-lg shadow-lg p-10'>
-                <div className='relative font-sans'>
+                    <div className='relative font-sans'>
                         <img src={box} alt="img loading" className='relative -left-16' />
                         <p className='absolute top-1 left-10 text-white text-lg'>6 Month from Now:</p>
                     </div>
