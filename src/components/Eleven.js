@@ -10,11 +10,11 @@ import comma from "../img/Vector (2).svg"
 const Eleven = () => {
     return (
         <div className='bg-custom-color pt-10'>
-            <div className='hidden md:flex flex-col justify-center items-center text-5xl'>
+            <div className='hidden md:flex flex-col justify-center items-center text-5xl font-bold font-sans'>
                 <p>Don't believe what we say,<span className='text-custom-color-1'> listen to real users</span></p>
                 <p><span className='text-custom-color-1'>winning with Sellerkin </span> every single day.</p>
             </div>
-            <div className='flex md:hidden flex-col justify-center items-center text-5xl'>
+            <div className='flex md:hidden font-bold font-sans flex-col justify-center items-center text-5xl'>
                 <p>Don't believe what </p>
                 <p> we say,<span className='text-custom-color-1'> listen to</span></p>
                 <p><span className='text-custom-color-1'>real users winning</span></p>
@@ -24,12 +24,12 @@ const Eleven = () => {
 
 
 
-            <div className=' grid-cols-2 gap-10 mx-48 mb-6 mt-10 hidden md:grid'>
+            <div className=' grid-cols-2 gap-10 mx-48 mb-6 mt-10 hidden md:grid font-serif'>
                 <div className='flex justify-center items-center'>
                     <img src={first} alt="image" />
                 </div>
                 <div className='flex flex-col justify-center items-center gap-6'>
-                    <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10  shadow-xl text-2xl gap-3'>
+                    <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-6 pt-8 w-full  shadow-xl text-2xl gap-3'>
                         <div className='flex gap-3'>
                             <p className='font-bold'>Michael</p>
                             <img src={stars} alt="" />
@@ -43,7 +43,7 @@ const Eleven = () => {
                             <p>are getting and so forth</p>
                         </div>
                     </div>
-                    <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10 px-16  shadow-xl text-2xl gap-3'>
+                    <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-10 w-full  shadow-xl text-2xl gap-3'>
                         <div className='flex gap-3 '>
                             <p className='font-bold'>Abhishek</p>
                             <img src={stars} alt="" />
@@ -138,7 +138,7 @@ const Eleven = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-12 shadow-xl text-2xl gap-3'>
+                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-6 shadow-xl text-2xl gap-3'>
                     <div className='flex gap-3'>
                         <p className='font-bold'>Ryan</p>
                         <img src={stars} alt="" />
@@ -146,7 +146,7 @@ const Eleven = () => {
                                 <img src={comma} alt="comma sign" className='w-5 h-4 relative top-2'/>
                             </div>
                     </div>
-                    <div className='text-base'>
+                    <div className='text-base w-full'>
                         <p>Sellerkin simplifies our product research so</p>
                         <p>that i can track how many views any products</p>
                         <p>are getting and so forth</p>

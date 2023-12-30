@@ -19,7 +19,7 @@ import right_box from "../img/right box.svg"
 const Nine = () => {
     return (
         <div className='bg-custom-color p-20 mt-10'>
-            <div className='md:flex hidden flex-col text-5xl justify-center items-center font-sans font-bold'>
+            <div className='md:flex hidden flex-col text-4xl justify-center items-center font-sans font-bold'>
                 <div>
                     <p>Not just that, If you decide to take action today you</p>
                 </div>

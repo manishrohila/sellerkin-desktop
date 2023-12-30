@@ -13,12 +13,12 @@ import third from '../img/Component 13.svg'
 const Thirteen = () => {
   return (
     <div className='bg-custom-color pt-10'>
-      <div className='text-5xl md:flex hidden place-items-center flex-col font-sans'>
+      <div className='text-5xl md:flex hidden place-items-center flex-col font-sans font-bold'>
         <p>Once you Know about this <span className='text-custom-color-1'>SECRET CODE,</span></p>
         <p>half the battle is already Won.</p>
         <img src={underline} alt="img loading" className='hidden md:block mt-4' />
       </div>
-      <div className='text-3xl md:hidden flex font-bold  place-items-center flex-col font-sans'>
+      <div className='text-3xl md:hidden flex font-bold  place-items-center flex-col font-sans font-bold'>
         <p>Once you Know </p>
         <p> about this <span className='text-custom-color-1'>SECRET CODE,</span></p>
         <p>  <span className='text-custom-color-1'>CODE,</span> half the battle</p>
@@ -30,7 +30,7 @@ const Thirteen = () => {
         <p>You don't need a marketing degree to crack the code. you just found</p>
         <p> <span className='underline'>Sellerkin</span> which gives you <strong>winning products of your niche in <span className='underline'>miutes.</span></strong></p>
       </div>
-      <div className='place-items-center text-xl md:hidden flex flex-col mt-7 font-sans'>
+      <div className='place-items-center text-xl md:hidden flex flex-col mt-7 font-serif'>
         <p>You don't need a marketing </p>
         <p> degree to crack the code. </p> 
         <p className='mt-6'>you just found <span className='underline'>Sellerkin</span> which  </p>
@@ -91,10 +91,10 @@ const Thirteen = () => {
                 <p  className='text-2xl font-bold flex justify-center'>More Revenue</p>
             </div>
       </div>
-      <div className=' md:flex hidden flex-wrap justify-center items-center text-5xl mt-16 font-sans'>
+      <div className=' md:flex hidden flex-wrap justify-center items-center text-5xl mt-16 font-sans font-bold'>
         <p><span className='text-custom-color-1'>Forget </span> about the <span className='text-custom-color-1 italic'>years long-research </span>process... </p>
       </div>
-      <div className=' flex flex-col md:hidden flex-wrap justify-center items-center text-4xl mt-16 font-sans'>
+      <div className=' flex flex-col md:hidden flex-wrap justify-center items-center text-4xl mt-16 font-sans font-bold'>
         <p><span className='text-custom-color-1'>Forget </span> about the </p>
         <p> <span className='text-custom-color-1 italic'>years long-research </span></p>
         <p>process... </p>
@@ -110,7 +110,7 @@ const Thirteen = () => {
                 <img src={second} alt="img loading" />
             </div>
       </div>
-      <div className='font-sans md:flex hidden justify-center items-center text-4xl mt-16'>
+      <div className='font-sans md:flex hidden justify-center items-center text-4xl mt-16 font-bold'>
         <p> Go from <span className='text-custom-color-1 underline'>"No Product " to</span> your <span className='text-custom-color-1 underline'>"First Winning Product"</span> in mere days</p>
       </div>
       <div className='font-serif md:flex hidden justify-center items-center mt-10 text-2xl flex-col '>

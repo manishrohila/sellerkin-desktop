@@ -6,7 +6,7 @@ import line from "../img/money back.svg"
 const Twelve = () => {
     return (
         <div className='bg-custom-color-2 pt-10 mb-10'>
-            <div className='hidden text-5xl font-sans md:flex flex-col justify-center items-center'>
+            <div className='hidden text-5xl font-bold font-sans md:flex flex-col justify-center items-center'>
                 <p>This simply Means you will be able to</p>
                 <div className='flex gap-2'>
                     <div>
@@ -19,7 +19,7 @@ const Twelve = () => {
                 </div>
 
             </div>
-            <div className='flex text-5xl font-sans md:hidden flex-col justify-center items-center'>
+            <div className='flex text-5xl font-sans md:hidden flex-col justify-center items-center font-bold '>
                 <p>This simply </p>
                 <p>Means you will </p>
                 <p>be able to attract</p>
@@ -30,7 +30,7 @@ const Twelve = () => {
             </div>
 
 
-            <div className='md:hidden grid grid-cols-1 mt-10'>
+            <div className='md:hidden grid grid-cols-1 mt-10 font-serif'>
                 <div>
                     <img src={girl} alt="girl img loading" />
                 </div>
@@ -72,7 +72,7 @@ const Twelve = () => {
 
                 
             </div>
-            <div className='md:grid hidden grid-cols-2 mt-10'>
+            <div className='md:grid hidden grid-cols-2 mt-10 font-serif'>
                 <div className='flex flex-col gap-4 justify-evenly ml-52'>
                     <div>
                         <p>The Game is for SMART Entrepreneurs MEANS </p>
