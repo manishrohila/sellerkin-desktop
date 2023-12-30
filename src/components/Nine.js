@@ -6,8 +6,7 @@ import underline from "../img/Vector 37.svg"
 import bonus1 from "../img/Group 439.svg"
 import bonus2 from "../img/Group 440.svg"
 import bonus3 from "../img/Group 441.svg"
-import trangle from "../img/Vector 42.svg"
-import trangle1 from "../img/Vector 41.svg"
+
 import left_arrow from "../img/mingcute_arrows-right-line.png";
 import right_arrow from "../img/mingcute_arrows-right-line (1).png";
 import visa1 from "../img/toppng 4.svg"
@@ -15,10 +14,12 @@ import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
 import mac from "../img/mac1.svg";
 import window from "../img/windows1.svg";
+import left_box from "../img/left box.svg"
+import right_box from "../img/right box.svg"
 const Nine = () => {
     return (
-        <div className='bg-custom-color p-10 mt-10'>
-            <div className='md:flex hidden flex-col text-5xl justify-center items-center'>
+        <div className='bg-custom-color p-20 mt-10'>
+            <div className='md:flex hidden flex-col text-5xl justify-center items-center font-sans font-bold'>
                 <div>
                     <p>Not just that, If you decide to take action today you</p>
                 </div>
@@ -44,18 +45,16 @@ const Nine = () => {
 
             </div>
 
-            <div className='md:flex hidden  shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-4/5 mx-auto'>
+            <div className='md:flex hidden   shadow-xl justify-center items-center mt-20 bg-custom-color-2 w-9/12 mx-auto'>
                 <div className=''>
                     <div>
-                        <img src={bonus1} alt="img" className='relative  right-28' />
+                        <img src={bonus1} alt="img" className='relative  right-[7.5rem]' />
                     </div>
-                    <div>
-                        <img src={trangle} alt="img" className='relative  right-28' />
-                    </div>
-                    <div>
+                    
+                    <div className='relative right-6 font-serif mb-2'>
                         <p className='font-bold'>(Value $X)</p>
                     </div>
-                    <div>
+                    <div className='relative right-6 font-serif'>
                         <p>
                             A detailed guide on how to optimize Etsy
                         </p>
@@ -69,7 +68,7 @@ const Nine = () => {
                     <img src={frist} alt="img loading" className='' />
                 </div>
             </div>
-            <div className='md:flex hidden shadow-xl justify-center items-center mt-24 bg-custom-color-2 w-4/5 mx-auto gap-10'>
+            <div className='md:flex hidden shadow-xl justify-center items-center mt-24 bg-custom-color-2 w-9/12 mx-auto gap-10'>
                 <div className='relative bottom-10'>
                     <img src={second} alt="img loading" className='' />
                 </div>
@@ -78,13 +77,11 @@ const Nine = () => {
                     <div>
                         <img src={bonus2} alt="img" className=' relative right-1 ' />
                     </div>
-                    <div className='flex justify-end relative bottom-4 right-3'>
-                        <img src={trangle1} alt="img" className='' />
-                    </div>
-                    <div className="">
+                    
+                    <div className='relative left-10 font-serif mb-2'>
                         <p className='font-bold'>(Value $X)</p>
                     </div>
-                    <div >
+                    <div className='relative left-10 font-serif'>
                         <p>
                             A comprehensive ebook filled with tips,
                         </p>
@@ -96,18 +93,16 @@ const Nine = () => {
                 </div>
 
             </div>
-            <div className='md:flex hidden  shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-4/5 mx-auto p-10'>
+            <div className='md:flex hidden  shadow-xl justify-center items-center mt-16 bg-custom-color-2 w-9/12 mx-auto p-10'>
                 <div className=''>
                     <div>
-                        <img src={bonus3} alt="img" className='relative  right-14' />
+                        <img src={bonus3} alt="img" className='relative  right-16' />
                     </div>
-                    <div>
-                        <img src={trangle} alt="img" className='relative  right-14' />
-                    </div>
-                    <div>
+                    
+                    <div className='relative left-6 font-serif mb-2'>
                         <p className='font-bold'>(Value $X)</p>
                     </div>
-                    <div>
+                    <div className='relative left-6 font-serif'>
                         <p>
                             An invitation to a private Facebook
                         </p>
@@ -118,13 +113,13 @@ const Nine = () => {
                     </div>
                 </div>
                 <div className=''>
-                    <img src={third} alt="img loading" className='' />
+                    <img src={third} alt="img loading" className='relative left-11' />
                 </div>
             </div>
 
             {/* Mobile version */}
 
-            <div className='md:hidden flex flex-col shadow-xl justify-center items-center mt-16 bg-custom-color-2  p-10 '>
+            <div className='md:hidden flex flex-col font-serif shadow-xl justify-center items-center mt-16 bg-custom-color-2  p-10 '>
                 <div className=''>
 
                     <div className='flex justify-center items-center mb-6 '>
@@ -148,7 +143,7 @@ const Nine = () => {
 
             </div>
 
-            <div className='md:hidden flex flex-col shadow-xl justify-center items-center mt-16 bg-custom-color-2  p-10 '>
+            <div className='md:hidden flex flex-col shadow-xl font-serif justify-center items-center mt-16 bg-custom-color-2  p-10 '>
                 <div className=''>
 
                     <div className='flex justify-center items-center mb-6'>
@@ -169,7 +164,7 @@ const Nine = () => {
                 </div>
 
             </div>
-            <div className='md:hidden flex flex-col shadow-xl justify-center items-center mt-16 bg-custom-color-2  p-10 '>
+            <div className='md:hidden flex flex-col shadow-xl font-serif justify-center items-center mt-16 bg-custom-color-2  p-10 '>
                 <div className=''>
 
                     <div className='flex justify-center items-center mb-6'>
@@ -206,7 +201,7 @@ const Nine = () => {
                     <img src={right_arrow} alt="right arrow 2"></img>
                 </div>
             </div>
-            <div className="md:flex md:justify-center gap-4 ">
+            <div className="md:flex md:justify-center gap-4 mt-20 ">
                 <div className="flex justify-center mb-5">
                     <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
                 </div>

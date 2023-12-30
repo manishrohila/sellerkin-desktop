@@ -17,8 +17,8 @@ import correct from "../img/Mask group (1).svg"
 import styles from "./Eight.module.css"
 const Eight = () => {
     return (
-        <div className='bg-custom-color-2'>
-            <div className='text-5xl  flex-col justify-center items-center hidden md:flex '>
+        <div className='bg-custom-color-2 pt-10'>
+            <div className='text-5xl font-bold font-sans  flex-col justify-center items-center hidden md:flex '>
                 <div>
                     <p>Here is how Sellerkin makes it <span className='text-custom-color-1'>easy</span> </p>
                 </div>
@@ -34,7 +34,7 @@ const Eight = () => {
 
                 </div>
             </div>
-            <div className='text-4xl flex  flex-col justify-center items-center md:hidden '>
+            <div className='text-4xl flex font-bold font-sans    flex-col justify-center items-center md:hidden '>
 
                 <p>Here is how </p>
                 <p>Sellerkin makes it  </p>
@@ -45,15 +45,15 @@ const Eight = () => {
             </div>
 
 
-            <div className='hidden justify-center items-center mt-8 md:flex'>
+            <div className='hidden justify-center font-serif items-center mt-8 md:flex'>
                 <p>And helps you to start having <strong>sales in weeks </strong> & helps you to <strong>grow</strong> faster</p>
             </div>
-            <div className='flex flex-col justify-center items-center mt-8 md:hidden'>
+            <div className='flex flex-col justify-center font-serif items-center mt-8 md:hidden'>
                 <p>And helps you to start having <strong>sales</strong></p>
                 <p><strong> in weeks </strong> & helps you to <strong>grow</strong> faster</p>
             </div>
 
-            <div className='hidden mt-20 justify-center items-center gap-16 md:flex'>
+            <div className='hidden mt-20 justify-center items-center gap-16 md:flex font-serif'>
                 <div>
                     <div className='font-bold text-2xl'>
                         <p> <span className='text-custom-color-1'>Product Finder:</span> "Discover Winning Etsy</p>
@@ -88,7 +88,7 @@ const Eight = () => {
                 </div>
             </div>
             {/* Mobile version first section */}
-            <div className='flex flex-col mt-10 p-10 justify-center items-center gap-4 md:hidden bg-custom-color'>
+            <div className='flex flex-col mt-10 p-10 font-serif justify-center items-center gap-4 md:hidden bg-custom-color'>
 
                 <div className='font-bold text-2xl flex-col justify-center items-center'>
                     <p> <span className='text-custom-color-1'>Product Finder:</span> "Discover </p>
@@ -137,7 +137,7 @@ const Eight = () => {
             <div className='md:flex hidden justify-center'>
                 <img src={arrow1} alt="arrow loading" />
             </div>
-            <div className='md:flex hidden mt-10 justify-center items-center gap-16'>
+            <div className='md:flex hidden mt-10 font-serif justify-center items-center gap-16'>
                 <div>
                     <img src={second} alt="image loading" />
                 </div>
@@ -180,7 +180,7 @@ const Eight = () => {
 
             </div>
             {/* Mobile version second section */}
-            <div className='flex flex-col mt-5 p-10 justify-center items-center gap-4 md:hidden'>
+            <div className='flex flex-col mt-5 p-10 justify-center font-serif items-center gap-4 md:hidden'>
 
 
                 <div className='font-bold text-xl'>
@@ -236,7 +236,7 @@ const Eight = () => {
             <div className='md:flex hidden justify-center'>
                 <img src={arrow2} alt="arrow loading" />
             </div>
-            <div className='md:flex hidden mt-10 justify-center items-center gap-16'>
+            <div className='md:flex hidden mt-10 justify-center font-serif items-center gap-16'>
                 <div>
                     <div className='font-bold text-2xl'>
                         <p> <span className='text-custom-color-1'>Listing Analyzer:</span> "Sell Faster and Smarter</p>
@@ -282,7 +282,7 @@ const Eight = () => {
                 </div>
             </div>
             {/* Mobile version Third  section */}
-            <div className='flex flex-col bg-custom-color p-10 justify-center md:hidden items-center gap-4'>
+            <div className='flex flex-col bg-custom-color p-10 font-serif justify-center md:hidden items-center gap-4'>
 
                 <div className='font-bold text-xl'>
                     <p >
@@ -335,18 +335,18 @@ const Eight = () => {
 
 
             </div>
-            <div className="flex justify-center mt-5 font-sans">
+            <div className="flex justify-center mt-5 gap-6 font-sans">
                 <div>
-                    <img src={left_arrow} alt="left arrow"></img>
+                    <img src={left_arrow} alt="left arrow" className='flex items-center justify-center relative'></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
+                <div className="bg-custom-color-1 m-1 text-2xl px-10 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
                     <p className="mr-1 md:mr-1">Scale Your Etsy</p>
                     <p>
                         Business Today
                     </p>
                 </div>
                 <div>
-                    <img src={right_arrow} alt="right arrow 2"></img>
+                    <img src={right_arrow} alt="right arrow 2" className='flex items-center justify-center relative '></img>
                 </div>
             </div>
             <div className="md:flex md:justify-center gap-4 mt-5">

@@ -12,8 +12,8 @@ module.exports = {
         '26': '26rem',
       },
       fontFamily: {
-        'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
-        'serif': ['Poppins', 'ui-serif', 'Georgia'],
+        'sans': ['Inter', 'sans-serif'],
+        'serif': ['Poppins', 'sans-serif'],
       },
       boxShadow: {
         custom: '7px 7px rgba(249, 87, 0, 0.3)'

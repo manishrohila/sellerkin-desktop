@@ -9,9 +9,9 @@ import vector from "../img/Vector.svg"
 const Tenth = () => {
 
     return (
-        <div className='bg-custom-color-2'>
+        <div className='bg-custom-color-2 pt-10'>
 
-            <div className='hidden md:flex gap-2 text-5xl items-center justify-center '>
+            <div className='hidden md:flex gap-2 text-5xl items-center justify-center font-bold font-sans'>
                 <p className='relative -top-1'>7 Days </p>
                 <div className='flex flex-col '>
                     <p><span className='text-custom-color-1'>Money Back Guarantee</span></p>
@@ -27,8 +27,8 @@ const Tenth = () => {
             </div>
 
 
-            <div className='hidden md:flex  justify-center items-center gap-10 mt-10'>
-                <div className='bg-custom-color flex flex-col gap-5 justify-start items-center p-14 text-left shadow-2xl'>
+            <div className='hidden md:flex  justify-center items-center gap-10 mt-10 font-serif'>
+                <div className='bg-custom-color flex flex-col gap-5 justify-start items-center p-14 text-left '>
                     <div className=''>
                         <p>"Sellerkin" comes with a Rock-solid promise: our</p>
                         <p>unbeatable 7-day, 100% Money Back Guarantee.</p>
@@ -49,11 +49,11 @@ const Tenth = () => {
                     <img src={image} alt="img loading" />
                 </div>
             </div>
-            <div className='flex  flex-col md:hidden  justify-center items-center gap-10 mt-10'>
+            <div className='flex  flex-col md:hidden font-serif  justify-center items-center gap-10 mt-10'>
                 <div className='z-10'>
                     <img src={image} alt="img loading " className='w-40 h-40' />
                 </div>
-                <div className='bg-custom-color flex flex-col gap-5 justify-start items-center p-14 text-left shadow-2xl relative -top-24 pt-20 z-0'>
+                <div className='bg-custom-color flex flex-col gap-5 justify-start items-center p-14 text-left  relative -top-24 pt-20 z-0'>
 
                     <div >
                         <p className='flex items-center justify-center'>"Sellerkin" comes with a </p>
@@ -83,7 +83,7 @@ const Tenth = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row text-5xl  justify-center items-center -mt-10 md:mt-10 '>
+            <div className='flex flex-col md:flex-row text-5xl font-sans font-bold gap-3 justify-center items-center -mt-10 md:mt-16 '>
                 <div className='flex flex-col gap-3' >
                     <p className='text-custom-color-1'>Pick the option</p>
                     <img src={line} alt="img loading curve line" className='w-80 hidden md:block' />
@@ -92,7 +92,7 @@ const Tenth = () => {
                     <p className=''>that's best for you </p>
                 </div>
             </div>
-            <div className=' hidden md:flex justify-center items-center mt-20 '>
+            <div className=' hidden md:flex justify-center items-center mt-20 font-serif '>
                 <div className='w-5/6 mb-20'>
                     <table className='w-full'>
                         <tr>
@@ -614,7 +614,7 @@ const Tenth = () => {
                             </td>
 
                         </tr>
-                        <tr className=''>
+                        <tr className='font-serif'>
                             <td>
 
                             </td>
@@ -654,7 +654,7 @@ const Tenth = () => {
 
             </div>
 
-            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 mt-5 '>
+            <div className='bg-custom-color font-serif flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 mt-5 '>
                 <div className='relative'>
                     <img src={rectangle} alt="" className='' />
                     <p className='absolute left-24 top-0 bottom-0 text-2xl '>Basic</p>
@@ -863,7 +863,7 @@ const Tenth = () => {
 
 
             </div>
-            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 mt-10'>
+            <div className='bg-custom-color font-serif  flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 mt-10'>
                 <div className='relative'>
                     <img src={rectangle} alt="" />
                     <p className='absolute left-24 top-0 bottom-0 text-2xl'>Standard</p>
@@ -1071,7 +1071,7 @@ const Tenth = () => {
 
 
             </div>
-            <div className='bg-custom-color flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-10 mt-10'>
+            <div className='bg-custom-color font-serif  flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-10 mt-10'>
                 <div className='relative'>
                     <img src={rectangle} alt="" />
                     <p className='absolute left-32 top-0 bottom-0 text-2xl'>Pro</p>

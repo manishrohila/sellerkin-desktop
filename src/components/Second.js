@@ -1,26 +1,27 @@
 import React from 'react'
 import "./Second.css"
 import pin from "../img/Group 80.svg"
-import face from "../img/1.png"
+import face from "../img/Ellipse 69 (1).svg"
 import vector from "../img/Vector.svg"
 import group84 from "../img/Group 84.svg"
 import group116 from "../img/Group 116.svg"
+
 const Second = () => {
     return (
         <div>
-            <div className="floating-box hidden md:block flex-col">
-                <div className='flex items-center justify-center'>
+            <div className="floating-box hidden md:block flex-col mt-20">
+                <div className='flex items-center justify-center relative bottom-16 '>
                     <img className="flex items-center justify-center md:w-20 md:h-24 w-8 " src={pin} alt="pin"></img>
                 </div>
 
 
-                <div className='flex gap-10 justify-evenly'>
-                    <div className='flex flex-col'>
-                        <div className="class1">
+                <div className='flex  gap-10 justify-evenly font-serif'>
+                    <div className='flex   flex-col'>
+                        <div className="class1 left-10 relative">
 
                             <div className="flex gap-2">
                                 <img className="w-14 h-14" src={face} alt="hello"></img>
-                                <div className='flex flex-col text-base'>
+                                <div className='flex flex-col text-base relative left-5'>
                                     <p>To: All Business Owners</p>
                                     <p><strong>From the Desk of Amit Miglani</strong></p>
                                 </div>
@@ -30,12 +31,12 @@ const Second = () => {
 
                         </div>
 
-                        <div className='flex flex-col gap-6 left-10 relative text-base'>
+                        <div className='flex flex-col gap-6 left-10 relative text-base mt-8 font-serif'>
                             <div>
                                 <p>It's a Proven Fact... </p>
                             </div>
                             <div>
-                                <p>Finding <b>WINNING PRODUCT</b>  and SELLING it is </p>
+                                <p className='font-serif'>Finding <b>WINNING PRODUCT</b>  and SELLING it is </p>
                                 <p>the <b>Key to Success on Etsy Marketplace.</b></p>
 
                             </div>
@@ -53,7 +54,7 @@ const Second = () => {
                                 <p> ...because <strong>NO ONE IS DOING PROPER RESEARCH</strong></p>
                             </div>
                         </div>
-                        <div className='flex flex-col gap-3 relative left-10 text-base mt-4'>
+                        <div className='flex flex-col gap-3 relative left-10 text-base mt-4 font-serif'>
                             <div className='flex gap-3'>
                                 <p><img className="w-4 h-4" src={vector} alt="dot"></img></p>
                                 <p>You make the <strong>product</strong> </p>
@@ -71,7 +72,7 @@ const Second = () => {
                                 <p>You do all the <strong>hard work</strong> </p>
                             </div>
                         </div>
-                        <div className='flex flex-col relative ml-10 mt-4'>
+                        <div className='flex flex-col relative ml-10 mt-4 font-serif'>
                             <p>And hoping that you will start receiving traction</p>
                             <p>and sales only to <b>find out ZERO Sales next day..</b></p>
                         </div>
@@ -82,7 +83,7 @@ const Second = () => {
                 </div>
 
 
-                <div className='flex  justify-evenly mt-10'>
+                <div className='flex  justify-evenly mt-10 font-serif'>
                     <div>
                         <img className="" src={group116} alt="dfsd"></img>
                     </div>

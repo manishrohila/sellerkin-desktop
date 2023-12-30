@@ -19,7 +19,7 @@ const Fourth = () => {
                 <p className='text-5xl flex gap-3'><span><img src={logo} alt="logo" /></span> SellerKin</p>
             </div>
 
-            <div className='hidden md:grid grid-cols-2 relative text-xl '>
+            <div className='hidden md:grid grid-cols-2 relative text-xl font-serif '>
                 <div className='relative pl-32 mt-24'>
                     <div className=' mb-10'>
                         <p >Sellerkin is a tool for Etsy sellers to help them</p>
@@ -27,7 +27,7 @@ const Fourth = () => {
                         <p>their Etsy shop in less than <strong>60 seconds</strong></p>
                         <p><strong>without trial & error</strong></p>
                     </div>
-                    <div className='text-xl mb-10'>
+                    <div className='text-xl mb-10 font-serif'>
                         <p>It works like a charm and can give you </p>
                         <p>the Winners faster than you can say Cheese.</p>
 
@@ -58,7 +58,7 @@ const Fourth = () => {
 
 
             </div>
-            <div className='md:hidden flex justify-center items-center flex-wrap mt-10  gap-4 text-base mb-10'>
+            <div className='md:hidden flex justify-center items-center flex-wrap mt-10  gap-4 text-base mb-10 font-serif'>
                 <div className='mb-7'>
                     <img src={macbook} alt='image'></img>
                 </div>
@@ -106,7 +106,7 @@ const Fourth = () => {
 
             <div className='md:flex hidden gap-7 flex-col md:flex-row justify-center pb-16 '>
 
-                <div className=' bg-custom-color-2 border-2 border-custom-color-1 rounded-md shadow-custom h-1/2 '>
+                <div className=' bg-custom-color-2  p-5 rounded-md shadow-custom h-1/2 '>
                     <div className='relative ml-3 top-2'>
                         <p><img src={first} alt=" img" className='h-16 w-16' /></p>
                     </div>
@@ -119,7 +119,7 @@ const Fourth = () => {
                     </div>
                 </div>
 
-                <div className=' bg-custom-color-2 border-2 border-custom-color-1 rounded-md shadow-custom h-3/5'>
+                <div className=' bg-custom-color-2  p-5 rounded-md shadow-custom h-3/5'>
                     <div className='relative ml-3 top-2'>
                         <p><img src={second} alt=" img" className='h-16 w-16' /></p>
                     </div>
@@ -135,7 +135,7 @@ const Fourth = () => {
                     </div>
                 </div>
 
-                <div className=' bg-custom-color-2 border-2 border-custom-color-1 rounded-md shadow-custom'>
+                <div className=' bg-custom-color-2 p-5 rounded-md shadow-custom'>
                     <div className='relative ml-3 top-2'>
                         <p><img src={third} alt=" img" className='h-16 w-16' /></p>
                     </div>

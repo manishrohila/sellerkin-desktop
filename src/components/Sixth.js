@@ -1,15 +1,20 @@
 import React from 'react'
 import first from "../img/Group 239.svg"
 import second from "../img/Group 240.svg"
+import underline from "../img/Vector 37 (1).svg"
 
 const Sixth = () => {
     return (
         <div className='bg-custom-color mb-20 mt-10 '>
-            <div className='flex text-5xl flex-col md:flex-row gap-3 justify-center items-center pt-20'>
-                <p className=''>Sellerkin works in </p>
-                <p><span className='text-custom-color-1'> 2 Easy Steps</span></p>
+            <div className='flex text-5xl flex-col md:flex-row  justify-center items-center pt-20 font-bold font-sans'>
+                <p className='flex justify-center items-center'>Sellerkin works in </p>
+                <div className='flex flex-col gap-3 relative top-2 justify-center items-center'>
+                    <p className='text-custom-color-1'>2 Easy Steps</p>
+                    <img src={underline} alt="underline loading" className='hidden md:flex ' />
+                </div>  
+                
             </div>
-            <div className='flex items-center gap-10  justify-evenly text-2xl mt-14 md:flex-row flex-col'>
+            <div className='flex items-center   justify-evenly text-2xl mt-14 md:flex-row flex-col'>
                 <div>
                     <img src={first} alt="img loading" className='w-80 h-54 md:w-full h-full' />
                 </div>
@@ -19,7 +24,7 @@ const Sixth = () => {
                     <p>Desired Keyword</p>
                 </div>
             </div>
-            <div className='flex items-center gap-10 justify-evenly text-2xl mt-14 md:flex-row flex-col mb-20'>
+            <div className='flex items-center relative md:left-5  justify-evenly text-2xl mt-32 md:flex-row flex-col mb-20 pb-20'>
                 <div className=' md:hidden'>
                     <img src={second} alt="img loading" className='w-80 h-54 md:w-full h-full' />
                 </div>

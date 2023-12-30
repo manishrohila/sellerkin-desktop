@@ -49,7 +49,7 @@ function First() {
                     <span className="text-3xl font-bold relative xl:bottom-2 ">SellerKin</span>
                 </div>
                 {/* ul list  */}
-                <div className="flex gap-8">
+                <div className="flex gap-8 font-serif">
                     <div>
                         <ul className=" justify-center list-none ml-4 hidden md:flex space-x-5">
                             <li className="text-lg">How it Works</li>
@@ -69,7 +69,7 @@ function First() {
                     </div>
                 </div>
 
-                <div className="hamburger-menu md:hidden block">
+                <div className="hamburger-menu md:hidden block font-serif">
                     <a href="#" onClick={() => setShowMenu(!showMenu)}>
                         <GiHamburgerMenu />
                         {showMenu ? (
@@ -84,8 +84,8 @@ function First() {
                     </a>
                 </div>
             </nav>
-            <div className="relative" >
-                <p className="border-2 font-sans rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white ">
+            <div className="relative font-serif" >
+                <p className="border-2  rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white font-serif">
                     This is an invite-only page...
                 </p>
                 <div className="relative">
@@ -96,23 +96,23 @@ function First() {
             </div>
 
 
-            <div className=" hidden md:block justify-center text-center align-center mt-6 mx-4 text-base ">
-                <div>
-                    <h4 className="font-sans">
+            <div className=" hidden md:flex justify-center text-center align-center mt-6 mx-4 text-base font-serif ">
+                <div className="font-serif">
+                    <h4 className="">
                         Golden Scaling Gateway for {" "}
-                        <span className=" font-sans font-bold">
+                        <span className="font-serif font-bold">
                             all Ecom Businesses & Digital
                         </span>
                     </h4>
                     <h4>
-                        <span className="font-sans font-bold">
+                        <span className="font-serif font-bold">
                             Product Owners Selling on Etsy Marketplace
                         </span>
                     </h4>
                 </div>
             </div>
 
-            <div className=" block md:hidden font-sans justify-center text-center align-center mt-6 mx-4 text-base ">
+            <div className=" block md:hidden font-serif justify-center text-center align-center mt-6 mx-4 text-base ">
                 <div>
                     <h4 className="font-sans">
                         Golden Scaling Gateway for {" "}
@@ -148,7 +148,7 @@ function First() {
                         src={underline}
                         alt="underline"
                         className="flex justify-center ml-80  w-2/5 xl:w-2/6 xl:ml-26"></img>
-                    <h2 className="text-3xl tracking-wide font-bold word-spacing ">
+                    <h2 className="text-3xl tracking-wide font-bold word-spacing font-sans ">
                         <span className="text-custom-color-1 inline-block word-spacing">
                             Finding The{" "}
                             <img
@@ -157,7 +157,7 @@ function First() {
                                 className="inline-block h-9 w-9 relative -mt-2 "></img>{" "}
                             Winning Products{" "}
                         </span>
-                        <span> And</span>
+                        <span className="font-sans"> And</span>
                     </h2>
                     <h2 className="text-3xl tracking-wider font-bold word-spacing italic">
                         Copying Them For Your Instant Sucess
@@ -221,7 +221,7 @@ function First() {
                         allowFullScreen></iframe>
                 </div>
 
-                <div className="mx-9 hidden md:block justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color font-sans">
+                <div className="mx-9 hidden md:block justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color font-serif">
                     <ul className="list-none mt-5 xl:mt-0 ">
 
                         <li className="mb-1 xl:mb-3 ">
@@ -291,7 +291,7 @@ function First() {
                     </ul>
                 </div>
             </div>
-            <div className="mt-5 hidden md:block  justify-center text-center text-2xl font-sans">
+            <div className="mt-5 hidden md:block  justify-center text-center text-2xl font-serif">
                 <div>
                     <p>Simple way to Reach Etsy Success in</p>
                     <p className="ml-5">Minutes without <span className="font-bold">Trial and Error</span> </p>
@@ -301,7 +301,7 @@ function First() {
                     <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 right-20"></img>
                 </div>
             </div>
-            <div className="mt-5 block md:hidden justify-center text-center text-xl font-sans">
+            <div className="mt-5 block md:hidden justify-center text-center text-xl font-serif">
                 <div>
                     <p>Simple way to Reach Etsy Success</p>
                     <p className="ml-5">in Minutes without <span className="font-bold">Trial and Error</span> </p>
