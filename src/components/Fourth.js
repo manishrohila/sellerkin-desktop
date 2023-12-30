@@ -7,12 +7,22 @@ import third from "../img/Group 594.svg"
 import vector from "../img/Vector.svg"
 import macbook from "../img/Group 229.svg"
 import shop_ana from "../img/Group 515.svg"
+import underline from "../img/Vector 31.svg"
 
 const Fourth = () => {
     return (
         <div className='bg-[#FEFAE7]    '>
-            <div className='hidden md:flex md:justify-center flex-row mb-10 mt-10 font-bold font-sans '>
-                <p className='text-5xl flex items-center justify-center gap-3 h-10 pt-24 '>Introducing <span><img src={logo} alt="logo" /></span> SellerKin</p>
+            <div className='hidden md:flex md:justify-center flex-row gap-2 pt-20 font-bold font-sans text-5xl'>
+                <p className=' '>Introducing </p>
+                <div className='flex flex-col gap-2'>
+                    <div className='flex  gap-2'>
+                        <img src={logo} alt="logo" />
+                        <p> SellerKin</p>
+                    </div>
+                    <img src={underline} alt="" />
+                </div>
+
+
             </div>
             <div className='md:hidden flex flex-col justify-center items-center font-bold font-sans'>
                 <p className='text-2xl flex gap-3 text-custom-color-1'>Introducing </p>
@@ -102,7 +112,7 @@ const Fourth = () => {
 
 
 
-                {/* Three points */}
+            {/* Three points */}
 
             <div className='md:flex hidden gap-7 flex-col md:flex-row justify-center pb-16 '>
 

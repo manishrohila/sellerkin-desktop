@@ -22,6 +22,7 @@ import right_arrow from "../img/mingcute_arrows-right-line (1).png";
 import visa1 from "../img/toppng 4.svg"
 import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
+import underline from "../img/Vector 3.svg"
 const Third = () => {
     return (
         <div className='bg-custom-color-2  mt-7 mb-2'>
@@ -32,9 +33,9 @@ const Third = () => {
                     <p>The </p>
                 </div>
 
-                <div>
+                <div className='gap-4 flex flex-col'>
                     <p className='text-custom-color-1'>Winning Formula</p>
-              
+                    <img src={underline} alt="" />
                 </div>
                 <div>
                     <p>Revealed</p>

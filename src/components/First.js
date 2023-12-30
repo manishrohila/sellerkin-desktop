@@ -6,7 +6,7 @@ import achievement from "../img/Group 193.png";
 import underline from "../img/Vector 2.png";
 import li1 from "../img/li11.svg";
 import li2 from "../img/li22.svg";
-import li3 from "../img/li33.svg";
+import li3 from "../img/Group 205.svg";
 import li4 from "../img/li44.svg";
 import li5 from "../img/li55.svg";
 import left_arrow from "../img/mingcute_arrows-right-line.png";
