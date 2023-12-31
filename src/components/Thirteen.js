@@ -18,7 +18,7 @@ const Thirteen = () => {
         <p>half the battle is already Won.</p>
         <img src={underline} alt="img loading" className='hidden md:block mt-4' />
       </div>
-      <div className='text-3xl md:hidden flex font-bold  place-items-center flex-col font-sans font-bold'>
+      <div className='text-3xl md:hidden flex  place-items-center flex-col font-sans font-bold'>
         <p>Once you Know </p>
         <p> about this <span className='text-custom-color-1'>SECRET CODE,</span></p>
         <p>  <span className='text-custom-color-1'>CODE,</span> half the battle</p>
@@ -111,7 +111,7 @@ const Thirteen = () => {
             </div>
       </div>
       <div className='font-sans md:flex hidden justify-center items-center text-4xl mt-16 font-bold'>
-        <p> Go from <span className='text-custom-color-1 underline'>"No Product " to</span> your <span className='text-custom-color-1 underline'>"First Winning Product"</span> in mere days</p>
+        <p> Go from <span className='text-custom-color-1 underline'>"No Product "</span> to your <span className='text-custom-color-1 underline'>"First Winning Product"</span> in mere days</p>
       </div>
       <div className='font-serif md:flex hidden justify-center items-center mt-10 text-2xl flex-col '>
         <p>Don't spend another decade working without seeing results. It's time to build the</p>

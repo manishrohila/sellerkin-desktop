@@ -27,9 +27,9 @@ const Eight = () => {
                     <div>
                         <p>for you </p>
                     </div>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col gap-2'>
                         <p> &nbsp; to find winning products</p>
-                        <img src={underline} alt="" className='w-[90%]' />
+                        <img src={underline} alt="" className='w-full relative left-5' />
                     </div>
 
                 </div>

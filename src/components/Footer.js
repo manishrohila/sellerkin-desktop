@@ -2,15 +2,15 @@ import React from 'react'
 import logo from "../img/logo.svg";
 const Footer = () => {
     return (
-        <div className=' bg-[#2F363C] pt-10 font-serif'>
-            <div className='md:grid hidden grid-cols-2 '>
-                <div className='text-white flex flex-col gap-4 ml-16'>
+        <div className=' bg-[#2F363C] pt-4 font-serif'>
+            <div className='md:grid hidden grid-cols-2 text-xs'>
+                <div className='text-white flex flex-col relative top-4 gap-4 ml-16'>
                     <div>
                         <p>This site is not a part of the Facebook website or Facebook inc. Additionally, This site is</p>
                         <p>NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.</p>
                     </div>
                     <div>
-                        <p>Copyright © Sellerkin 2023. All Right Reserved.</p>
+                        <p>Copyright © Sellerkin 2024. All Right Reserved.</p>
                     </div>
                     <div className='mb-10'>
                         <p>Privacy Policy | Terms Of Services | Disclaimer</p>
@@ -35,7 +35,7 @@ const Footer = () => {
                     <p className='flex justify-center items-center'>trademark of FACEBOOK, Inc.</p>
                 </div>
                 <div>
-                    <p className='flex justify-center items-center'>Copyright © Sellerkin 2023. All Right Reserved.</p>
+                    <p className='flex justify-center items-center'>Copyright © Sellerkin 2024. All Right Reserved.</p>
                 </div>
                 <div className='mb-10'>
                     <p className='flex justify-center items-center'>Privacy Policy | Terms Of Services | Disclaimer</p>

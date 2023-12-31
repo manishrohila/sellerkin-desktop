@@ -27,8 +27,8 @@ const Nine = () => {
                 <div className='flex gap-2 justify-center items-center'>
                     <p className='ml-36'>Will be rewarded with </p>
                     <div className='flex flex-col text-custom-color-1 '>
-                        <p>Fast Action Bonues:</p>
-                        <img src={underline} alt="img" className='w-4/5' />
+                        <p>Fast Action Bonuses:</p>
+                        <img src={underline} alt="img" className='w-8/12' />
                     </div>
                 </div>
 

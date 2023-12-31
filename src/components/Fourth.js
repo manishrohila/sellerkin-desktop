@@ -29,7 +29,7 @@ const Fourth = () => {
                 <p className='text-5xl flex gap-3'><span><img src={logo} alt="logo" /></span> SellerKin</p>
             </div>
 
-            <div className='hidden md:grid grid-cols-2 relative text-xl font-serif '>
+            <div className='hidden md:grid grid-cols-2 relative text-base font-serif '>
                 <div className='relative pl-32 mt-24'>
                     <div className=' mb-10'>
                         <p >Sellerkin is a tool for Etsy sellers to help them</p>
@@ -37,7 +37,7 @@ const Fourth = () => {
                         <p>their Etsy shop in less than <strong>60 seconds</strong></p>
                         <p><strong>without trial & error</strong></p>
                     </div>
-                    <div className='text-xl mb-10 font-serif'>
+                    <div className='text-base mb-10 font-serif'>
                         <p>It works like a charm and can give you </p>
                         <p>the Winners faster than you can say Cheese.</p>
 
