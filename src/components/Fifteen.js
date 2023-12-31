@@ -172,7 +172,7 @@ const Fifteen = () => {
                     <p className='flex justify-center'>what you've achieved</p>
                 </div>
             </div>
-            <div className='flex flex-col gap-2 border-2 bg-custom-color-2 rounded-lg shadow-lg w-9/12 mx-auto mt-10 pb-9 font-serif'>
+            <div className='flex flex-col md:hidden gap-2 border-2 bg-custom-color-2 rounded-lg shadow-lg w-9/12 mx-auto mt-10 pb-9 font-serif'>
                 <div className='relative font-sans top-9'>
                     <img src={box} alt="img loading" className='relative right-6 ' />
                     <p className='absolute top-1 left-10 text-white text-lg'>6 Month from Now:</p>
