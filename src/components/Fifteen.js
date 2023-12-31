@@ -5,10 +5,11 @@ import third from "../img/Component 11.svg"
 import box from "../img/Component 12.svg"
 import arrow from "../img/Vector 35 (1).svg"
 import underline from "../img/Vector 40.svg"
+import arrow2 from "../img/Vector 51.svg"
 import "./fifteen.css"
 const Fifteen = () => {
     return (
-        <div className='bg-custom-color pt-10'>
+        <div className='bg-custom-color pt-10 pb-10'>
             <div className='text-5xl font-sans font-bold hidden md:flex justify-center gap-2'>
                 <p><span className='text-custom-color-1'>Imagine </span></p>
                 <div className='flex flex-col gap-2 justify-center'>
@@ -106,6 +107,104 @@ const Fifteen = () => {
                     <img src={third} alt="img loading" />
                 </div>
             </div>
+
+
+            {/* Mobile Version */}
+
+            <div className='flex flex-col md:hidden gap-2 border-2 bg-custom-color-2 rounded-lg shadow-lg w-9/12 mx-auto mt-10 pb-9 font-serif'>
+                <div className='relative font-sans top-9'>
+                    <img src={box} alt="img loading" className='relative right-6 ' />
+                    <p className='absolute top-1 left-10 text-white text-lg'>1 Week from Now:</p>
+                </div>
+                <div >
+                    <img src={first} alt="img loading" className='w-52 h-52 mx-auto' />
+                </div>
+                <div className='relative'>
+                    <img src={arrow2} alt=""className='absolute bottom-3 left-16'/>
+                </div>
+
+                <div className='mt-4'>
+
+                    <p className='flex justify-center'>You've just started using </p>
+                    <p className='flex justify-center'> Sellerkin. Already, you're</p>
+                    <p className='flex justify-center'>finding products that people </p>
+                    <p className='flex justify-center'>love on etsy. You're not</p>
+                    <p className='flex justify-center'>guessing anymore; you're </p>
+                    <p className='flex justify-center'> making &nbsp; <strong>smart choices.</strong></p>
+                </div>
+                <div>
+                    <p className='flex justify-center'>You feel a spark of excitement </p>
+                    <p className='flex justify-center'>as you see your &nbsp;<strong className='underline'>first sale</strong></p>
+                    <p className='flex justify-center'> come in. The hard work you </p>
+                    <p className='flex justify-center'> put into your products is</p>
+                    <p className='flex justify-center'> finally &nbsp;  <strong className='underline'>paying off!</strong></p>
+                </div>
+            </div>
+
+            <div className='flex flex-col md:hidden gap-2 border-2 bg-custom-color-2 rounded-lg shadow-lg w-9/12 mx-auto mt-10 pb-9 font-serif'>
+                <div className='relative font-sans top-9'>
+                    <img src={box} alt="img loading" className='relative right-6 ' />
+                    <p className='absolute top-1 left-10 text-white text-lg'>1 Month from Now:</p>
+                </div>
+                <div className='mt-10'>
+                    <img src={second} alt="img loading" className='w-52 h-52 mx-auto' />
+                </div>
+                <div className='relative'>
+                    <img src={arrow2} alt=""className='absolute bottom-3 left-16'/>
+                </div>
+
+                <div className='mt-4'>
+
+                    <p className='flex justify-center'>Yore Etsy shop is growing. </p>
+                    <p className='flex justify-center'> Yor're &nbsp; <strong>selling more and</strong></p>
+                    <p className='flex justify-center'><strong>more </strong> &nbsp; everyday. You're not </p>
+                    <p className='flex justify-center'>staying up late, worrying</p>
+                    <p className='flex justify-center'>about what to sell next. </p>
+                    <p className='flex justify-center'> <strong>Sellekin is like a friend </strong></p>
+                    <p className='flex justify-center'><strong>that helps you find the </strong></p>
+                    <p className='flex justify-center'> <strong>right products.</strong></p>
+                </div>
+                <div>
+                    <p className='flex justify-center'>Your family notices that </p>
+                    <p className='flex justify-center'> you're &nbsp;<strong>happier</strong> and have</p>
+                    <p className='flex justify-center'>more time to spend with </p>
+                    <p className='flex justify-center'> them. You feel proud of</p>
+                    <p className='flex justify-center'>what you've achieved</p>
+                </div>
+            </div>
+            <div className='flex flex-col gap-2 border-2 bg-custom-color-2 rounded-lg shadow-lg w-9/12 mx-auto mt-10 pb-9 font-serif'>
+                <div className='relative font-sans top-9'>
+                    <img src={box} alt="img loading" className='relative right-6 ' />
+                    <p className='absolute top-1 left-10 text-white text-lg'>6 Month from Now:</p>
+                </div>
+                <div className='mt-10'>
+                    <img src={third} alt="img loading" className='w-52 h-52 mx-auto' />
+                </div>
+                <div className='relative'>
+                    <img src={arrow2} alt=""className='absolute bottom-3 left-16'/>
+                </div>
+                <div className='mt-4'>
+
+                    <p className='flex justify-center'>Wow! Your Etsy business is </p>
+                    <p className='flex justify-center'> booming. You're not just</p>
+                    <p className='flex justify-center'>selling products; &nbsp; <strong>you're </strong> </p>
+                    <p className='flex justify-center'> <strong> building a Brand.&nbsp;  </strong> People</p>
+                    <p className='flex justify-center'>know your shop and love </p>
+                    <p className='flex justify-center'> what you offer.</p>
+                </div>
+                <div>
+                    <p className='flex justify-center'>You've even started to hire </p>
+                    <p className='flex justify-center'> help because the business</p>
+                    <p className='flex justify-center'> is doing so well. You look </p> 
+                    <p className='flex justify-center'>back and think about how</p>
+                    <p className='flex justify-center'> sellekin helped you get </p> 
+                    <p className='flex justify-center'>here. You feel grateful and </p>
+                    <p className='flex justify-center'>excited about the future.</p>
+                </div>
+            </div>
+
+
+
         </div>
     )
 }
