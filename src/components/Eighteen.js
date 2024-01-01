@@ -9,7 +9,7 @@ import window from "../img/windows1.svg";
 const Eighteen = () => {
     return (
         <div className='pt-10 bg-custom-color-2 mb-10 font-serif'>
-            <div className='font-serif hidden  md:flex flex-col gap-4 flex-wrap p-10 border-2 border-dashed w-7/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto'>
+            <div className='font-serif hidden  md:flex flex-col gap-4 flex-wrap p-10 border-2 border-dashed w-7/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto rounded-lg'>
                 <div className='text-2xl' >
                     <p className='flex justify-center'><strong>P.S &nbsp;</strong> Want to 10x your Etsy sales? This tool is your </p>
                     <p className='flex justify-center'> ticket. I dare you to try it risk-free today.</p>
@@ -42,7 +42,7 @@ const Eighteen = () => {
                     <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
                 </div>
             </div>
-            <div className='font-serif flex  md:hidden flex-col gap-4 flex-wrap p-10 border-2 border-dashed w-11/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto'>
+            <div className='font-serif flex  md:hidden flex-col gap-4 flex-wrap p-10 border-2 border-dashed w-11/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto rounded-lg'>
                 <div className='text-2xl' >
                     <p className='flex justify-center items-center'><strong>P.S &nbsp;</strong> Want to 10x </p>
                     <p className='flex justify-center items-center'>your Etsy sales? </p>
