@@ -42,7 +42,7 @@ const Eighteen = () => {
                     <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
                 </div>
             </div>
-            <div className='font-serif flex  md:hidden flex-col gap-4 flex-wrap p-10 border-2 border-dashed w-10/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto'>
+            <div className='font-serif flex  md:hidden flex-col gap-4 flex-wrap p-10 border-2 border-dashed w-11/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto'>
                 <div className='text-2xl' >
                     <p className='flex justify-center items-center'><strong>P.S &nbsp;</strong> Want to 10x </p>
                     <p className='flex justify-center items-center'>your Etsy sales? </p>
@@ -54,9 +54,14 @@ const Eighteen = () => {
                 </div>
 
 
-                <div className="bg-custom-color-1  text-2xl   p-3 border-2 rounded-lg flex justify-center flex-col  text-white font-sans font-bold  ">
-                    <p className="flex justify-center   ">Get instant Access </p>
-                    <p className="flex justify-center   "> To Sellerkin</p>
+                <div className="flex flex-row  md:hidden justify-center mt-5 font-sans w-full">
+
+                    <div className="bg-custom-color-1 m-1 text-2xl px-3 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
+                        <p className="flex justify-center">Get Instant Access</p>
+                        <p className='flex justify-center'>To Sellerkin</p>
+
+                    </div>
+
                 </div>
                 <div className='font-serif'>
                     <p className=' text-base flex justify-center'>Soon, Prices are going </p>

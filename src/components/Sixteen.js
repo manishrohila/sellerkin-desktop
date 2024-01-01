@@ -66,7 +66,7 @@ const Sixteen = () => {
                 </div>
                 <div className="flex justify-center mt-5 font-sans">
                     
-                    <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
+                    <div className="bg-custom-color-1 m-1 text-xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
                         <p className="mr-1 md:mr-1">Scale Your Etsy</p>
                         <p>
                             Business Today
