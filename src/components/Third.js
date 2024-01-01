@@ -23,7 +23,18 @@ import visa1 from "../img/toppng 4.svg"
 import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
 import underline from "../img/Vector 3.svg"
+import comp1 from "../img/Component 23 (1).svg"
+import comp2 from "../img/Component 24.svg"
+import comp3 from "../img/Component 25.svg"
+import comp4 from "../img/Component 26.svg"
+import comp5 from "../img/Component 27.svg"
+import comp6 from "../img/Component 28.svg"
+import comp7 from "../img/Component 29.svg"
+import comp8 from "../img/Component 30.svg"
+import small_right from "../img/mingcute_arrows-right-line (1).svg"
+import small_left from "../img/Group.svg"
 const Third = () => {
+
     return (
         <div className='bg-custom-color-2  mt-7 mb-2'>
 
@@ -192,7 +203,7 @@ const Third = () => {
                 </div>
 
                 <div className='flex justify-center items-center gap-10  mb-8'>
-                <div>
+                    <div>
                         <img src={li33} alt="img loading" />
                     </div>
                     <div>
@@ -200,7 +211,7 @@ const Third = () => {
                     </div>
                 </div>
                 <div className='flex justify-center items-center gap-10 mb-8'>
-                <div>
+                    <div>
                         <img src={li35} alt="img loading" />
                     </div>
                     <div>
@@ -208,7 +219,7 @@ const Third = () => {
                     </div>
                 </div>
                 <div className='flex justify-center items-center gap-10 mb-8'>
-                <div>
+                    <div>
                         <img src={li37} alt="img loading" />
                     </div>
                     <div>
@@ -219,64 +230,36 @@ const Third = () => {
             <div className='mt-10 flex flex-col md:hidden flex-wrap justify-center'>
                 <div className='flex flex-col justify-center items-center gap-8 mb-8'>
 
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  relative  flex flex-col items-center justify-center shadow-xl rounded-lg '>
-                        <p>Remove the manual</p>
-                        <p>effort and frustration of</p>
-                        <p>second guessing your</p>
-                        <p>Business winners.</p>
+                    <div className='flex  items-center justify-center '>
+                        <img src={comp1} alt="img loading" />
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg '>
-                        <p >Find <strong>Winning Niches</strong>  </p>
-                        <p> within first 2 minutes</p>
-
-                    </div>
+                    <div className='flex  items-center justify-center '>
+                        <img src={comp2} alt="img loading" />
+                    </div >
                 </div>
                 <div className='flex flex-col justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
-                        <p>PinPoint the <strong>Winning</strong></p>
-                        <p><strong> Product</strong> in less than</p>
-                        <p>60 seconds at the </p>
-                        <p>click of a Button.</p>
+                    <div className='flex  items-center justify-center '>
+                        <img src={comp3} alt="img loading" />
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
-                        <p>Go from No Product</p>
-                        <p> to your first <strong>sale </strong>with</p>
-                        <p>literally <strong>ZERO trial</strong> </p>
-                        <p> and<strong> error</strong></p>
-
-                    </div>
+                    <div className='flex  items-center justify-center '>
+                        <img src={comp4} alt="img loading" />
+                    </div >
                 </div>
                 <div className='flex flex-col justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
-                        <p>Get back the <strong>last time</strong> </p>
-                        <p>and hours with finding</p>
-                        <p> winners faster so that you </p>
-                        <p> can enjoy the <strong> new found</strong></p>
-                        <p> <strong> time with family.</strong></p>
+                    <div className='flex  items-center justify-center '>
+                        <img src={comp5} alt="img loading" />
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg '>
-                        <p>Reduce your anxiety
-                            <p></p> and get a <strong>peaceful</strong> </p>
-                        <p><strong>sleep</strong>knowing your</p>
-                        <p>business is growing.</p>
-
-                    </div>
+                    <div className='flex  items-center justify-center '>
+                        <img src={comp6} alt="img loading" />
+                    </div >
                 </div>
                 <div className='flex flex-col justify-center items-center gap-8 mb-8'>
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
-                        <p>See your money pile up as </p>
-                        <p>your product Selecting bring </p>
-                        <p> <strong>in a regular income, making </strong></p>
-                        <p>your financial life easier.</p>
+                    <div className='flex  items-center justify-center '>
+                        <img src={comp7} alt="img loading" />
                     </div >
-                    <div className='border-2 border-custom-color-2 bg-custom-color p-4 h-25 w-72  flex flex-col items-center justify-center shadow-xl rounded-lg'>
-                        <p>watch your<strong>money grow,</strong></p>
-                        <p>ensuring a <strong>stable future</strong> and </p>
-                        <p>  giving you opportunities for</p>
-                        <p> fun investments and great</p>
-                        <p>experiences</p>
-
-                    </div>
+                    <div className='flex  items-center justify-center '>
+                        <img src={comp8} alt="img loading" />
+                    </div >
                 </div>
             </div>
 
@@ -295,17 +278,15 @@ const Third = () => {
             </div>
             <div className="flex flex-row  md:hidden justify-center mt-5 font-sans mb-10">
                 <div>
-                    <img src={left_arrow} alt="left arrow"></img>
+                    <img src={small_right} alt="left arrow" className="md:hidden relative top-7"></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-base px-5 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
-                    <p className="mr-1 md:mr-1">Get instant Access</p>
-                    <p>
-                        to Sellerkin
-                    </p>
+                <div className="bg-custom-color-1 m-1 text-2xl px-12 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
+                    <p className="mr-1 md:mr-1">Get Instant Access</p>
+                    <p>To Sellerkin</p>
 
                 </div>
                 <div>
-                    <img src={right_arrow} alt="right arrow 2"></img>
+                    <img src={small_left} alt="right arrow 2" className="md:hidden relative top-7"></img>
                 </div>
             </div>
 

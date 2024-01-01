@@ -3,7 +3,7 @@ import "./First.css";
 import logo from "../img/logo.svg";
 import shopping_cart from "../img/noto_shopping-cart.png";
 import achievement from "../img/Group 193.png";
-import underline from "../img/Vector 2.png";
+import underline from "../img/Vector 2.svg";
 import li1 from "../img/li11.svg";
 import li2 from "../img/li22.svg";
 import li3 from "../img/Group 205.svg";
@@ -25,6 +25,8 @@ import window from "../img/windows1.svg";
 import visa1 from "../img/toppng 4.svg"
 import cart from "../img/mdi-light_cart.svg"
 import graph_bg from "../img/Vector graph.svg"
+import small_right from "../img/mingcute_arrows-right-line (1).svg"
+import small_left from "../img/Group.svg"
 function First() {
     const [showMenu, setShowMenu] = useState(false);
     const menu = [
@@ -147,7 +149,7 @@ function First() {
                     <img
                         src={underline}
                         alt="underline"
-                        className="flex justify-center ml-80  w-2/5 xl:w-2/6 xl:ml-26"></img>
+                        className="flex justify-center ml-80 w-5/12  "></img>
                     <h2 className="text-3xl tracking-wide font-bold word-spacing font-sans ">
                         <span className="text-custom-color-1 inline-block word-spacing">
                             Finding The{" "}
@@ -306,25 +308,30 @@ function First() {
                     <p>Simple way to Reach Etsy Success</p>
                     <p className="ml-5">in Minutes without <span className="font-bold">Trial and Error</span> </p>
                 </div>
-                
+
             </div>
             <div className="flex justify-center mt-5 font-sans">
-                
+
                 <div>
-                    <img src={left_arrow} alt="left arrow"></img>
-                </div>
-                <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
-                    <p className="mr-1 md:mr-1">Scale Your Etsy</p>
-                    <p>
-                        Business Today
-                    </p>
+                    <img src={left_arrow} alt="left arrow" className="md:block hidden" ></img>
                 </div>
                 <div>
-                    <img src={right_arrow} alt="right arrow 2"></img>
+                    <img src={small_right} alt="left arrow" className="md:hidden relative top-7" ></img>
+                </div>
+                <div className="bg-custom-color-1 m-1 text-2xl font-bold px-16 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
+                    <p className="">Scale Your Etsy</p>
+                    <p>Business Today</p>
+                </div>
+                <div>
+                    <img src={right_arrow} alt="right arrow 2" className="md:block hidden"></img>
+                </div>
+                <div>
+                    <img src={small_left} alt="left arrow" className="md:hidden relative top-7" ></img>
                 </div>
             </div>
+            
 
-            <div className="m-5 flex flex-col gap-2 md:flex md:flex-row justify-center font-serif ">
+            <div className="m-5 hidden gap-2 md:flex md:flex-row justify-center font-serif ">
                 <div className="flex justify-center">
                     <img src={graph} alt="graph" className="h-5 w-5"></img>
                     <p className="mx-1"> Unlocks Exponential Growth</p>
@@ -342,7 +349,7 @@ function First() {
                 </div>
             </div>
 
-            <div className="md:flex md:justify-center gap-4">
+            <div className="md:flex md:justify-center gap-4 mt-5 ">
                 <div className="flex justify-center mb-5">
                     <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
                 </div>
@@ -355,6 +362,24 @@ function First() {
             <div className="flex justify-center mb-5 gap-4">
                 <img src={mac} alt="payment" className="w-24 md:w-auto "></img>
                 <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
+            </div>
+
+            <div className="m-5 flex flex-col gap-2 md:hidden justify-center font-serif ">
+                <div className="flex justify-center">
+                    <img src={graph} alt="graph" className="h-5 w-5"></img>
+                    <p className="mx-1"> Unlocks Exponential Growth</p>
+                </div>
+                <div className="flex justify-center">
+                    <img
+                        src={shopping_cart_2}
+                        alt="shooping cart"
+                        className="h-5 w-5"></img>
+                    <p className="mx-1 mr-2"> Buy once, Use Forever</p>
+                </div>
+                <div className="flex justify-center">
+                    <img src={cloud} alt="cloud" className="h-5 w-5"></img>
+                    <p className="mx-1 mr-2"> Works on Cloud</p>
+                </div>
             </div>
 
             <div className="mx-5 block md:hidden justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color">

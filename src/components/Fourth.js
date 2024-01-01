@@ -8,10 +8,15 @@ import vector from "../img/Vector.svg"
 import macbook from "../img/Group 229.svg"
 import shop_ana from "../img/Group 515.svg"
 import underline from "../img/Vector 31.svg"
+import small_right from "../img/mingcute_arrows-right-line (1).svg"
+import small_left from "../img/Group.svg"
+import visa1 from "../img/toppng 4.svg"
+import secure from "../img/lock1.svg";
+import days from "../img/7days1.svg";
 
 const Fourth = () => {
     return (
-        <div className='bg-[#FEFAE7]    '>
+        <div className='bg-[#FEFAE7]   pb-10 '>
             <div className='hidden md:flex md:justify-center flex-row gap-2 pt-20 font-bold font-sans text-5xl'>
                 <p className=' '>Introducing </p>
                 <div className='flex flex-col gap-2'>
@@ -24,12 +29,13 @@ const Fourth = () => {
 
 
             </div>
-            <div className='md:hidden flex flex-col justify-center items-center font-bold font-sans'>
-                <p className='text-2xl flex gap-3 text-custom-color-1'>Introducing </p>
-                <p className='text-5xl flex gap-3'><span><img src={logo} alt="logo" /></span> SellerKin</p>
+            <div className='md:hidden flex flex-col pt-10 justify-center items-center font-bold font-sans'>
+                <p className='text-3xl flex gap-3 text-custom-color-1'>Introducing </p>
+                <p className='text-5xl flex gap-3 mt-5 mb-3'><span><img src={logo} alt="logo" /></span> SellerKin</p>
+                <img src={underline} alt="" />
             </div>
 
-            <div className='hidden md:grid grid-cols-2 relative text-base font-serif '>
+            <div className='hidden md:grid grid-cols-2 relative text-lg font-serif '>
                 <div className='relative pl-32 mt-24'>
                     <div className=' mb-10'>
                         <p >Sellerkin is a tool for Etsy sellers to help them</p>
@@ -37,12 +43,12 @@ const Fourth = () => {
                         <p>their Etsy shop in less than <strong>60 seconds</strong></p>
                         <p><strong>without trial & error</strong></p>
                     </div>
-                    <div className='text-base mb-10 font-serif'>
+                    <div className='text-lg mb-10 font-serif'>
                         <p>It works like a charm and can give you </p>
                         <p>the Winners faster than you can say Cheese.</p>
 
                     </div>
-                    <div className=' mb-10 flex flex-col gap-2'>
+                    <div className=' mb-10 flex flex-col gap-2 font-serif text-lg'>
                         <div className='flex gap-3'>
                             <p><img className="w-4 h-4 relative top-1" src={vector} alt="dot"></img></p>
                             <p>Even if... You are New in the Game</p>
@@ -68,7 +74,7 @@ const Fourth = () => {
 
 
             </div>
-            <div className='md:hidden flex justify-center items-center flex-wrap mt-10  gap-4 text-base mb-10 font-serif'>
+            <div className='md:hidden flex justify-center items-center flex-wrap mt-10  gap-4 text-lg mb-10 font-serif'>
                 <div className='mb-7'>
                     <img src={macbook} alt='image'></img>
                 </div>
@@ -80,13 +86,13 @@ const Fourth = () => {
                     <p><strong>without trial & error</strong></p>
                 </div>
 
-                <div className='flex flex-col justify-center items-center'>
+                <div className='flex flex-col justify-center items-center text-lg'>
                     <p>It works like a charm and can</p>
                     <p> give you the Winners faster </p>
                     <p>then you can say Cheese</p>
                 </div>
                 <div className='text-base mb-10 flex flex-col gap-2'>
-                    <div className='flex gap-3 flex-row'>
+                    <div className='flex gap-3 flex-row justify-start'>
                         <p><img className="w-4 h-4 relative top-1" src={vector} alt="dot"></img></p>
                         <div className='flex flex-col'>
                             <p>Even if... You are New in </p>
@@ -228,6 +234,30 @@ const Fourth = () => {
 
 
             </div>
+            <div className="flex flex-row  md:hidden justify-center mt-5 font-sans mb-10">
+                <div>
+                    <img src={small_right} alt="left arrow" className="md:hidden relative top-7"></img>
+                </div>
+                <div className="bg-custom-color-1 m-1 text-2xl px-12 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
+                    <p className="mr-1 md:mr-1">Scale Your Etsy</p>
+                    <p>Business Today</p>
+
+                </div>
+                <div>
+                    <img src={small_left} alt="right arrow 2" className="md:hidden relative top-7"></img>
+                </div>
+            </div>
+            <div className="md:flex md:justify-center gap-4 ">
+                <div className="flex justify-center mb-5">
+                    <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
+                </div>
+                <div className="flex justify-center mb-5 gap-3">
+                    <img src={secure} alt="payment" className="relative mb-2"></img>
+                    <img src={days} alt="payment" className="relative mb-2"></img>
+                </div>
+            </div>
+            
+
 
 
 
