@@ -3,7 +3,8 @@ import book from "../img/Component 8.svg"
 import visa1 from "../img/toppng 4.svg"
 import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
-
+import small_right from "../img/mingcute_arrows-right-line (1).svg"
+import small_left from "../img/Group.svg"
 const Fourteen = () => {
     return (
         <div className='bg-custom-color-2 pt-20'>
@@ -69,9 +70,18 @@ const Fourteen = () => {
                         <p className='flex justify-center'>Your journey to success is </p>
                         <p className='flex justify-center'>underway, and it all starts today.</p>
                     </div>
-                    <div className="bg-custom-color-1  text-2xl   p-3 border-2 rounded-lg flex justify-center flex-col  text-white font-sans font-bold w-10/12 mx-auto  ">
-                        <p className="flex justify-center   ">Get instant Access </p>
-                        <p className="flex justify-center   "> To Sellerkin</p>
+                    <div className="flex flex-row  md:hidden justify-center mt-5 font-sans ">
+                        <div>
+                            <img src={small_right} alt="left arrow" className="md:hidden relative top-7"></img>
+                        </div>
+                        <div className="bg-custom-color-1 m-1 text-2xl px-10 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
+                            <p className="mr-1 md:mr-1">Get Instant </p>
+                            <p>Access to Sellerkin</p>
+
+                        </div>
+                        <div>
+                            <img src={small_left} alt="right arrow 2" className="md:hidden relative top-7"></img>
+                        </div>
                     </div>
                     <div className='font-serif'>
                         <p className=' text-base flex justify-center'>Soon, Prices are going </p>

@@ -10,15 +10,16 @@ import arrow2 from "../img/Vector 39.svg"
 import underline from "../img/Vector 40.svg"
 import down_arrow from "../img/mingcute_arrows-right-line.svg"
 import third from '../img/Component 13.svg'
+
 const Thirteen = () => {
   return (
     <div className='bg-custom-color pt-10'>
-      <div className='text-5xl md:flex hidden place-items-center flex-col font-sans font-bold'>
+      <div className='text-5xl md:flex hidden place-items-center flex-col font-sans font-extrabold'>
         <p>Once you Know about this <span className='text-custom-color-1'>SECRET CODE,</span></p>
         <p>half the battle is already Won.</p>
         <img src={underline} alt="img loading" className='hidden md:block mt-4' />
       </div>
-      <div className='text-3xl md:hidden flex  place-items-center flex-col font-sans font-bold'>
+      <div className='text-3xl md:hidden flex  place-items-center flex-col font-sans font-extrabold'>
         <p>Once you Know </p>
         <p> about this <span className='text-custom-color-1'>SECRET CODE,</span></p>
         <p>  <span className='text-custom-color-1'>CODE,</span> half the battle</p>
@@ -26,13 +27,13 @@ const Thirteen = () => {
         <img src={underline} alt="img loading" className='hidden md:block mt-4' />
       </div>
 
-      <div className='place-items-center text-2xl md:flex hidden flex-col mt-5 font-serif'>
+      <div className='place-items-center text-2xl md:flex hidden flex-col mt-5 font-serif italic'>
         <p>You don't need a marketing degree to crack the code. you just found</p>
         <p> <span className='underline'>Sellerkin</span> which gives you <strong>winning products of your niche in <span className='underline'>miutes.</span></strong></p>
       </div>
       <div className='place-items-center text-xl md:hidden flex flex-col mt-7 font-serif'>
-        <p>You don't need a marketing </p>
-        <p> degree to crack the code. </p> 
+        <p className='italic'>You don't need a marketing </p>
+        <p className='italic'> degree to crack the code. </p> 
         <p className='mt-6'>you just found <span className='underline'>Sellerkin</span> which  </p>
         <p>   <strong> gives you winning products of</strong> </p>
         <p><strong> your niche in <span className='underline'>miutes.</span></strong></p>
@@ -91,20 +92,20 @@ const Thirteen = () => {
                 <p  className='text-2xl font-bold flex justify-center'>More Revenue</p>
             </div>
       </div>
-      <div className=' md:flex hidden flex-wrap justify-center items-center text-5xl mt-16 font-sans font-bold'>
+      <div className=' md:flex hidden flex-wrap justify-center items-center text-5xl mt-16 font-sans font-extrabold'>
         <p><span className='text-custom-color-1'>Forget </span> about the <span className='text-custom-color-1 italic'>years long-research </span>process... </p>
       </div>
-      <div className=' flex flex-col md:hidden flex-wrap justify-center items-center text-4xl mt-16 font-sans font-bold'>
+      <div className=' flex flex-col md:hidden flex-wrap justify-center items-center text-3xl mt-16 font-sans font-extrabold'>
         <p><span className='text-custom-color-1'>Forget </span> about the </p>
         <p> <span className='text-custom-color-1 italic'>years long-research </span></p>
         <p>process... </p>
       </div>
-      <div className='mt-16 flex justify-center items-center gap-10'>
+      <div className='mt-16 flex justify-center items-center gap-1 w-11/12  mx-auto'>
             <div>
                 <img src={first} alt="img loading" />
             </div>
             <div className="self-start absolute md:relative md:self-center ">
-                <img src={arrow2} alt="img loading"/>
+                <img src={arrow2} alt="img loading" className='md:w-full w-8/12  mx-auto'/>
             </div>
             <div>
                 <img src={second} alt="img loading" />

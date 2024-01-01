@@ -14,10 +14,12 @@ import secure from "../img/lock1.svg";
 import logo from "../img/logo.svg";
 import wrong from "../img/wrong.svg"
 import correct from "../img/Mask group (1).svg"
+import small_right from "../img/mingcute_arrows-right-line (1).svg"
+import small_left from "../img/Group.svg"
 import styles from "./Eight.module.css"
 const Eight = () => {
     return (
-        <div className='bg-custom-color-2 pt-10'>
+        <div className='bg-custom-color-2 md:pt-10 -mt-8'>
             <div className='text-5xl font-bold font-sans  flex-col justify-center items-center hidden md:flex '>
                 <div>
                     <p>Here is how Sellerkin makes it <span className='text-custom-color-1'>easy</span> </p>
@@ -88,24 +90,24 @@ const Eight = () => {
                 </div>
             </div>
             {/* Mobile version first section */}
-            <div className='flex flex-col mt-10 p-10 font-serif justify-center items-center gap-4 md:hidden bg-custom-color'>
+            <div className='flex flex-col mt-10 p-10 font-serif justify-center items-center gap-4 md:hidden bg-custom-color '>
 
-                <div className='font-bold text-2xl flex-col justify-center items-center'>
-                    <p> <span className='text-custom-color-1'>Product Finder:</span> "Discover </p>
-                    <p> Winning Etsy Products in</p>
-                    <p> Seconds with Product Finder!"</p>
+                <div className='font-semibold text-xl flex-col justify-center items-center'>
+                    <p className='flex justify-center'> <span className='text-custom-color-1'>Product Finder: </span> &nbsp;"Discover </p>
+                    <p className='flex justify-center'> Winning Etsy Products in</p>
+                    <p className='flex justify-center'> Seconds with Product Finder!"</p>
                 </div>
                 <div className='flex justify-center items-center'>
                     <img src={first} alt="image loading" className='w-4/5 h-4/5' />
                 </div>
-                <div className='mt-2'>
-                    <p>"Product Finder is your <strong>golden ticket</strong> </p> <p>to Etsy success! Find top-selling</p>
-                    <p> products effortlessly and skyrocket</p>
-                    <p>your business by knowing what works.</p>
+                <div className='mt-2 text-base'>
+                    <p className='flex justify-center'>"Product Finder is your &nbsp; <strong>golden ticket</strong> </p> <p>to Etsy success! Find top-selling</p>
+                    <p className='flex justify-center'> products effortlessly and skyrocket</p>
+                    <p className='flex justify-center'>your business by knowing what works.</p>
                 </div>
                 <div className='mt-2'>
-                    <p>Say goodbye to guesswork and  </p>
-                    <p>hello to <strong>instant success!"</strong></p>
+                    <p className='flex justify-center'>Say goodbye to guesswork and  </p>
+                    <p className='flex justify-center'>hello to &nbsp; <strong>instant success!"</strong></p>
                 </div>
                 <div className='mt-2'>
                     <div className='flex gap-2 mt-1'>
@@ -114,7 +116,7 @@ const Eight = () => {
                         </div>
 
                         <div>
-                            <p>Rapid Product Discovery for </p>
+                            <p >Rapid Product Discovery for </p>
                             <p> effortless success</p>
                         </div>
 
@@ -183,7 +185,7 @@ const Eight = () => {
             <div className='flex flex-col mt-5 p-10 justify-center font-serif items-center gap-4 md:hidden'>
 
 
-                <div className='font-bold text-xl'>
+                <div className='font-semibold text-xl'>
                     <p> <span className='text-custom-color-1'>Shop Analyzer:</span> "Beat your Etsy </p>
                     <p className='flex justify-center'>Competition with Shop</p>
                     <p className='flex justify-center'> Analyzer's Insights!"</p>
@@ -199,9 +201,9 @@ const Eight = () => {
                 </div>
                 <div className='mt-4'>
                     <p className='flex justify-center'><strong>Uncover their sales stats, </strong> </p>
-                    <p className='flex justify-center'><strong> conversion rates, and</strong> more to</p>
-                    <p className='flex justify-center'> become the <strong>biggest player </strong> in your </p>
-                    <p className='flex justify-center'>niche. It's time to <strong className='underline '>lead</strong>, not follow!"</p>
+                    <p className='flex justify-center'><strong> conversion rates, and &nbsp;</strong> more to</p>
+                    <p className='flex justify-center'> become the &nbsp; <strong>biggest player </strong> &nbsp; in your </p>
+                    <p className='flex justify-center'>niche. It's time to &nbsp; <strong className='underline '>lead</strong>, not follow!"</p>
                 </div>
                 <div className='mt-4 flex flex-col gap-2'>
                     <div className='flex gap-2 mt-1'>
@@ -284,7 +286,7 @@ const Eight = () => {
             {/* Mobile version Third  section */}
             <div className='flex flex-col bg-custom-color p-10 font-serif justify-center md:hidden items-center gap-4'>
 
-                <div className='font-bold text-xl'>
+                <div className='font-semibold text-xl'>
                     <p >
                          <span className='text-custom-color-1'>Listing Analyzer:</span> "Sell Faster  </p>
                     <p className='flex justify-center'> and Smarter with Listing</p>
@@ -296,12 +298,12 @@ const Eight = () => {
                 <div className='mt-4'>
 
                     <p className='flex justify-center'>"Listing Analyzer is your secret </p>
-                    <p className='flex justify-center'> weapon to <strong>stand out on Etsy</strong></p>
+                    <p className='flex justify-center'> weapon to &nbsp; <strong>stand out on Etsy</strong></p>
 
                 </div>
                 <div className='mt-4'>
-                    <p className='flex justify-center'>Analyze competitors' listings, <strong>see </strong> </p>
-                    <p className='flex justify-center'><strong> quantities left, </strong>and watch your own</p>
+                    <p className='flex justify-center'>Analyze competitors' listings, &nbsp; <strong>see </strong> </p>
+                    <p className='flex justify-center'><strong> quantities left, </strong> &nbsp; and watch your own</p>
                     <p className='flex justify-center'> listings shine and rank higher. Crush</p>
                     <p className='flex justify-center'>the competition and be the Etsy star</p>
                 </div>
@@ -335,18 +337,23 @@ const Eight = () => {
 
 
             </div>
-            <div className="flex justify-center mt-5 gap-6 font-sans">
+            <div className="flex justify-center mt-5 font-sans">
+
                 <div>
-                    <img src={left_arrow} alt="left arrow" className='flex items-center justify-center relative'></img>
-                </div>
-                <div className="bg-custom-color-1 m-1 text-2xl px-10 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
-                    <p className="mr-1 md:mr-1">Scale Your Etsy</p>
-                    <p>
-                        Business Today
-                    </p>
+                    <img src={left_arrow} alt="left arrow" className="md:block hidden" ></img>
                 </div>
                 <div>
-                    <img src={right_arrow} alt="right arrow 2" className='flex items-center justify-center relative '></img>
+                    <img src={small_right} alt="left arrow" className="md:hidden relative top-7" ></img>
+                </div>
+                <div className="bg-custom-color-1 m-1 text-2xl font-bold px-16 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
+                    <p className="">Scale Your Etsy</p>
+                    <p>Business Today</p>
+                </div>
+                <div>
+                    <img src={right_arrow} alt="right arrow 2" className="md:block hidden"></img>
+                </div>
+                <div>
+                    <img src={small_left} alt="left arrow" className="md:hidden relative top-7" ></img>
                 </div>
             </div>
             <div className="md:flex md:justify-center gap-4 mt-5">

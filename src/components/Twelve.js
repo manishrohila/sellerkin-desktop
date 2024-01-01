@@ -6,7 +6,7 @@ import line from "../img/money back.svg"
 const Twelve = () => {
     return (
         <div className='bg-custom-color-2 pt-10 mb-10'>
-            <div className='hidden text-5xl font-bold font-sans md:flex flex-col justify-center items-center'>
+            <div className='hidden text-5xl font-extrabold font-sans md:flex flex-col justify-center items-center'>
                 <p>This simply Means you will be able to</p>
                 <div className='flex gap-2'>
                     <div>
@@ -19,7 +19,7 @@ const Twelve = () => {
                 </div>
 
             </div>
-            <div className='flex text-5xl font-sans md:hidden flex-col justify-center items-center font-bold '>
+            <div className='flex text-3xl font-sans md:hidden flex-col justify-center items-center font-extrabold '>
                 <p>This simply </p>
                 <p>Means you will </p>
                 <p>be able to attract</p>
@@ -30,14 +30,14 @@ const Twelve = () => {
             </div>
 
 
-            <div className='md:hidden grid grid-cols-1 mt-10 font-serif'>
+            <div className='md:hidden grid grid-cols-1 mt-10 font-serif text-base'>
                 <div>
-                    <img src={girl} alt="girl img loading" />
+                    <img src={girl} alt="girl img loading " className='w-10/12 mx-auto'/>
                 </div>
-                <div className='flex flex-col gap-4 place-items-center '>
+                <div className='flex flex-col gap-4 place-items-center mt-5 text-lg'>
                     <div>
-                        <p className='flex justify-center'>The Game is for SMART </p>
-                        <p className='flex justify-center'> Entrepreneurs MEANS FOR </p>
+                        <p className='flex justify-center'>The Game is for  &nbsp;<span className='italic'>SMART </span> </p>
+                        <p className='flex justify-center'><span className='italic'>Entrepreneurs </span> &nbsp; MEANS FOR </p>
                         <p className='flex justify-center'>WINNERS NOT FOR LOSERS  </p>
           
                     </div>
@@ -58,9 +58,9 @@ const Twelve = () => {
                     <div>
                         <p className='flex justify-center'>Before Launching Anything, you </p> 
                         <p className='flex justify-center'>Can come to know about ALL</p>
-                        <p className='flex justify-center'>Competitor's Insights like Quantity</p>
-                        <p className='flex justify-center'> Left, Customers love for which </p>
-                        <p className='flex justify-center'>products and more eyeballs on...</p>
+                        <p className='flex justify-center italic'>Competitor's Insights like Quantity</p>
+                        <p className='flex justify-center italic'> Left, Customers love for which </p>
+                        <p className='flex justify-center italic'>products and more eyeballs on...</p>
                     </div>
                     <div >
                         <p className='flex justify-center'>You absolutely can't miss this...</p>

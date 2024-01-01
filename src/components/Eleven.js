@@ -7,14 +7,16 @@ import visa1 from "../img/toppng 4.svg"
 import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
 import comma from "../img/Vector (2).svg"
+import small_right from "../img/mingcute_arrows-right-line (1).svg"
+import small_left from "../img/Group.svg"
 const Eleven = () => {
     return (
         <div className='bg-custom-color pt-10'>
-            <div className='hidden md:flex flex-col justify-center items-center text-5xl font-bold font-sans'>
+            <div className='hidden md:flex flex-col justify-center items-center text-5xl font-extrabold font-sans'>
                 <p>Don't believe what we say,<span className='text-custom-color-1'> listen to real users</span></p>
                 <p><span className='text-custom-color-1'>winning with Sellerkin </span> every single day.</p>
             </div>
-            <div className='flex md:hidden font-bold font-sans flex-col justify-center items-center text-5xl'>
+            <div className='flex md:hidden font-bold font-sans flex-col justify-center items-center text-3xl'>
                 <p>Don't believe what </p>
                 <p> we say,<span className='text-custom-color-1'> listen to</span></p>
                 <p><span className='text-custom-color-1'>real users winning</span></p>
@@ -487,19 +489,17 @@ const Eleven = () => {
                     <img src={right_arrow} alt="right arrow 2"></img>
                 </div>
             </div>
-            <div className="flex flex-row  md:hidden justify-center  font-sans mb-4">
+            <div className="flex flex-row  md:hidden justify-center mt-5 font-sans mb-10">
                 <div>
-                    <img src={left_arrow} alt="left arrow"></img>
+                    <img src={small_right} alt="left arrow" className="md:hidden relative top-7"></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-base px-5 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold">
-                    <p className="mr-1 md:mr-1">Your Journey to </p>
-                    <p>
-                        Success Starts Here
-                    </p>
+                <div className="bg-custom-color-1 m-1 text-2xl px-10 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
+                    <p className="mr-1 md:mr-1">Your Journey to</p>
+                    <p>Success Starts Here</p>
 
                 </div>
                 <div>
-                    <img src={right_arrow} alt="right arrow 2"></img>
+                    <img src={small_left} alt="right arrow 2" className="md:hidden relative top-7"></img>
                 </div>
             </div>
             <div className="md:flex md:justify-center gap-4  ">
