@@ -72,9 +72,9 @@ const Third = () => {
                         <p> <strong><span className='underline-offset-1 underline'>Go</span> to Quora</strong>  and look for</p>
                         <p>what people are asking</p>
                     </div>
-                    <img src={arrow} alt="arrow sign" className='hidden md:block w-24' ></img>
+                    <img src={arrow} alt="arrow sign" className='hidden md:block w-24 relative left-5' ></img>
                     <div className='flex justify-center md:hidden items-center'>
-                        <img src={arrow2} alt="arrow sign" className='relative right-2 h-10 w-10' />
+                        <img src={arrow2} alt="arrow sign" className='relative mx-auto h-10 w-10' />
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
@@ -85,7 +85,7 @@ const Third = () => {
                     </div>
                     <img src={arrow} alt="arrow sign" className='hidden md:block w-24' ></img>
                     <div className='flex justify-center md:hidden items-center'>
-                        <img src={arrow2} alt="arrow sign" className='relative right-2  h-10 w-10' />
+                        <img src={arrow2} alt="arrow sign" className='relative  h-10 w-10' />
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
@@ -113,7 +113,7 @@ const Third = () => {
 
                 {/* arrow sign */}
                 <div className='flex justify-center md:hidden items-center'>
-                    <img src={arrow2} alt="arrow sign" className='relative right-2  h-10 w-10' />
+                    <img src={arrow2} alt="arrow sign" className='relative   h-10 w-10' />
                 </div>
 
 
@@ -129,9 +129,9 @@ const Third = () => {
                         <p><storn>people are commenting</storn></p>
                         <p> <strong>on ads</strong>  one by one</p>
                     </div>
-                    <img src={arrow} alt="arrow sign" className='hidden md:block w-24'></img>
+                    <img src={arrow} alt="arrow sign" className='hidden md:block w-24 relative left-5'></img>
                     <div className='flex justify-center md:hidden items-center'>
-                        <img src={arrow2} alt="arrow sign" className='relative right-2 h-10 w-10' />
+                        <img src={arrow2} alt="arrow sign" className='relative  h-10 w-10' />
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
@@ -142,7 +142,7 @@ const Third = () => {
                     </div>
                     <img src={arrow} alt="arrow sign" className='hidden md:block w-24' ></img>
                     <div className='flex justify-center md:hidden items-center'>
-                        <img src={arrow2} alt="arrow sign" className='relative right-2 h-10 w-10' />
+                        <img src={arrow2} alt="arrow sign" className='relative  h-10 w-10' />
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
@@ -280,7 +280,7 @@ const Third = () => {
                 <div>
                     <img src={small_right} alt="left arrow" className="md:hidden relative top-7"></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-2xl font-bold px-12 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
+                <div className="bg-custom-color-1 m-1 text-xl font-bold px-12 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
                     <p className="flex justify-center">Get Instant Access</p>
                     <p className='flex justify-center'>To Sellerkin</p>
                 </div>

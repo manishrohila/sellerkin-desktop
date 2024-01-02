@@ -132,7 +132,7 @@ const Fifth = () => {
                 <div>
                     <img src={small_right} alt="left arrow" className="md:hidden relative top-7"></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-2xl px-10 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
+                <div className="bg-custom-color-1 m-1 text-xl px-10 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
                     <p className="mr-1 md:mr-1">Your Journey to</p>
                     <p>Success Starts Here</p>
 

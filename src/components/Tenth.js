@@ -11,14 +11,14 @@ const Tenth = () => {
     return (
         <div className='bg-custom-color-2 pt-10'>
 
-            <div className='hidden md:flex gap-2 text-5xl items-center justify-center  font-sans font-extrabold'>
+            <div className='hidden md:flex gap-2  text-5xl items-center justify-center  font-sans font-extrabold'>
                 <p className='relative -top-1'>7 Days </p>
                 <div className='flex flex-col gap-2'>
                     <p><span className='text-custom-color-1'>Money Back Guarantee</span></p>
                     <img src={line} alt="img loading line" className='w-11/12' />
                 </div>
             </div>
-            <div className='flex flex-col  md:hidden gap-2 text-5xl items-center justify-center pt-10 font-extrabold'>
+            <div className='flex flex-col  md:hidden gap-2 text-4xl sm:text-5xl items-center justify-center pt-10 font-extrabold'>
                 <p className='relative -top-1'>7 Days <span className='text-custom-color-1'>Money</span> </p>
                 <div className='flex items-center justify-center '>
                     <p><span className='text-custom-color-1'>Back Guarantee</span></p>
