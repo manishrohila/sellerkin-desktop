@@ -318,8 +318,8 @@ function First() {
                 <div>
                     <img src={small_right} alt="left arrow" className="md:hidden relative top-8" ></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-2xl font-bold px-12 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
-                    <p className="">Scale Your Etsy</p>
+                <div className="bg-custom-color-1 m-1 text-2xl font-bold px-12 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white gap-2">
+                    <p className="">Scale Your Etsy </p>
                     <p>Business Today</p>
                 </div>
                 <div>

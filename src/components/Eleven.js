@@ -483,7 +483,7 @@ const Eleven = () => {
                 <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-col text-white mb-10">
                     <p className="mr-1 md:mr-1">Get instant Access to Sellerkin</p>
 
-                    <p className=' text-base'>Soon, Prices are going to be increased</p>
+                    <p className='flex justify-center text-base'>Soon, Prices are going to be increased</p>
                 </div>
                 <div>
                     <img src={right_arrow} alt="right arrow 2"></img>
