@@ -58,7 +58,7 @@ const Seventh = () => {
                     <img src={first} alt="img loading" className='hidden md:block' />
                 </div>
                 <div className="mt-6 mx-6 rounded-lg flex justify-center flex-col xl:ml-24 font-serif ">
-                    <p className="text-center text-[15px] bg-custom-color-1 border-t-2 p-2 rounded-t-xl text-white flex justify-center gap-1 ">
+                    <p className="text-center text-[10px] bg-custom-color-1 border-t-2 p-2 rounded-t-xl text-white flex justify-center gap-1 ">
 
                         <img src={speaker} alt="speaker" className="hidden md:block"></img>
                         Watch this short video to discover the secret method

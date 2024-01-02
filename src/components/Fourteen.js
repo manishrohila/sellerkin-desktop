@@ -1,5 +1,6 @@
 import React from 'react'
 import book from "../img/Component 8.svg"
+import book1 from '../img/Component 34.svg'
 import visa1 from "../img/toppng 4.svg"
 import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
@@ -7,7 +8,7 @@ import small_right from "../img/mingcute_arrows-right-line (1).svg"
 import small_left from "../img/Group.svg"
 const Fourteen = () => {
     return (
-        <div className='bg-custom-color-2 pt-20'>
+        <div className='bg-custom-color-2 md:pt-20 pt-10'>
             <div className='md:grid  hidden grid-cols-2'>
                 <div className='font-serif text-xl flex flex-col gap-7 ml-28'>
                     <div>
@@ -57,8 +58,8 @@ const Fourteen = () => {
                         <p className='flex justify-center gap-2'> you'll witness the <strong>transformation </strong>  </p>
                         <p className='flex justify-center'>you've been longing for.</p>
                     </div>
-                    <div>
-                        <img src={book} alt="img loading" />
+                    <div className='flex justify-center'>
+                        <img src={book1} alt="img loading" />
                     </div>
                     <div>
                         <p className='flex justify-center'>Your dedication will shine as you </p>

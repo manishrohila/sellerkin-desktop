@@ -11,14 +11,14 @@ const Tenth = () => {
     return (
         <div className='bg-custom-color-2 pt-10'>
 
-            <div className='hidden md:flex gap-2 text-5xl items-center justify-center font-bold font-sans'>
+            <div className='hidden md:flex gap-2 text-5xl items-center justify-center font-bold font-sans font-extrabold'>
                 <p className='relative -top-1'>7 Days </p>
                 <div className='flex flex-col gap-2'>
                     <p><span className='text-custom-color-1'>Money Back Guarantee</span></p>
                     <img src={line} alt="img loading line" className='w-11/12' />
                 </div>
             </div>
-            <div className='flex flex-col  md:hidden gap-2 text-5xl items-center justify-center pt-10'>
+            <div className='flex flex-col  md:hidden gap-2 text-5xl items-center justify-center pt-10 font-extrabold'>
                 <p className='relative -top-1'>7 Days <span className='text-custom-color-1'>Money</span> </p>
                 <div className='flex items-center justify-center '>
                     <p><span className='text-custom-color-1'>Back Guarantee</span></p>
@@ -657,7 +657,7 @@ const Tenth = () => {
             <div className='bg-custom-color font-serif flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 mt-5 '>
                 <div className='relative'>
                     <img src={rectangle} alt="" className='' />
-                    <p className='absolute left-24 top-0 bottom-0 text-2xl '>Basic</p>
+                    <p className='absolute font-medium left-28 top-1 bottom-0 text-2xl text-white '>Basic</p>
                 </div>
                 <div className='flex flex-col justify-center ml-8 gap-4 mt-5'>
                     <div className='flex gap-3 '>
@@ -857,7 +857,7 @@ const Tenth = () => {
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
                         <p className='text-2xl text-custom-color-1 font-bold'>$97 $497</p>
                         <p className='text-2xl'>One Time Payment</p>
-                        <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md'>Buy Now</button>
+                        <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md font-bold'>Buy Now</button>
                     </div>
                 </div>
 
@@ -866,7 +866,7 @@ const Tenth = () => {
             <div className='bg-custom-color font-serif  flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-5 mt-10'>
                 <div className='relative'>
                     <img src={rectangle} alt="" />
-                    <p className='absolute left-24 top-0 bottom-0 text-2xl'>Standard</p>
+                    <p className='absolute left-24 font-medium top-1 bottom-0 text-2xl text-white'>Standard</p>
                 </div>
                 <div className='flex flex-col justify-center ml-8 gap-4 mt-5'>
                     <div className='flex gap-3 '>
@@ -1065,7 +1065,7 @@ const Tenth = () => {
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
                         <p className='text-2xl text-custom-color-1 font-bold'>$147 $897</p>
                         <p className='text-2xl'>One Time Payment</p>
-                        <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md'>Buy Now</button>
+                        <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md font-bold'>Buy Now</button>
                     </div>
                 </div>
 
@@ -1074,7 +1074,7 @@ const Tenth = () => {
             <div className='bg-custom-color font-serif  flex flex-col justify-center mx-auto  w-[70%] md:hidden mb-10 mt-10'>
                 <div className='relative'>
                     <img src={rectangle} alt="" />
-                    <p className='absolute left-32 top-0 bottom-0 text-2xl'>Pro</p>
+                    <p className='absolute left-32 top-1 bottom-0 text-2xl text-white font-medium'>Pro</p>
                 </div>
                 <div className='flex flex-col justify-center ml-8 gap-4 mt-5'>
                     <div className='flex gap-3 '>
@@ -1265,7 +1265,7 @@ const Tenth = () => {
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
                         <p className='text-2xl text-custom-color-1 font-bold'>$297 $1497</p>
                         <p className='text-2xl'>One Time Payment</p>
-                        <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md'>Buy Now</button>
+                        <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md font-bold'>Buy Now</button>
                     </div>
                 </div>
 
