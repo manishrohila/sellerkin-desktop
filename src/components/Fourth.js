@@ -247,7 +247,7 @@ const Fourth = () => {
                     <img src={small_left} alt="right arrow 2" className="md:hidden relative top-7"></img>
                 </div>
             </div>
-            <div className="md:flex md:justify-center gap-4 ">
+            <div className="md:hidden flex flex-col justify-center gap-4 ">
                 <div className="flex justify-center mb-5">
                     <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
                 </div>
