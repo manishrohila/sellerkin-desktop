@@ -83,13 +83,13 @@ const Tenth = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row text-3xl font-sans font-extrabold justify-center items-center -mt-10 md:mt-16 gap-2 md:gap-0'>
+            <div className='flex flex-col md:flex-row md:text-5xl text-3xl font-sans font-extrabold justify-center items-center -mt-10 md:mt-16 gap-2 md:gap-0'>
                 <div className='flex flex-col  gap-3' >
                     <p className='text-custom-color-1 flex justify-center'>Pick the option</p>
-                    <img src={line2} alt="img loading curve line" className=' hidden md:block w-8/12 relative left-16' />
+                    <img src={line2} alt="img loading curve line" className=' hidden md:block relative ' />
                 </div>
-                <div className='relative bottom-2 md:right-20'>
-                    <p className=''>that's best for you </p>
+                <div className='relative bottom-2 '>
+                    <p className=''> that's best for you </p>
                 </div>
             </div>
             <div className=' hidden md:flex justify-center items-center mt-20 font-serif '>
