@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className=' bg-[#2F363C] pt-4 font-serif'>
             <div className='md:grid hidden grid-cols-2 text-xs'>
-                <div className='text-white flex flex-col relative top-4 gap-4 ml-16'>
+                <div className='text-white flex flex-col relative gap-4 ml-16'>
                     <div>
                         <p>This site is not a part of the Facebook website or Facebook inc. Additionally, This site is</p>
                         <p>NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.</p>
