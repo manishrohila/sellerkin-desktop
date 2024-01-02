@@ -267,7 +267,7 @@ const Third = () => {
                 <div >
                     <img src={left_arrow} alt="left arrow" className='flex items-center justify-center relative top-3'></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-2xl px-10 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-col text-white mb-10 ">
+                <div className="bg-custom-color-1 m-1 text-2xl px-10 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-col text-white  ">
                     <p className="mr-1 md:mr-1">Get instant Access to Sellerkin</p>
 
                     <p className=' text-base flex justify-center font-serif '>Soon, Prices are going to be increased</p>

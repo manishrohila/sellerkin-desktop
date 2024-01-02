@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='flex md:hidden flex-col text-white gap-4'>
+            <div className='flex md:hidden flex-col text-white gap-4 '>
                 <div className="flex gap-4 text-white justify-center items-center">
                     <img src={logo} alt="SellerKin logo" className="w-12 h-12"></img>
                     <span className="text-4xl font-bold relative top-1  ">SellerKin</span>
@@ -37,7 +37,7 @@ const Footer = () => {
                 <div>
                     <p className='flex justify-center items-center'>Copyright © Sellerkin 2024. All Right Reserved.</p>
                 </div>
-                <div className='mb-10'>
+                <div className='mb-2'>
                     <p className='flex justify-center items-center'>Privacy Policy | Terms Of Services | Disclaimer</p>
                 </div>
 

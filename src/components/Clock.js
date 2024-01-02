@@ -12,7 +12,7 @@ const Clock = () => {
   }, []);
 
   return (
-    <div className='mt-5 text-5xl flex items-center justify-center'>
+    <div className='mt-2 text-5xl flex items-center justify-center'>
       
       <p className="tracking-widest">{time}</p>
     </div>

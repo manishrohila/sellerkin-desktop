@@ -42,7 +42,7 @@ const Sixteen = () => {
                     </div>
                 </div>
             </div>
-            <div className='font-serif flex md:hidden flex-col gap-4 flex-wrap py-9 px-5 border-2 border-dashed w-11/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto rounded-lg'>
+            <div className='font-serif flex md:hidden flex-col gap-4 flex-wrap py-9 px-5 border-2 border-dashed w-10/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto rounded-lg'>
                 <div >
                     <p className='flex justify-center'>Sellerkin isn't just a tool; </p>
                     <p className='flex justify-center'> it's <strong>a gateway to success.</strong> it's </p>

@@ -15,7 +15,7 @@ const Thirteen = () => {
   return (
     <div className='bg-custom-color pt-10'>
       <div className='text-5xl md:flex hidden place-items-center flex-col font-sans font-extrabold'>
-        <p>Once you Know about this <span className='text-custom-color-1'>SECRET CODE,</span></p>
+        <p className='mb-2'>Once you Know about this <span className='text-custom-color-1 '>SECRET CODE,</span></p>
         <p>half the battle is already Won.</p>
         <img src={underline} alt="img loading" className='hidden md:block mt-4' />
       </div>
@@ -29,14 +29,14 @@ const Thirteen = () => {
 
       <div className='place-items-center text-2xl md:flex hidden flex-col mt-5 font-serif italic'>
         <p>You don't need a marketing degree to crack the code. you just found</p>
-        <p> <span className='underline'>Sellerkin</span> which gives you <strong>winning products of your niche in <span className='underline'>miutes.</span></strong></p>
+        <p> <span className='underline'>Sellerkin</span> which gives you <strong>winning products of your niche in <span className='underline'>minutes.</span></strong></p>
       </div>
       <div className='place-items-center text-xl md:hidden flex flex-col mt-7 font-serif'>
         <p className='italic'>You don't need a marketing </p>
         <p className='italic'> degree to crack the code. </p> 
         <p className='mt-6'>you just found <span className='underline'>Sellerkin</span> which  </p>
         <p>   <strong> gives you winning products of</strong> </p>
-        <p><strong> your niche in <span className='underline'>miutes.</span></strong></p>
+        <p><strong> your niche in <span className='underline'>minutes.</span></strong></p>
       </div>
       <div className='md:grid hidden grid-cols-7 justify-evenly mx-52 items-center mt-16 font-serif  '>
             <div>

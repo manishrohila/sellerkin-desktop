@@ -88,7 +88,7 @@ function First() {
             </nav>
             <div className="relative font-serif" >
                 <p className="border-2  rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white font-serif">
-                    This is an invite-only page...
+                    This is an invite only page...
                 </p>
                 <div className="relative">
                     <img src={top1} alt="top1 " className="opacity-25 z-0 hidden md:block absolute  m-4 left-0"></img>
@@ -316,9 +316,9 @@ function First() {
                     <img src={left_arrow} alt="left arrow" className="md:block hidden" ></img>
                 </div>
                 <div>
-                    <img src={small_right} alt="left arrow" className="md:hidden relative top-7" ></img>
+                    <img src={small_right} alt="left arrow" className="md:hidden relative top-8" ></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-2xl font-bold px-16 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
+                <div className="bg-custom-color-1 m-1 text-2xl font-bold px-12 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white">
                     <p className="">Scale Your Etsy</p>
                     <p>Business Today</p>
                 </div>
@@ -326,7 +326,7 @@ function First() {
                     <img src={right_arrow} alt="right arrow 2" className="md:block hidden"></img>
                 </div>
                 <div>
-                    <img src={small_left} alt="left arrow" className="md:hidden relative top-7" ></img>
+                    <img src={small_left} alt="left arrow" className="md:hidden relative top-8" ></img>
                 </div>
             </div>
             
