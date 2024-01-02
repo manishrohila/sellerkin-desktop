@@ -211,7 +211,7 @@ const Nine = () => {
                     <img src={small_left} alt="right arrow 2" className="md:hidden relative top-7"></img>
                 </div>
             </div>
-            <div className="md:hidden flex justify-center gap-4 md:mt-20 mt-5 ">
+            <div className="md:hidden flex flex-col  justify-center gap-4 md:mt-20 mt-5 ">
                 <div className="flex justify-center mb-5">
                     <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
                 </div>
