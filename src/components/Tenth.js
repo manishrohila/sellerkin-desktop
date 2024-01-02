@@ -350,7 +350,7 @@ const Tenth = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>Adavanced data feartures</td>
+                            <td>Adavanced data features</td>
                             <td>
                                 <div className='flex justify-center items-center' >
                                     <img src={correct} alt="tick" />
@@ -737,6 +737,18 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
+                            <p>Etsy Fee Calculator</p>
+                            <p></p>
+                       
+
+                        </div>
+                    </div>
+
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
                             <p className='font-bold'>Use to Launch Unlimited</p>
                             <p className='font-bold'>Products (Priceless) </p>
 
@@ -890,7 +902,7 @@ const Tenth = () => {
                     <div className='text-center mb-10 flex flex-col gap-2 '>
                         <p className='text-2xl'>Total Value: <span className='cut-text'>Subscription</span></p>
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
-                        <p className='text-2xl text-custom-color-1 font-bold'>$97 $297</p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>$97 <span className='cut-text'>$297</span></p>
                         <p className='text-2xl'>One Time Payment</p>
                         <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md font-bold'>Buy Now</button>
                     </div>
@@ -961,6 +973,17 @@ const Tenth = () => {
 
                         </div>
                     </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Etsy Fee Calculator</p>
+                            
+
+                        </div>
+                    </div>
+                    
                     <div className='flex gap-3 '>
                         <div>
                             <img src={vector} alt="dot" className='relative top-1'/>
@@ -1117,7 +1140,7 @@ const Tenth = () => {
                     <div className='text-center mb-10 flex flex-col gap-2 '>
                         <p className='text-2xl'>Total Value: <span className='cut-text'>Subscription</span></p>
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
-                        <p className='text-2xl text-custom-color-1 font-bold'>$147 $597</p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>$147 <span className='cut-text'>$597</span></p>
                         <p className='text-2xl'>One Time Payment</p>
                         <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md font-bold'>Buy Now</button>
                     </div>
@@ -1185,6 +1208,17 @@ const Tenth = () => {
                             <p>keyword Finder:</p>
                             <p>Related Keyword</p>
                             <p>Ideas only</p>
+
+                        </div>
+                    </div>
+                    
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Etsy Fee Calculator</p>
+                            
 
                         </div>
                     </div>
@@ -1347,7 +1381,7 @@ const Tenth = () => {
                     <div className='text-center mb-10 flex flex-col gap-2 '>
                         <p className='text-2xl'>Total Value: <span className='cut-text'>Subscription</span></p>
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
-                        <p className='text-2xl text-custom-color-1 font-bold'>$297 $997</p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>$297 <span className='cut-text'>$997</span></p>
                         <p className='text-2xl'>One Time Payment</p>
                         <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md font-bold'>Buy Now</button>
                     </div>
