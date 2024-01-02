@@ -11,7 +11,7 @@ const Tenth = () => {
     return (
         <div className='bg-custom-color-2 pt-10'>
 
-            <div className='hidden md:flex gap-2 text-5xl items-center justify-center font-bold font-sans font-extrabold'>
+            <div className='hidden md:flex gap-2 text-5xl items-center justify-center  font-sans font-extrabold'>
                 <p className='relative -top-1'>7 Days </p>
                 <div className='flex flex-col gap-2'>
                     <p><span className='text-custom-color-1'>Money Back Guarantee</span></p>
@@ -83,20 +83,20 @@ const Tenth = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row text-3xl font-sans font-extrabold justify-center items-center -mt-10 md:mt-16 '>
+            <div className='flex flex-col md:flex-row text-3xl font-sans font-extrabold justify-center items-center -mt-10 md:mt-16 gap-2 md:gap-0'>
                 <div className='flex flex-col  gap-3' >
                     <p className='text-custom-color-1 flex justify-center'>Pick the option</p>
-                    <img src={line2} alt="img loading curve line" className=' hidden md:block' />
+                    <img src={line2} alt="img loading curve line" className=' hidden md:block w-8/12 relative left-16' />
                 </div>
-                <div className='relative bottom-2'>
+                <div className='relative bottom-2 md:right-20'>
                     <p className=''>that's best for you </p>
                 </div>
             </div>
             <div className=' hidden md:flex justify-center items-center mt-20 font-serif '>
                 <div className='w-5/6 mb-20'>
-                    <table className='w-full'>
+                    <table className='w-full table-rounded'>
                         <tr>
-                            <th>Features</th>
+                            <th >Features</th>
                             <th>Basic</th>
                             <th className='heading-color text-custom-color-1 border-none'>Standard</th>
                             <th>Pro</th>
@@ -261,6 +261,21 @@ const Tenth = () => {
 
                         </tr>
                         <tr>
+                            <td>Team Members</td>
+                            <td>
+                                Add upto 2 Team Members
+                            </td>
+                            <td>
+                                Add upto 6 Team Members
+
+                            </td>
+                            <td>
+                                Add upto 12 Team Members
+
+                            </td>
+
+                        </tr>
+                        <tr>
                             <td>
                                 <div>
                                     <p className='font-bold'>Use to Launch Unlimited</p>
@@ -314,7 +329,7 @@ const Tenth = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>Export data</td>
+                            <td>Export to CSV</td>
                             <td>
                                 <div className='flex justify-center items-center' >
                                     <img src={correct} alt="tick" />
@@ -622,7 +637,7 @@ const Tenth = () => {
                                 <div className='text-center'>
                                     <p>Total Value: <span className='cut-text'>Subscription</span></p>
                                     <p className='text-2xl text-custom-color-1'>Today's Price:</p>
-                                    <p className='text-2xl text-custom-color-1'>$97 $497</p>
+                                    <p className='text-2xl text-custom-color-1'>$97 <span className='cut-text'>$297</span></p>
                                     <p>One Time Payment</p>
                                     <button className='bg-custom-color-1 p-2 text-white'>Buy Now</button>
                                 </div>
@@ -631,7 +646,7 @@ const Tenth = () => {
                                 <div className='text-center'>
                                     <p>Total Value: <span className='cut-text'>Subscription</span></p>
                                     <p className='text-2xl text-custom-color-1'>Today's Price:</p>
-                                    <p className='text-2xl text-custom-color-1'>$147 <span className='cut-text'>$497</span> </p>
+                                    <p className='text-2xl text-custom-color-1'>$147 <span className='cut-text'>$597</span> </p>
                                     <p>One Time Payment</p>
                                     <button className='bg-custom-color-1 p-2 text-white'>Buy Now</button>
                                 </div>
@@ -641,7 +656,7 @@ const Tenth = () => {
                                 <div className='text-center'>
                                     <p>Total Value: <span className='cut-text'>Subscription</span></p>
                                     <p className='text-2xl text-custom-color-1'>Today's Price:</p>
-                                    <p className='text-2xl text-custom-color-1'>$297 <span className='cut-text'>$1497</span> </p>
+                                    <p className='text-2xl text-custom-color-1'>$297 <span className='cut-text'>$997</span> </p>
                                     <p>One Time Payment</p>
                                     <button className='bg-custom-color-1 p-2 text-white'>Buy Now</button>
                                 </div>
@@ -727,6 +742,16 @@ const Tenth = () => {
 
                         </div>
                     </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='font-bold'>Add upto 2</p>
+                            <p className='font-bold'>Team Members </p>
+
+                        </div>
+                    </div>
                     
                     <div className='flex gap-3 '>
                         <div>
@@ -743,10 +768,20 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
+                            <p>Export to CSV</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
                             <p>Adavanced data features</p>
 
                         </div>
                     </div>
+
                     <div className='flex gap-3 '>
                         <div>
                             <img src={vector} alt="dot" className='relative top-1'/>
@@ -855,7 +890,7 @@ const Tenth = () => {
                     <div className='text-center mb-10 flex flex-col gap-2 '>
                         <p className='text-2xl'>Total Value: <span className='cut-text'>Subscription</span></p>
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
-                        <p className='text-2xl text-custom-color-1 font-bold'>$97 $497</p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>$97 $297</p>
                         <p className='text-2xl'>One Time Payment</p>
                         <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md font-bold'>Buy Now</button>
                     </div>
@@ -951,6 +986,25 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
+                            <p className='font-bold'>Add upto 6</p>
+                            <p className='font-bold'>Team Members </p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Export to CSV</p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
                             <p>Adavanced data features</p>
 
                         </div>
@@ -1063,7 +1117,7 @@ const Tenth = () => {
                     <div className='text-center mb-10 flex flex-col gap-2 '>
                         <p className='text-2xl'>Total Value: <span className='cut-text'>Subscription</span></p>
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
-                        <p className='text-2xl text-custom-color-1 font-bold'>$147 $897</p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>$147 $597</p>
                         <p className='text-2xl'>One Time Payment</p>
                         <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md font-bold'>Buy Now</button>
                     </div>
@@ -1144,6 +1198,36 @@ const Tenth = () => {
 
                         </div>
                     </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='font-bold'>5000 Searches per</p>
+                            <p className='font-bold'>month for lifetime </p>
+
+                        </div>
+                    </div>
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='font-bold'>Add upto 12</p>
+                            <p className='font-bold'>Team Members </p>
+
+                        </div>
+                    </div>
+
+                    <div className='flex gap-3 '>
+                        <div>
+                            <img src={vector} alt="dot" className='relative top-1'/>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p>Export to CSV</p>
+
+                        </div>
+                    </div>
                     
                     
                     <div className='flex gap-3 '>
@@ -1263,7 +1347,7 @@ const Tenth = () => {
                     <div className='text-center mb-10 flex flex-col gap-2 '>
                         <p className='text-2xl'>Total Value: <span className='cut-text'>Subscription</span></p>
                         <p className='text-2xl text-custom-color-1 font-bold'>Today's Price:</p>
-                        <p className='text-2xl text-custom-color-1 font-bold'>$297 $1497</p>
+                        <p className='text-2xl text-custom-color-1 font-bold'>$297 $997</p>
                         <p className='text-2xl'>One Time Payment</p>
                         <button className='bg-custom-color-1 w-1/2 mx-auto p-2 text-xl text-white rounded-md font-bold'>Buy Now</button>
                     </div>

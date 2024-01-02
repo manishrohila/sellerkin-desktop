@@ -37,7 +37,7 @@ const Footer = () => {
                 <div>
                     <p className='flex justify-center items-center'>Copyright © Sellerkin 2024. All Right Reserved.</p>
                 </div>
-                <div className='mb-2'>
+                <div className=''>
                     <p className='flex justify-center items-center'>Privacy Policy | Terms Of Services | Disclaimer</p>
                 </div>
 
