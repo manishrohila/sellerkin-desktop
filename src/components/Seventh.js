@@ -77,7 +77,7 @@ const Seventh = () => {
                 </div> */}
             </div>
             <div className='bg-custom-color pt-10 pb-12'>
-                <div className='text-xl flex justify-center items-center mt-10 font-serif'>
+                <div className='text-xl flex justify-center items-center md:mt-10 font-serif'>
                     <p>Special Deal ending in :</p>
                 </div>
                 <Clock></Clock>

@@ -201,7 +201,7 @@ const Eight = () => {
                     <p className='flex justify-center'>a competitive edge on Etsy</p>
 
                 </div>
-                <div className='mt-4'>
+                <div className='mt-4 text-base sm:text-lg'>
                     <p className='flex justify-center'><strong>Uncover their sales stats, </strong> </p>
                     <p className='flex justify-center'><strong> conversion rates, and &nbsp;</strong> more to</p>
                     <p className='flex justify-center'> become the &nbsp; <strong>biggest player </strong> &nbsp; in your </p>

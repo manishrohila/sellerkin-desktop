@@ -74,7 +74,7 @@ const Third = () => {
                     </div>
                     <img src={arrow} alt="arrow sign" className='hidden md:block w-24 relative left-5' ></img>
                     <div className='flex justify-center md:hidden items-center'>
-                        <img src={arrow2} alt="arrow sign" className='relative mx-auto h-10 w-10' />
+                        <img src={arrow2} alt="arrow sign" className='relative left-1 sm:left-0 h-10 w-10' />
                     </div>
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
