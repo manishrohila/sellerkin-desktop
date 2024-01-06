@@ -92,7 +92,7 @@ const Eight = () => {
             {/* Mobile version first section */}
             <div className='flex flex-col mt-10 p-10 font-serif justify-center items-center gap-4 md:hidden bg-custom-color '>
 
-                <div className='font-semibold text-xl flex-col justify-center items-center'>
+                <div className='font-semibold text-lg sm:text-xl flex-col justify-center items-center'>
                     <p className='flex justify-center'> <span className='text-custom-color-1'>Product Finder: </span> &nbsp;"Discover </p>
                     <p className='flex justify-center'> Winning Etsy Products in</p>
                     <p className='flex justify-center'> Seconds with Product Finder!"</p>
@@ -101,9 +101,11 @@ const Eight = () => {
                     <img src={first} alt="image loading" className='w-4/5 h-4/5' />
                 </div>
                 <div className='mt-2 text-base'>
-                    <p className='flex justify-center'>"Product Finder is your &nbsp; <strong>golden ticket</strong> </p> <p>to Etsy success! Find top-selling</p>
+                    <p className='flex justify-center'>"Product Finder is your &nbsp; <strong>golden ticket</strong> </p> 
+                    <p className='flex justify-center'>to Etsy success! Find top-selling</p>
                     <p className='flex justify-center'> products effortlessly and skyrocket</p>
-                    <p className='flex justify-center'>your business by knowing what works.</p>
+                    <p className='flex justify-center'>your business by knowing </p>
+                    <p className='flex justify-center'> what works.</p>
                 </div>
                 <div className='mt-2'>
                     <p className='flex justify-center'>Say goodbye to guesswork and  </p>
@@ -185,7 +187,7 @@ const Eight = () => {
             <div className='flex flex-col mt-5 p-10 justify-center font-serif items-center gap-4 md:hidden'>
 
 
-                <div className='font-semibold text-xl'>
+                <div className='font-semibold text-lg sm:text-xl'>
                     <p> <span className='text-custom-color-1'>Shop Analyzer:</span> "Beat your Etsy </p>
                     <p className='flex justify-center'>Competition with Shop</p>
                     <p className='flex justify-center'> Analyzer's Insights!"</p>
@@ -286,7 +288,7 @@ const Eight = () => {
             {/* Mobile version Third  section */}
             <div className='flex flex-col bg-custom-color p-10 font-serif justify-center md:hidden items-center gap-4'>
 
-                <div className='font-semibold text-xl'>
+                <div className='font-semibold text-lg sm:text-xl'>
                     <p >
                          <span className='text-custom-color-1'>Listing Analyzer:</span> "Sell Faster  </p>
                     <p className='flex justify-center'> and Smarter with Listing</p>
@@ -298,39 +300,39 @@ const Eight = () => {
                 <div className='mt-4'>
 
                     <p className='flex justify-center'>"Listing Analyzer is your secret </p>
-                    <p className='flex justify-center'> weapon to &nbsp; <strong>stand out on Etsy</strong></p>
+                    <p className='flex justify-center'> weapon to &nbsp; <strong>stand out on Etsy.</strong></p>
 
                 </div>
                 <div className='mt-4'>
                     <p className='flex justify-center'>Analyze competitors' listings, &nbsp; <strong>see </strong> </p>
                     <p className='flex justify-center'><strong> quantities left, </strong> &nbsp; and watch your own</p>
                     <p className='flex justify-center'> listings shine and rank higher. Crush</p>
-                    <p className='flex justify-center'>the competition and be the Etsy star</p>
+                    <p className='flex justify-center'>the competition and be the Etsy star"</p>
                 </div>
                 <div className='mt-4'>
-                    <div className='flex gap-2 mt-1'>
-                        <img src={vector} alt="dot" className='relative -top-6' />
+                    <div className='flex gap-2 mt-1 '>
+                        <img src={vector} alt="dot" className='relative -top-5' />
                         <div>
-                            <p>Analyze competitor listings to assess </p>
-                            <p>their effectiveness and </p>
-                            <p> visibility</p>
+                            <p className='text-sm md:text-lg sm:text-xl'>Analyze competitor listings to assess </p>
+                            <p className='text-sm md:text-lg sm:text-xl'>their effectiveness and </p>
+                            <p className='text-sm md:text-lg sm:text-xl'> visibility</p>
                         </div>
 
                     </div>
                     <div className='flex gap-2 mt-1'>
-                        <img src={vector} alt="dot" className='relative -top-6' />
+                        <img src={vector} alt="dot" className='relative -top-5' />
                         <div>
-                            <p>Monitor the <strong className='underline'>quantity</strong> of a </p>
-                            <p> product <span className='underline'>left in stock</span> to stay</p>
-                            <p> informed about market dynamics</p>
+                            <p className='text-sm md:text-lg sm:text-xl'>Monitor the <strong className='underline'>quantity</strong> of a </p>
+                            <p className='text-sm md:text-lg sm:text-xl'> product <span className='underline'>left in stock</span> to stay</p>
+                            <p className='text-sm md:text-lg sm:text-xl'> informed about market dynamics</p>
                         </div>
                     </div>
                     <div className='flex gap-2 mt-1'>
                         <img src={vector} alt="dot" className='relative -top-5' />
                         <div>
-                            <p>Optimize your listings for better </p>
-                            <p><strong>visibility</strong> and higher <strong>ranking</strong> in </p>
-                            <p> the marketplace</p>
+                            <p className='text-sm md:text-lg sm:text-xl'>Optimize your listings for better </p>
+                            <p className='text-sm md:text-lg sm:text-xl'><strong>visibility</strong> and higher <strong>ranking</strong> in </p>
+                            <p className='text-sm md:text-lg sm:text-xl'> the marketplace</p>
                         </div>
                     </div>
                 </div>

@@ -135,7 +135,7 @@ const Nine = () => {
                     <div className='flex justify-center items-center'>
                         <p className='font-bold'>(Value $X)</p>
                     </div>
-                    <div>
+                    <div className='text-sm sm:text-lg'>
                         <p className='flex justify-center items-center'>A detailed guide on how to </p>
                         <p className='flex justify-center items-center'>optimize Etsy listings for better </p>
                         <p className='flex justify-center items-center mb-4'>visibility and conversion.</p>
@@ -161,7 +161,7 @@ const Nine = () => {
                     <div className='flex justify-center items-center'>
                         <p className='font-bold'>(Value $X)</p>
                     </div>
-                    <div>
+                    <div className='text-sm sm:text-lg'>
                         <p className='flex justify-center items-center'>A comprehensive ebook filled </p>
                         <p className='flex justify-center items-center'> with tips, tricks, and stategies</p>
                         <p className='flex justify-center items-center mb-4'>for succeeding on Etsy. </p>
@@ -185,8 +185,8 @@ const Nine = () => {
                     <div className='flex justify-center items-center'>
                         <p className='font-bold'>(Value $X)</p>
                     </div>
-                    <div>
-                        <p>An invitation to a private </p>
+                    <div className='text-sm sm:text-lg'>
+                        <p className='flex justify-center items-center'>An invitation to a private </p>
                         <p className='flex justify-center items-center'> Facebook group or forum n</p>
                         <p className='flex justify-center items-center'> where users ca network with </p>
                         <p className='flex justify-center items-center'>other Sellerkin customers, </p>

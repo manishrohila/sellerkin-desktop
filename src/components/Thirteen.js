@@ -19,7 +19,7 @@ const Thirteen = () => {
         <p>half the battle is already Won.</p>
         <img src={underline} alt="img loading" className='hidden md:block mt-4' />
       </div>
-      <div className='text-3xl md:hidden flex  place-items-center flex-col font-sans font-extrabold'>
+      <div className='sm:text-3xl text-2xl md:hidden flex  place-items-center flex-col font-sans font-extrabold'>
         <p>Once you Know </p>
         <p> about this <span className='text-custom-color-1'>SECRET CODE,</span></p>
         <p>  <span className='text-custom-color-1'>CODE,</span> half the battle</p>
