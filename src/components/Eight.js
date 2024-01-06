@@ -205,7 +205,7 @@ const Eight = () => {
                     <p className='flex justify-center'><strong>Uncover their sales stats, </strong> </p>
                     <p className='flex justify-center'><strong> conversion rates, and &nbsp;</strong> more to</p>
                     <div className='flex justify-center'>
-                        <p > become the &nbsp; <strong>biggest player </strong> &nbsp; in your </p>
+                        <p > become the <strong>biggest player </strong> in your </p>
                     </div>
 
                     <p className='flex justify-center'>niche. It's time to &nbsp; <strong className='underline '>lead</strong>, not follow!"</p>
