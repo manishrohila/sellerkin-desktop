@@ -100,7 +100,7 @@ const Eight = () => {
                 <div className='flex justify-center items-center'>
                     <img src={first} alt="image loading" className='w-4/5 h-4/5' />
                 </div>
-                <div className='mt-2 text-base'>
+                <div className='mt-2 text-sm'>
                     <div className='flex justify-center'>
                     <p >"Product Finder is your <strong>golden ticket</strong> </p>
                     </div>
@@ -110,11 +110,11 @@ const Eight = () => {
                     <p className='flex justify-center'>your business by knowing </p>
                     <p className='flex justify-center'> what works.</p>
                 </div>
-                <div className='mt-2'>
+                <div className='mt-2 text-sm'>
                     <p className='flex justify-center'>Say goodbye to guesswork and  </p>
                     <p className='flex justify-center'>hello to &nbsp; <strong>instant success!"</strong></p>
                 </div>
-                <div className='mt-2'>
+                <div className='mt-2 text-sm'>
                     <div className='flex gap-2 mt-1'>
                         <div className='relative top-1'>
                             <img src={vector} alt="dot" />
@@ -198,13 +198,13 @@ const Eight = () => {
                 <div className='flex justify-center mt-4'>
                     <img src={second} alt="image loading" className='w-4/5 h-4/5' />
                 </div>
-                <div className='mt-4'>
+                <div className='mt-4 text-sm'>
                     <p className='flex justify-center'>"Shop Analyzer empowers you to </p>
                     <p className='flex justify-center'> analyze your competitors and gain </p>
                     <p className='flex justify-center'>a competitive edge on Etsy</p>
 
                 </div>
-                <div className='mt-4 text-base sm:text-lg'>
+                <div className='mt-4 text-sm sm:text-lg'>
                     <p className='flex justify-center'><strong>Uncover their sales stats, </strong> </p>
                     <p className='flex justify-center'><strong> conversion rates, and &nbsp;</strong> more to</p>
                     <div className='flex justify-center'>
@@ -213,7 +213,7 @@ const Eight = () => {
 
                     <p className='flex justify-center'>niche. It's time to &nbsp; <strong className='underline '>lead</strong>, not follow!"</p>
                 </div>
-                <div className='mt-4 flex flex-col gap-2'>
+                <div className='mt-4 flex flex-col gap-2 text-sm'>
                     <div className='flex gap-2 mt-1'>
                         <img src={vector} alt="dot" className='relative -top-2' />
                         <div>
@@ -303,13 +303,13 @@ const Eight = () => {
                 <div className='flex justify-center mt-4'>
                     <img src={third} alt="image loading" className='w-4/5 h-4/5' />
                 </div>
-                <div className='mt-4'>
+                <div className='mt-4 text-sm'>
 
                     <p className='flex justify-center'>"Listing Analyzer is your secret </p>
                     <p className='flex justify-center'> weapon to &nbsp; <strong>stand out on Etsy.</strong></p>
 
                 </div>
-                <div className='mt-4'>
+                <div className='mt-4 text-sm '>
                     <p className='flex justify-center'>Analyze competitors' listings, &nbsp; <strong>see </strong> </p>
                     <div  className='flex justify-center'>
                     <p><strong> quantities left, </strong> and watch your own</p>
@@ -318,7 +318,7 @@ const Eight = () => {
                     <p className='flex justify-center'> listings shine and rank higher. Crush</p>
                     <p className='flex justify-center'>the competition and be the Etsy star"</p>
                 </div>
-                <div className='mt-4'>
+                <div className='mt-4 text-sm'>
                     <div className='flex gap-2 mt-1 '>
                         <img src={vector} alt="dot" className='relative -top-5' />
                         <div>
@@ -328,7 +328,7 @@ const Eight = () => {
                         </div>
 
                     </div>
-                    <div className='flex gap-2 mt-1'>
+                    <div className='flex gap-2 mt-1 text-sm'>
                         <img src={vector} alt="dot" className='relative -top-5' />
                         <div>
                             <p className='text-sm md:text-lg sm:text-xl'>Monitor the <strong className='underline'>quantity</strong> of a </p>
