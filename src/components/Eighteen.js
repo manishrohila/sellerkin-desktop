@@ -56,7 +56,7 @@ const Eighteen = () => {
 
                 <div className="flex flex-row  md:hidden justify-center mt-5 font-sans w-full">
 
-                    <div className="bg-custom-color-1 m-1 text-xl px-3 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
+                    <div className="bg-custom-color-1 m-1 text-lg px-3 py-3 border-2 rounded-lg flex justify-center items-center flex-col text-white font-bold font-sans">
                         <p className="flex justify-center">Get Instant Access</p>
                         <p className='flex justify-center'>To Sellerkin</p>
 

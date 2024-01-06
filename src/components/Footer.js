@@ -25,19 +25,19 @@ const Footer = () => {
             <div className='flex md:hidden flex-col text-white gap-4 '>
                 <div className="flex gap-4 text-white justify-center items-center">
                     <img src={logo} alt="SellerKin logo" className="w-12 h-12"></img>
-                    <span className="text-4xl font-bold relative top-1  ">SellerKin</span>
+                    <span className="text-2xl font-bold relative top-1  ">SellerKin</span>
                 </div>
-                <div>
+                <div className='text-xs'>
                     <p className='flex justify-center items-center'>This site is not a part of the Facebook </p>
                     <p className='flex justify-center items-center'>website or Facebook inc. Additionally, </p>
                     <p className='flex justify-center items-center'>This site is NOT endorsed by</p>
                     <p className='flex justify-center items-center'> Facebook in any way. FACEBOOK is a </p>
                     <p className='flex justify-center items-center'>trademark of FACEBOOK, Inc.</p>
                 </div>
-                <div>
+                <div className='text-xs'>
                     <p className='flex justify-center items-center'>Copyright © Sellerkin 2024. All Right Reserved.</p>
                 </div>
-                <div className=''>
+                <div className='text-xs'>
                     <p className='flex justify-center items-center'>Privacy Policy | Terms Of Services | Disclaimer</p>
                 </div>
 

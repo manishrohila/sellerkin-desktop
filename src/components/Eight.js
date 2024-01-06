@@ -101,7 +101,10 @@ const Eight = () => {
                     <img src={first} alt="image loading" className='w-4/5 h-4/5' />
                 </div>
                 <div className='mt-2 text-base'>
-                    <p className='flex justify-center'>"Product Finder is your &nbsp; <strong>golden ticket</strong> </p>
+                    <div className='flex justify-center'>
+                    <p >"Product Finder is your <strong>golden ticket</strong> </p>
+                    </div>
+                    
                     <p className='flex justify-center'>to Etsy success! Find top-selling</p>
                     <p className='flex justify-center'> products effortlessly and skyrocket</p>
                     <p className='flex justify-center'>your business by knowing </p>
@@ -308,7 +311,10 @@ const Eight = () => {
                 </div>
                 <div className='mt-4'>
                     <p className='flex justify-center'>Analyze competitors' listings, &nbsp; <strong>see </strong> </p>
-                    <p className='flex justify-center'><strong> quantities left, </strong> &nbsp; and watch your own</p>
+                    <div  className='flex justify-center'>
+                    <p><strong> quantities left, </strong> and watch your own</p>
+                    </div>
+                    
                     <p className='flex justify-center'> listings shine and rank higher. Crush</p>
                     <p className='flex justify-center'>the competition and be the Etsy star"</p>
                 </div>
