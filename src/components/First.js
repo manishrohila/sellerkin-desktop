@@ -57,7 +57,7 @@ function First() {
                 <div className="flex gap-8 font-serif">
                     <div>
                         <ul className=" justify-center list-none ml-4 hidden md:flex space-x-5">
-                            <li className="text-lg">
+                            <li className="text-lg text-black hover:text-orange-400 transition-all cursor-pointer">
                                 <Link
 
                                     to="how_it_works"
@@ -66,6 +66,7 @@ function First() {
                                     offset={20}
                                     duration={1000}
                                     onClick={closeMenu}
+                                    style={{ transition: 'all 0.3s' }}
                                 >
                                     How it Works
                                 </Link>
@@ -80,6 +81,8 @@ function First() {
                                     offset={20}
                                     duration={1000}
                                     onClick={closeMenu}
+                                    className="text-lg text-black hover:text-orange-400 transition-all cursor-pointer"
+                                    style={{ transition: 'all 0.3s' }}
                                 >
                                     Testimonials
                                 </Link>
@@ -94,6 +97,8 @@ function First() {
                                     offset={20}
                                     duration={1000}
                                     onClick={closeMenu}
+                                    className="text-lg text-black hover:text-orange-400 transition-all cursor-pointer"
+                                    style={{ transition: 'all 0.3s' }}
                                 >
                                     Pricing
                                 </Link>
@@ -117,12 +122,28 @@ function First() {
                     <a href="#" onClick={() => setShowMenu(!showMenu)}>
                         <GiHamburgerMenu />
                         {showMenu ? (
-                            <div className="absolute mt-3 w-32 h-36 bg-white rounded-md border-[1px] p-3 border-black/70 translate-x-[-105px]">
+                            <div className="absolute mt-3 w-32 h-28 bg-white rounded-md border-[1px] p-3 border-black/70 translate-x-[-105px]">
+                                <div className="flex flex-col gap-2">
                                 {menu.map((item) => (
-                                    <div key={item.key} className="mt-3 hover:text-orange-400 ">
+                                    <Link
+                                        key={item.key}
+                                        to={item.name.toLowerCase().replace(/ /g, '_')}
+                                        spy={true}
+                                        smooth={true}
+                                        offset={20} // You can adjust the offset as needed
+                                        duration={1000}
+                                        onClick={() => {
+                                            closeMenu();
+                                            // Additional logic if needed after clicking a menu item
+                                        }}
+                                        className=" text-black hover:text-orange-400 transition-all cursor-pointer"
+                                    style={{ transition: 'all 0.3s' }}
+                                    >
                                         {item.name}
-                                    </div>
+                                    </Link>
                                 ))}
+                                </div>
+                                
                             </div>
                         ) : null}
                     </a>

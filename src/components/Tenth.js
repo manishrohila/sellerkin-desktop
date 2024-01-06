@@ -96,7 +96,7 @@ const Tenth = () => {
                 <div className='w-5/6 mb-20'>
                     <table className='w-full table-rounded'>
                         <tr>
-                            <th >Features</th>
+                            <th className="left-align" >Features</th>
                             <th>Basic</th>
                             <th className='heading-color text-custom-color-1 border-none'>Standard</th>
                             <th>Pro</th>
@@ -350,7 +350,7 @@ const Tenth = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>Adavanced data features</td>
+                            <td>advanced data features</td>
                             <td>
                                 <div className='flex justify-center items-center' >
                                     <img src={correct} alt="tick" />
@@ -789,7 +789,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p>Adavanced data features</p>
+                            <p>Advanced data features</p>
 
                         </div>
                     </div>
@@ -1028,7 +1028,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p>Adavanced data features</p>
+                            <p>Advanced data features</p>
 
                         </div>
                     </div>
@@ -1269,7 +1269,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p>Adavanced data features</p>
+                            <p>advanced data features</p>
 
                         </div>
                     </div>
