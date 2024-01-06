@@ -27,8 +27,11 @@ import cart from "../img/mdi-light_cart.svg"
 import graph_bg from "../img/Vector graph.svg"
 import small_right from "../img/mingcute_arrows-right-line (1).svg"
 import small_left from "../img/Group.svg"
+import { Link } from "react-scroll";
 function First() {
     const [showMenu, setShowMenu] = useState(false);
+
+    const closeMenu = () => setShowMenu(false);
     const menu = [
         {
             name: "How it works",
@@ -45,7 +48,7 @@ function First() {
     ];
     return (
         <div className="bg-custom-color pb-10">
-            <nav className="flex md:justify-around  justify-between md:px-10 px-3 py-6 ">
+            <nav className="flex md:justify-around justify-between md:px-10 px-3 py-6 ">
                 <div className="flex gap-2">
                     <img src={logo} alt="SellerKin logo" className="relative -mt-4"></img>
                     <span className="text-3xl font-bold relative xl:bottom-2 ">SellerKin</span>
@@ -54,9 +57,48 @@ function First() {
                 <div className="flex gap-8 font-serif">
                     <div>
                         <ul className=" justify-center list-none ml-4 hidden md:flex space-x-5">
-                            <li className="text-lg">How it Works</li>
-                            <li className="text-lg"> Testimonials</li>
-                            <li className="text-lg">Pricing</li>
+                            <li className="text-lg">
+                                <Link
+
+                                    to="how_it_works"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={20}
+                                    duration={1000}
+                                    onClick={closeMenu}
+                                >
+                                    How it Works
+                                </Link>
+
+                            </li>
+                            <li className="text-lg">
+                                <Link
+
+                                    to="testimonials"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={20}
+                                    duration={1000}
+                                    onClick={closeMenu}
+                                >
+                                    Testimonials
+                                </Link>
+
+                            </li>
+                            <li className="text-lg">
+                                <Link
+
+                                    to="pricing"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={20}
+                                    duration={1000}
+                                    onClick={closeMenu}
+                                >
+                                    Pricing
+                                </Link>
+
+                            </li>
                         </ul>
                     </div>
 
@@ -71,13 +113,13 @@ function First() {
                     </div>
                 </div>
 
-                <div className="hamburger-menu md:hidden block font-serif">
+                <div className="hamburger-menu md:hidden block font-serif index " >
                     <a href="#" onClick={() => setShowMenu(!showMenu)}>
                         <GiHamburgerMenu />
                         {showMenu ? (
                             <div className="absolute mt-3 w-32 h-36 bg-white rounded-md border-[1px] p-3 border-black/70 translate-x-[-105px]">
                                 {menu.map((item) => (
-                                    <div key={item.key} className="mt-3 hover:text-orange-400">
+                                    <div key={item.key} className="mt-3 hover:text-orange-400 ">
                                         {item.name}
                                     </div>
                                 ))}
@@ -329,7 +371,7 @@ function First() {
                     <img src={small_left} alt="left arrow" className="md:hidden relative top-8" ></img>
                 </div>
             </div>
-            
+
 
             <div className="m-5 hidden gap-2 md:flex md:flex-row justify-center font-serif ">
                 <div className="flex justify-center">

@@ -11,7 +11,7 @@ import small_right from "../img/mingcute_arrows-right-line (1).svg"
 import small_left from "../img/Group.svg"
 const Eleven = () => {
     return (
-        <div className='bg-custom-color pt-10'>
+        <div className='bg-custom-color pt-10 ' id='testimonials'>
             <div className='hidden md:flex flex-col justify-center items-center text-5xl font-extrabold font-sans'>
                 <p>Don't believe what we say,<span className='text-custom-color-1'> listen to real users</span></p>
                 <p><span className='text-custom-color-1'>winning with Sellerkin </span> every single day.</p>

@@ -9,7 +9,7 @@ import vector from "../img/Vector.svg"
 const Tenth = () => {
 
     return (
-        <div className='bg-custom-color-2 pt-10'>
+        <div className='bg-custom-color-2 pt-10' id='pricing'>
 
             <div className='hidden md:flex gap-2  text-5xl items-center justify-center  font-sans font-extrabold'>
                 <p className='relative -top-1'>7 Days </p>

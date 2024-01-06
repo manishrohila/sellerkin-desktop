@@ -12,7 +12,7 @@ const Footer = () => {
                     <div>
                         <p>Copyright © Sellerkin 2024. All Right Reserved.</p>
                     </div>
-                    <div className='mb-10'>
+                    <div className='mb-2'>
                         <p>Privacy Policy | Terms Of Services | Disclaimer</p>
                     </div>
                 </div>

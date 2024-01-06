@@ -13,4 +13,7 @@
     z-index: -1;
   }
 
- 
+ .index{
+  z-index: 1;
+  position:relative ;
+ }
