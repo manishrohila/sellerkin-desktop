@@ -13,6 +13,8 @@ import small_left from "../img/Group.svg"
 import visa1 from "../img/toppng 4.svg"
 import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
+import mac_bg from "../img/Component 35.svg"
+import './Fourth.css'
 
 const Fourth = () => {
     return (
@@ -75,8 +77,9 @@ const Fourth = () => {
 
             </div>
             <div className='md:hidden flex justify-center items-center flex-wrap mt-10  gap-4 text-lg mb-10 font-serif'>
-                <div className='mb-7'>
-                    <img src={macbook} alt='image'></img>
+                <div className='mb-7 border-top-2 border-custom-color-1 relative' >
+                    <img src={mac_bg} alt="img loading" className='absolute left-2 bottom-2'/>
+                    <img src={macbook} alt='img loading' className='back'></img>
                 </div>
                 <div className='flex flex-col justify-center items-center'>
                     <p>Sellerkin is a tool for Etsy sellers to </p>
