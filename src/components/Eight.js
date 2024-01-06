@@ -101,7 +101,7 @@ const Eight = () => {
                     <img src={first} alt="image loading" className='w-4/5 h-4/5' />
                 </div>
                 <div className='mt-2 text-base'>
-                    <p className='flex justify-center'>"Product Finder is your &nbsp; <strong>golden ticket</strong> </p> 
+                    <p className='flex justify-center'>"Product Finder is your &nbsp; <strong>golden ticket</strong> </p>
                     <p className='flex justify-center'>to Etsy success! Find top-selling</p>
                     <p className='flex justify-center'> products effortlessly and skyrocket</p>
                     <p className='flex justify-center'>your business by knowing </p>
@@ -204,7 +204,10 @@ const Eight = () => {
                 <div className='mt-4 text-base sm:text-lg'>
                     <p className='flex justify-center'><strong>Uncover their sales stats, </strong> </p>
                     <p className='flex justify-center'><strong> conversion rates, and &nbsp;</strong> more to</p>
-                    <p className='flex justify-center'> become the &nbsp; <strong>biggest player </strong> &nbsp; in your </p>
+                    <div className='flex justify-center'>
+                        <p > become the &nbsp; <strong>biggest player </strong> &nbsp; in your </p>
+                    </div>
+
                     <p className='flex justify-center'>niche. It's time to &nbsp; <strong className='underline '>lead</strong>, not follow!"</p>
                 </div>
                 <div className='mt-4 flex flex-col gap-2'>
@@ -290,7 +293,7 @@ const Eight = () => {
 
                 <div className='font-semibold text-lg sm:text-xl'>
                     <p >
-                         <span className='text-custom-color-1'>Listing Analyzer:</span> "Sell Faster  </p>
+                        <span className='text-custom-color-1'>Listing Analyzer:</span> "Sell Faster  </p>
                     <p className='flex justify-center'> and Smarter with Listing</p>
                     <p className='flex justify-center'> Analyzer's Magic!"</p>
                 </div>
@@ -474,7 +477,7 @@ const Eight = () => {
                         <th>Features</th>
                         <th>
                             <div className='flex middle justify-center items-center'>
-                                <img src={logo} alt="" className='hidden'/>
+                                <img src={logo} alt="" className='hidden' />
                                 <p className='text-xl'>SellerKin</p>
                             </div>
                         </th>
