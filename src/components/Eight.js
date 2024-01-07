@@ -480,7 +480,7 @@ const Eight = () => {
             <div className='flex justify-center md:hidden items-center mt-10 '>
                 <table className='w-3/5 table1 '>
                     <tr>
-                        <th className="text-left">Features</th>
+                        <th className="">Features</th>
                         <th>
                             <div className='flex middle justify-center items-center'>
                                 <img src={logo} alt="" className='hidden' />
