@@ -20,18 +20,18 @@ import styles from "./Eight.module.css"
 const Eight = () => {
     return (
         <div className='bg-custom-color-2 md:pt-10 -mt-8'>
-            <div className='text-5xl font-bold font-sans  flex-col justify-center items-center hidden md:flex '>
+            <div className='lg:text-5xl md:text-3xl font-bold font-sans  flex-col justify-center items-center hidden md:flex '>
                 <div>
                     <p>Here is how Sellerkin makes it <span className='text-custom-color-1'>easy</span> </p>
                 </div>
 
-                <div className='flex text-custom-color-1'>
+                <div className='flex text-custom-color-1 md:relative md:left-28 lg:left-0'>
                     <div>
                         <p>for you </p>
                     </div>
-                    <div className='flex flex-col gap-2'>
+                    <div className='flex flex-col gap-2 '>
                         <p> &nbsp; to find winning products</p>
-                        <img src={underline} alt="" className='w-full relative left-5' />
+                        <img src={underline} alt="" className='lg:w-full md:w-7/12 relative left-5' />
                     </div>
 
                 </div>
@@ -57,20 +57,20 @@ const Eight = () => {
 
             <div className='hidden mt-20 justify-center items-center gap-16 md:flex font-serif'>
                 <div>
-                    <div className='font-bold text-2xl'>
+                    <div className='font-bold lg:text-lg md:text-sm'>
                         <p> <span className='text-custom-color-1'>Product Finder:</span> "Discover Winning Etsy</p>
                         <p>Products in Seconds with Product Finder!"</p>
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 lg:text-lg md:text-xs'>
                         <p>"Product Finder is your <strong>golden ticket</strong> to Etsy success!</p>
                         <p>Find top-selling products effortlessly and skyrocket</p>
                         <p>your business by knowing what works.</p>
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 lg:text-lg md:text-xs'>
                         <p>Say goodbye to guesswork and hello to</p>
                         <p><strong>instant success!"</strong></p>
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 lg:text-lg md:text-xs'>
                         <div className='flex gap-2 mt-1'>
                             <img src={vector} alt="dot" />
                             <p>Rapid Product Discovery for effortless success</p>
@@ -86,7 +86,7 @@ const Eight = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={first} alt="image loading" />
+                    <img src={first} alt="image loading"  className='md:h-[319px] md:w-[299px] lg:w-full lg:h-full'/>
                 </div>
             </div>
             {/* Mobile version first section */}
@@ -142,33 +142,33 @@ const Eight = () => {
 
             </div>
             <div className='md:flex hidden justify-center'>
-                <img src={arrow1} alt="arrow loading" />
+                <img src={arrow1} alt="arrow loading" className='md:w-[58px] md:h-[58px]   lg:w-[145px] lg:h-[119px]' />
             </div>
-            <div className='md:flex hidden mt-10 font-serif justify-center items-center gap-16'>
+            <div className='md:flex hidden lg:mt-10 font-serif justify-center items-center gap-16'>
                 <div>
-                    <img src={second} alt="image loading" />
+                    <img src={second} alt="image loading" className='md:h-[319px] md:w-[299px] lg:w-full lg:h-full'/>
                 </div>
                 <div>
-                    <div className='font-bold text-2xl'>
+                    <div className='font-bold lg:text-2xl  md:text-xs'>
                         <p> <span className='text-custom-color-1'>Shop Analyzer:</span> "Beat your Etsy Competition</p>
                         <p>with Shop Analyzer's Insights!"</p>
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 lg:text-lg md:text-xs'>
                         <p>"Shop Analyzer empowers you to analyze your</p>
                         <p>competitors and gain a competitive edge on Etsy</p>
 
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 lg:text-lg md:text-xs'>
                         <p><strong>Uncover their sales stats, conversion rates, and</strong></p>
                         <p>more to become the <strong>biggest player </strong> in your niche.</p>
                         <p>It's time to <strong className='underline '>lead</strong>, not follow!"</p>
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 lg:text-lg md:text-xs'>
                         <div className='flex gap-2 mt-1'>
                             <img src={vector} alt="dot" />
                             <p>Competitor Insights to give you a competitive edge.</p>
                         </div>
-                        <div className='flex gap-2 mt-1'>
+                        <div className='flex gap-2 mt-1 lg:text-lg md:text-xs'>
                             <img src={vector} alt="dot" className='relative -top-2' />
                             <div>
                                 <p>Discover what's working for top-performing shops</p>
@@ -244,42 +244,42 @@ const Eight = () => {
 
             </div>
             <div className='md:flex hidden justify-center'>
-                <img src={arrow2} alt="arrow loading" />
+                <img src={arrow2} alt="arrow loading"  className='md:w-[58px] md:h-[58px]   lg:w-[145px] lg:h-[119px]'/>
             </div>
-            <div className='md:flex hidden mt-10 justify-center font-serif items-center gap-16'>
+            <div className='md:flex hidden lg:mt-10  justify-center font-serif items-center gap-16'>
                 <div>
-                    <div className='font-bold text-2xl'>
+                    <div className='font-bold lg:text-2xl  md:text-xs'>
                         <p> <span className='text-custom-color-1'>Listing Analyzer:</span> "Sell Faster and Smarter</p>
                         <p>with Listing Analyzer's Magic!"</p>
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 lg:text-lg md:text-xs'>
 
                         <p>"Listing Analyzer is your secret weapon to <strong>stand</strong></p>
                         <p><strong>out on Etsy</strong></p>
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 lg:text-lg md:text-xs'>
                         <p>Analyze competitors' listings, <strong>see quantities left, </strong>and</p>
                         <p>watch your own listings shine and rank higher. Crush</p>
                         <p>the competition and be the Etsy star</p>
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 lg:text-lg md:text-xs'>
                         <div className='flex gap-2 mt-1'>
-                            <img src={vector} alt="dot" />
+                            <img src={vector} alt="dot" className='md:w-3 md:h-3 lg:w-[16px] lg:h-[24px] md:relative md:top-1 lg:top-0'/>
                             <div>
                                 <p>Analyze competitor listings to assess their</p>
                                 <p>effectiveness and visibility</p>
                             </div>
 
                         </div>
-                        <div className='flex gap-2 mt-1'>
-                            <img src={vector} alt="dot" />
+                        <div className='flex gap-2 mt-1 lg:text-lg md:text-xs'>
+                            <img src={vector} alt="dot" className='md:w-3 md:h-3 lg:w-[16px] lg:h-[24px] md:relative md:top-1 lg:top-0'  />
                             <div>
                                 <p>Monitor the <strong className='underline'>quantity</strong> of a product <span className='underline'>left in stock</span> to</p>
                                 <p>stay informed about market dynamics</p>
                             </div>
                         </div>
-                        <div className='flex gap-2 mt-1'>
-                            <img src={vector} alt="dot" />
+                        <div className='flex gap-2 mt-1 lg:text-lg md:text-xs'>
+                            <img src={vector} alt="dot" className='md:w-3 md:h-3 lg:w-[16px] lg:h-[24px] md:relative md:top-1 lg:top-0'/>
                             <div>
                                 <p>Optimize your listings for better <strong>visibility</strong> and</p>
                                 <p>higher <strong>ranking</strong> in the marketplace</p>
@@ -288,7 +288,7 @@ const Eight = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={third} alt="image loading" />
+                    <img src={third} alt="image loading"  className='md:h-[319px] md:w-[299px] lg:w-full lg:h-full'/>
                 </div>
             </div>
             {/* Mobile version Third  section */}
@@ -376,7 +376,7 @@ const Eight = () => {
                     <img src={days} alt="payment" className="relative mb-2"></img>
                 </div>
             </div>
-            <div className='text-5xl font-sans mt-8 md:flex hidden flex-col justify-center items-center gap-3 font-bold'>
+            <div className='lg:text-5xl md:text-3xl font-sans mt-8 md:flex hidden flex-col justify-center items-center gap-3 font-bold'>
                 <div>
                     <p>
                         Here is how Sellerkin
@@ -385,7 +385,7 @@ const Eight = () => {
 
                 <div className='text-custom-color-1 flex flex-col justify-center items-center gap-3'>
                     <p>compares to the rest</p>
-                    <img src={underline} alt="underline loading" className='w-4/5' />
+                    <img src={underline} alt="underline loading" className='lg:w-4/5 md:w-3/5' />
                 </div>
 
             </div>

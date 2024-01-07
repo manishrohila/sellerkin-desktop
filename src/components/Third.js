@@ -104,7 +104,7 @@ const Third = () => {
 
                 {/* UNDER LINE */}
 
-                <div className='md:flex hidden justify-center'>
+                <div className='lg:flex hidden justify-center'>
                     <img src={curveline} alt="curve line" className='w-11/12 relative top-24 hidden md:block md:w-[1250px] lg:w-[1250px] lg:left-0 bottom-0 lg:bottom-4 lg:-top-24 left-14 right-0 ml-10' />
 
 

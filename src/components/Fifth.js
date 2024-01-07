@@ -37,7 +37,7 @@ const Fifth = () => {
 
             <div className='mt-10 hidden md:flex flex-col justify-center items-center '>
 
-                <div className='flex relative flex-wrap items-center justify-center gap-5 mb-20 '>
+                <div className='flex relative  items-center justify-center lg:gap-5 mb-20 '>
                     <div>
                         <img src={fourth} alt="" />
                     </div>
@@ -47,7 +47,7 @@ const Fifth = () => {
 
                 </div>
 
-                <div className='flex relative left-12 flex-wrap items-center justify-center gap-5 mb-20 '>
+                <div className='flex relative lg:left-12 md:left-6  items-center justify-center gap-5 mb-20 '>
                     <div>
                         <img src={second} alt="family picture" className='' />
                     </div>
@@ -57,7 +57,7 @@ const Fifth = () => {
                     </div>
                 </div>
 
-                <div className='flex relative flex-wrap items-center justify-center gap-5 mb-20 '>
+                <div className='flex relative  items-center justify-center gap-5 mb-20 '>
                     <div>
                         <img src={sixth} alt="" />
                     </div>
