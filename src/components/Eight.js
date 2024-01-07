@@ -16,7 +16,7 @@ import wrong from "../img/wrong.svg"
 import correct from "../img/Mask group (1).svg"
 import small_right from "../img/mingcute_arrows-right-line (1).svg"
 import small_left from "../img/Group.svg"
-import styles from "./Eight.module.css"
+import './Eight.css'
 const Eight = () => {
     return (
         <div className='bg-custom-color-2 md:pt-10 -mt-8'>
@@ -403,7 +403,7 @@ const Eight = () => {
             <div className='md:flex hidden justify-center items-center mt-10 '>
                 <table className='w-3/5 table1 '>
                     <tr>
-                        <th>Features</th>
+                        <th className='text-left pl-6'>Features</th>
                         <th>
                             <div className='flex middle justify-center items-center'>
                                 <img src={logo} alt="" />
@@ -480,7 +480,7 @@ const Eight = () => {
             <div className='flex justify-center md:hidden items-center mt-10 '>
                 <table className='w-3/5 table1 '>
                     <tr>
-                        <th>Features</th>
+                        <th className="text-left">Features</th>
                         <th>
                             <div className='flex middle justify-center items-center'>
                                 <img src={logo} alt="" className='hidden' />
