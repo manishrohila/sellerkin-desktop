@@ -23,10 +23,10 @@ const Fourth = () => {
                 <p className=' '>Introducing </p>
                 <div className='flex flex-col gap-2 md:w-4/12' >
                     <div className='flex  gap-2'>
-                        <img src={logo} alt="logo" className='lg:w-full' />
+                        <img src={logo} alt="logo" className='' />
                         <p className='md:relative top-2 lg:static'> SellerKin</p>
                     </div>
-                    <img src={underline} alt="" className='md:w-7/12 lg:w-full' />
+                    <img src={underline} alt="" className='md:w-7/12 lg:w-8/12' />
                 </div>
 
 
