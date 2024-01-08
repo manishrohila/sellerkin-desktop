@@ -6,15 +6,15 @@ import line from "../img/money back.svg"
 const Twelve = () => {
     return (
         <div className='bg-custom-color-2 pt-10 mb-10'>
-            <div className='hidden text-5xl font-extrabold font-sans md:flex flex-col justify-center items-center'>
+            <div className='hidden lg:text-5xl md:text-2xl font-extrabold font-sans md:flex flex-col justify-center items-center'>
                 <p>This simply Means you will be able to</p>
                 <div className='flex gap-2'>
-                    <div>
+                    <div className='flex justify-center md:relative md:left-24 lg:static'>
                         <p>attract</p>
                     </div>
-                    <div className='flex flex-col gap-2'>
+                    <div className='flex flex-col justify-center items-center gap-2'>
                         <p><span className='text-custom-color-1'>More Customers = More Money.</span></p>
-                        <img src={line} alt="" />
+                        <img src={line} alt="" className='md:w-8/12 lg:w-full' />
                     </div>
                 </div>
 
@@ -72,12 +72,12 @@ const Twelve = () => {
 
                 
             </div>
-            <div className='md:grid hidden grid-cols-2 mt-10 font-serif'>
-                <div className='flex flex-col gap-4 justify-evenly ml-52'>
+            <div className='md:grid hidden grid-cols-2 mt-10 font-serif md:mx-20 lg:mx-0'>
+                <div className='flex flex-col gap-4 justify-evenly lg:ml-52  lg:text-base md:text-xs md:max-w-[18rem] lg:max-w-[25rem]'>
                     <div>
-                        <p>The Game is for SMART Entrepreneurs MEANS </p>
-                        <p>FOR WINNERS NOT FOR LOSERS Now you </p>
-                        <p>decide in which category you like to fall in?</p>
+                        <p>The Game is for SMART Entrepreneurs MEANS 
+                      FOR WINNERS NOT FOR LOSERS Now you
+                        decide in which category you like to fall in?</p>
                     </div>
                     <div>
                         <p>Now you decide in which category </p>
