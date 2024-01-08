@@ -5,9 +5,9 @@ import underline from "../img/Vector 40.svg"
 const Seventeen = () => {
     return (
         <div className='bg-custom-color pt-10 '>
-            <div className='font-sans font-bold text-5xl hidden md:flex flex-col justify-center items-center gap-3'>
+            <div className='font-sans font-bold lg:text-5xl md:text-2xl hidden md:flex flex-col justify-center items-center gap-3'>
                 <p> Frequently Asked <span className='text-custom-color-1'>Questions</span></p>
-                <img src={underline} alt="img loading" className='w-6/12  ' />
+                <img src={underline} alt="img loading" className='lg:w-6/12 md:w-5/12 ' />
             </div>
             <div className='font-sans font-bold text-3xl flex md:hidden flex-col justify-center items-center gap-3'>
                 <p> Frequently Asked </p>
@@ -15,10 +15,10 @@ const Seventeen = () => {
                 
             </div>
             <div className='hidden md:block'>
-                <img src={question} alt="" className='absolute left-20' />
+                <img src={question} alt="" className='absolute left-20 md:w-[90px] ' />
             </div>
             <div className='hidden md:block'>
-                <img src={question} alt="" className='absolute right-20' />
+                <img src={question} alt="" className='absolute right-20 md:w-[90px]' />
             </div>
             <div className='flex flex-col mt-10 gap-3 pb-16 font-serif'>
                 <div className='flex justify-between w-10/12 md:w-7/12 mx-auto p-4 items-center rounded-xl bg-custom-color-2 shadow-lg '>

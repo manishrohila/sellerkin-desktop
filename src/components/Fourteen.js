@@ -10,7 +10,7 @@ const Fourteen = () => {
     return (
         <div className='bg-custom-color-2 md:pt-20 pt-10'>
             <div className='md:grid  hidden grid-cols-2'>
-                <div className='font-serif text-xl flex flex-col gap-7 ml-28'>
+                <div className='font-serif lg:text-xl md:text-xs flex flex-col gap-7 lg:ml-28 md:ml-20 '>
                     <div>
                         <p>After all, why wait another decade for results?</p>
                     </div>
@@ -28,16 +28,16 @@ const Fourteen = () => {
                         <p>Your journey to success is </p>
                         <p>underway, and it all starts today.</p>
                     </div>
-                    <div className="bg-custom-color-1  text-2xl p-2 border-2 rounded-lg   text-white w-9/12">
+                    <div className="bg-custom-color-1  lg:text-2xl md:text-sm lg:p-2 md:p-3  border-2 rounded-lg   text-white w-10/12 lg:w-10/12">
                         <p className="flex justify-center items-center">Get instant Access to Sellerkin</p>
                     </div>
-                    <div className="md:flex  gap-4  ">
+                    <div className="md:flex  gap-4 md:max-w-[20rem] lg:max-w-[24rem] ">
                         <div className="flex justify-center mb-5">
-                            <img src={visa1} alt="payment" className="w-52 md:w-auto"></img>
+                            <img src={visa1} alt="payment" className=" lg:w-64 md:w-36 "></img>
                         </div>
                         <div className="flex justify-center mb-5 gap-3">
-                            <img src={secure} alt="payment" className="relative mb-2"></img>
-                            <img src={days} alt="payment" className="relative mb-2"></img>
+                            <img src={secure} alt="payment" className="relative md:w-16 lg:w-24 mb-2"></img>
+                            <img src={days} alt="payment" className="relative md:w-16  lg:w-24 mb-2"></img>
                         </div>
                     </div>
                 </div>

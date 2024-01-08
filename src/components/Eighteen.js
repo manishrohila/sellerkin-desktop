@@ -9,8 +9,8 @@ import window from "../img/windows1.svg";
 const Eighteen = () => {
     return (
         <div className='pt-10 bg-custom-color-2 mb-10 font-serif'>
-            <div className='font-serif hidden  md:flex flex-col gap-4 flex-wrap p-10 border-2 border-dashed w-7/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto rounded-lg'>
-                <div className='text-2xl' >
+            <div className='font-serif hidden  md:flex flex-col gap-4 flex-wrap p-10 border-2 border-dashed lg:w-7/12 md:w-10/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto rounded-lg'>
+                <div className='lg:text-2xl md:text-xl' >
                     <p className='flex justify-center'><strong>P.S &nbsp;</strong> Want to 10x your Etsy sales? This tool is your </p>
                     <p className='flex justify-center'> ticket. I dare you to try it risk-free today.</p>
 
@@ -19,7 +19,7 @@ const Eighteen = () => {
                     <div>
                         <img src={left_arrow} alt="left arrow" className='relative top-2'></img>
                     </div>
-                    <div className="bg-custom-color-1 m-1 text-2xl px-10 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-col  text-white font-sans ">
+                    <div className="bg-custom-color-1 m-1 lg:text-2xl md:text-xl px-10 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-col  text-white font-sans ">
                         <p className="flex justify-center font-bold font-sans  ">Get instant Access to Sellerkin</p>
 
                         <p className=' text-base flex justify-center'>Soon, Prices are going to be increased</p>
