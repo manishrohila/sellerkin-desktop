@@ -56,7 +56,7 @@ function First() {
                 {/* ul list  */}
                 <div className="flex gap-8 font-serif">
                     <div>
-                        <ul className=" justify-center list-none ml-4 hidden md:flex space-x-5">
+                        <ul className=" justify-center list-none ml-4 hidden lg:flex space-x-5">
                             <li className="text-lg text-black hover:text-orange-400 transition-all cursor-pointer">
                                 <Link
 
@@ -108,11 +108,11 @@ function First() {
                     </div>
 
                     {/* button */}
-                    <div className="space-x-10 hidden md:flex -mt-2 md:justify-end">
-                        <button className="border-2 rounded border-custom-color-1 px-2.5 py-0.5 text-xl">
+                    <div className="space-x-10 hidden md:flex  -mt-2 md:justify-end">
+                        <button className="border-2 rounded border-custom-color-1 px-2.5 py-0.5 lg:text-xl font-medium md:text-sm">
                             Log in
                         </button>
-                        <button className="border-2 rounded border-custom-color-1 bg-custom-color-1 px-2.5 py-0.5">
+                        <button className="border-2 rounded border-custom-color-1 bg-custom-color-1 font-medium px-2.5 py-0.5 text-white lg:text-xl md:text-sm">
                             Get Started
                         </button>
                     </div>
@@ -150,18 +150,18 @@ function First() {
                 </div>
             </nav>
             <div className="relative font-serif" >
-                <p className="border-2  rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white font-serif">
+                <p className="border-2  rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white font-serif lg:text-base md:text-xs">
                     This is an invite only page...
                 </p>
                 <div className="relative">
-                    <img src={top1} alt="top1 " className="opacity-25 z-0 hidden md:block absolute  m-4 left-0"></img>
-                    <img src={top2} alt="top1 " className="opacity-25 z-0 hidden md:block absolute  m-4 right-0"></img>
+                    <img src={top1} alt="top1 " className="opacity-25 z-0 hidden md:block absolute md:w-28 lg:w-40  m-4 left-0"></img>
+                    <img src={top2} alt="top1 " className="opacity-25 z-0 hidden md:block absolute md:w-28 lg:w-40 m-4 right-0"></img>
                 </div>
 
             </div>
 
 
-            <div className=" hidden md:flex justify-center text-center align-center mt-6 mx-4 text-base font-serif ">
+            <div className=" hidden md:flex justify-center text-center align-center mt-6 mx-4 text-base  font-serif ">
                 <div className="font-serif">
                     <h4 className="">
                         Golden Scaling Gateway for {" "}
@@ -272,21 +272,21 @@ function First() {
             </div>
 
             <div className=" md:flex justify-center mt-6">
-                <div className="mt-6 mx-6 rounded-lg flex justify-center flex-col xl:ml-24 font-serif">
-                    <p className="text-center md:text-[15px] text-xs bg-custom-color-1 border-t-2 p-2 rounded-t-2xl text-white flex justify-center gap-1 ">
+                <div className="mt-6 mx-6 rounded-md flex justify-center flex-col xl:ml-24 relative md:left-12 font-serif">
+                    <p className="text-center md:text-[10px] text-xs bg-custom-color-1 border-t-2 p-2 rounded-t-2xl text-white flex justify-center gap-1 ">
 
                         <img src={speaker} alt="speaker" className="hidden md:block"></img>
 
                         Watch this short video to discover the <span className="border-b-2 rounded-sm hidden md:block ">secret</span>  method
                     </p>
                     <iframe
-                        className=" w-full aspect-video md:w-[542px] md:h-[287px]  border-b-2 rounded-b-xl"
+                        className=" w-full aspect-video md:w-[332px] md:h-[186px]  lg:w-[544px] lg:h-[320px] border-b-2 rounded-b-xl"
                         src="https://www.youtube.com/embed/VIDEO_ID"
                         title="video"
                         allowFullScreen></iframe>
                 </div>
 
-                <div className="mx-9 hidden md:block justify-center mt-9 bg-custom-color-2 p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color font-serif">
+                <div className="mx-9 hidden md:block justify-center mt-9 bg-custom-color-2 lg:p-5 px-7 rounded-lg border md:bg-custom-color md:border-custom-color font-serif md:text-[10px]">
                     <ul className="list-none mt-5 xl:mt-0 ">
 
                         <li className="mb-1 xl:mb-3 ">
@@ -294,7 +294,7 @@ function First() {
                                 <img
                                     src={li1}
                                     alt="li1"
-                                    className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
+                                    className="inline-block md:w-10 lg:h-11 lg:w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
                                 <ul className="list-none">
                                     <li className="xl:text-xl">
                                         Find <strong>Winning Products</strong> in less than  <strong>2 minutes</strong>
@@ -304,7 +304,7 @@ function First() {
                         </li>
                         <li className="mb-1 xl:mb-3">
                             <div className="flex gap-2 xl:gap-3">
-                                <img src={li2} alt="li2" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
+                                <img src={li2} alt="li2" className="inline-block md:w-10 lg:h-11 lg:w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
                                 <ul className="list-none">
                                     <li className="xl:text-xl">
                                         {" "}
@@ -318,7 +318,7 @@ function First() {
                         <li className="mb-1 xl:mb-3">
 
                             <div className="flex gap-2 xl:gap-3">
-                                <img src={li3} alt="li3" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
+                                <img src={li3} alt="li3" className="inline-block md:w-10 lg:h-11 lg:w-11 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
                                 <ul className="list-none">
                                     <li className="xl:text-xl">
                                         Discover the <strong>Rising Starts in your Niche</strong>{" "}
@@ -332,7 +332,7 @@ function First() {
                         <li className="mb-1 xl:mb-3">
 
                             <div className="flex gap-2 xl:gap-3">
-                                <img src={li4} alt="li4" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
+                                <img src={li4} alt="li4" className="inline-block md:w-10 lg:h-11 lg:w-11 relative bottom-2 xl:h-12 xl:w-12"></img>{" "}
                                 <ul className="list-none">
                                     <li className="xl:text-xl">
                                         {" "}
@@ -345,7 +345,7 @@ function First() {
                         <li className="mb-1 xl:mb-3">
 
                             <div className="flex gap-2 xl:gap-3">
-                                <img src={li5} alt="li5" className="inline-block h-11 w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
+                                <img src={li5} alt="li5" className="inline-block md:w-10 lg:h-11 lg:w-11 relative bottom-2 xl:h-12 xl:w-12 "></img>{" "}
                                 <ul className="list-none">
                                     <li className="xl:text-xl">
                                         Find the <strong>Conversion Rate</strong> of the Products
@@ -356,14 +356,14 @@ function First() {
                     </ul>
                 </div>
             </div>
-            <div className="mt-5 hidden md:block  justify-center text-center text-2xl font-serif">
+            <div className="mt-5 hidden md:block  justify-center text-center md:text-base lg:text-2xl font-serif">
                 <div>
                     <p>Simple way to Reach Etsy Success in</p>
                     <p className="ml-5">Minutes without <span className="font-bold">Trial and Error</span> </p>
                 </div>
                 <div className="relative">
-                    <img src={cart} alt="top1 " className=" hidden md:block absolute  m-4 left-20"></img>
-                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 right-20"></img>
+                    <img src={cart} alt="top1 " className=" hidden md:block absolute  m-4 lg:left-20 md:left-16 md:w-20"></img>
+                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 lg:right-20 md:right-16 md:w-16 md:top-3"></img>
                 </div>
             </div>
             <div className="mt-5 block md:hidden justify-center text-center text-xl font-serif">
@@ -381,7 +381,7 @@ function First() {
                 <div>
                     <img src={small_right} alt="left arrow" className="md:hidden relative top-8" ></img>
                 </div>
-                <div className="bg-custom-color-1 m-1 text-2xl font-bold px-12 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white gap-2">
+                <div className="bg-custom-color-1 m-1 md:text-xl lg:text-2xl font-bold px-12 md:px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-row text-white gap-2">
                     <p className="">Scale Your Etsy </p>
                     <p>Business Today</p>
                 </div>
@@ -394,7 +394,7 @@ function First() {
             </div>
 
 
-            <div className="m-5 hidden gap-2 md:flex md:flex-row justify-center font-serif ">
+            <div className="m-5 hidden gap-2 md:flex md:flex-row justify-center font-serif md:text-[10px] lg:text-base ">
                 <div className="flex justify-center">
                     <img src={graph} alt="graph" className="h-5 w-5"></img>
                     <p className="mx-1"> Unlocks Exponential Growth</p>
@@ -423,8 +423,8 @@ function First() {
             </div>
 
             <div className="flex justify-center mb-5 gap-4">
-                <img src={mac} alt="payment" className="w-24 md:w-auto "></img>
-                <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
+                <img src={mac} alt="payment" className="w-28 md:w-32 lg:w-44 "></img>
+                <img src={window} alt="payment" className="w-28 relative mb-2 lg:w-44 md:w-32"></img>
             </div>
 
             <div className="m-5 flex flex-col gap-2 md:hidden justify-center font-serif ">
