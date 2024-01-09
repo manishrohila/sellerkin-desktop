@@ -12,7 +12,7 @@ import small_left from "../img/Group.svg"
 const Eleven = () => {
     return (
         <div className='bg-custom-color pt-10 ' id='testimonials'>
-            <div className='hidden md:flex flex-col justify-center items-center lg:text-5xl md:text-3xl font-extrabold font-sans'>
+            <div className='hidden md:flex flex-col justify-center items-center xl:text-5xl md:text-3xl font-extrabold font-sans'>
                 <p>Don't believe what we say,<span className='text-custom-color-1'> listen to real users</span></p>
                 <p><span className='text-custom-color-1'>winning with Sellerkin </span> every single day.</p>
             </div>
@@ -26,34 +26,34 @@ const Eleven = () => {
 
 
 
-            <div className=' grid-cols-2 gap-10 lg:mx-36 md:mx-20 mb-6 mt-10 hidden md:grid font-serif'>
+            <div className=' grid-cols-2 lg:w-9/12 gap-10 xl:mx-36 md:mx-20 mb-6 mt-10 hidden md:grid font-serif'>
                 <div className='flex justify-center items-center'>
-                    <img src={first} alt="image" className='md:w-46 md:h-[323px] lg:w-64 lg:h-[472px]' />
+                    <img src={first} alt="image" className='md:w-46 md:h-[323px] xl:w-64 xl:h-[472px]' />
                 </div>
                 <div className='flex flex-col justify-center items-center gap-6'>
-                    <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-6 pt-8 lg:max-w-[25rem]  shadow-xl lg:text-2xl gap-3 md:text-[12px] md:max-w-[19rem]'>
+                    <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-6 pt-8 xl:max-w-[25rem]  shadow-xl xl:text-2xl gap-3 md:text-[12px] md:max-w-[19rem]'>
                         <div className='flex gap-3'>
                             <p className='font-bold'>Michael</p>
-                            <img src={stars} alt="img loading" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                            <img src={stars} alt="img loading" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                             <div className='flex-grow flex justify-end'>
-                                <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                                <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                             </div>
                         </div>
-                        <div className='lg:text-base md:text-[12px] '>
+                        <div className='xl:text-base md:text-[12px] '>
                             <p>Sellerkin simplifies our product research so
                                 that i can track how many views any products
                                 are getting and so forth</p>
                         </div>
                     </div>
-                    <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color lg:p-10 md:p-6 lg:max-w-[25rem] md:max-w-[19rem] shadow-xl gap-3 lg:text-2xl lg:gap-3 md:text-[12px]'>
+                    <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color xl:p-10 md:p-6 xl:max-w-[25rem] md:max-w-[19rem] shadow-xl gap-3 xl:text-2xl xl:gap-3 md:text-[12px]'>
                         <div className='flex gap-3 '>
                             <p className='font-bold'>Abhishek</p>
-                            <img src={stars} alt="" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                            <img src={stars} alt="" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                             <div className='flex-grow flex justify-end'>
-                                <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                                <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                             </div>
                         </div>
-                        <div className='lg:text-base md:text-[12px]'>
+                        <div className='xl:text-base md:text-[12px]'>
                             <p>Finally, now finding a new product
                                 becomes so easy, it's not a challenge
                                 anymore, now i can concentrate more
@@ -124,31 +124,31 @@ const Eleven = () => {
 
 
 
-            <div className=' grid-cols-2 gap-10 lg:mx-36  md:mx-20 mb-6 hidden md:grid'>
-                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color lg:px-12 lg:py-8 md:p-6 shadow-xl lg:text-2xl gap-3 md:text-[12px]   lg:max-w-[28rem] md:max-w-[19rem]'>
+            <div className=' grid-cols-2 gap-10 xl:mx-36  md:mx-20 mb-6 hidden md:grid'>
+                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color xl:px-12 xl:py-8 md:p-6 shadow-xl xl:text-2xl gap-3 md:text-[12px]   xl:max-w-[28rem] md:max-w-[19rem]'>
                     <div className='flex gap-3'>
                         <p className='font-bold'>Richa</p>
-                        <img src={stars} alt="" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                        <img src={stars} alt="" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                         <div className='flex-grow flex justify-end'>
-                            <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                            <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                         </div>
                     </div>
-                    <div className='lg:text-base md:text-[12px]'>
+                    <div className='xl:text-base md:text-[12px]'>
                         <p>Personally, I loved the listing Analyzer and
                             Shop Analyzer Features, now i can check
                             any competitor stats</p>
                     </div>
                 </div>
 
-                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color lg:px-12 lg:py-8 md:p-6 shadow-xl lg:text-2xl gap-3 md:text-[12px]   lg:max-w-[28rem] md:max-w-[19rem]'>
+                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color xl:px-12 xl:py-8 md:p-6 shadow-xl xl:text-2xl gap-3 md:text-[12px]   xl:max-w-[28rem] md:max-w-[19rem]'>
                     <div className='flex gap-3'>
                         <p className='font-bold'>Ryan</p>
-                        <img src={stars} alt="" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                        <img src={stars} alt="" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                         <div className='flex-grow flex justify-end'>
-                            <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                            <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                         </div>
                     </div>
-                    <div className='lg:text-base md:text-[12px]'>
+                    <div className='xl:text-base md:text-[12px]'>
                         <p>Sellerkin simplifies our product research so
                             that i can track how many views any products
                             are getting and so forth</p>
@@ -207,16 +207,16 @@ const Eleven = () => {
                 </div>
             </div>
 
-            <div className=' grid-cols-2 gap-10 lg:mx-36  md:mx-20 mb-6 hidden md:grid '>
-                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color lg:px-12 lg:py-8 md:p-6 shadow-xl lg:text-2xl gap-3 md:text-[12px]   lg:max-w-[28rem] md:max-w-[19rem]'>
+            <div className=' grid-cols-2 gap-10 xl:mx-36  md:mx-20 mb-6 hidden md:grid '>
+                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color xl:px-12 xl:py-8 md:p-6 shadow-xl xl:text-2xl gap-3 md:text-[12px]   xl:max-w-[28rem] md:max-w-[19rem]'>
                     <div className='flex gap-3'>
                         <p className='font-bold'>Emma</p>
-                        <img src={stars} alt="" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                        <img src={stars} alt="" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                         <div className='flex-grow flex justify-end'>
-                            <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                            <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                         </div>
                     </div>
-                    <div className='lg:text-base md:text-[12px]'>
+                    <div className='xl:text-base md:text-[12px]'>
                         <p>With the help of sellerkin, have launched 2
                             products, started making decent money,
                             Thanks a lot!</p>
@@ -225,15 +225,15 @@ const Eleven = () => {
                 </div>
 
 
-                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color lg:px-12 lg:py-8 md:p-6 shadow-xl lg:text-2xl gap-3 md:text-[12px]   lg:max-w-[28rem] md:max-w-[19rem]'>
+                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color xl:px-12 xl:py-8 md:p-6 shadow-xl xl:text-2xl gap-3 md:text-[12px]   xl:max-w-[28rem] md:max-w-[19rem]'>
                     <div className='flex gap-3'>
                         <p className='font-bold'>Richard</p>
-                        <img src={stars} alt="" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                        <img src={stars} alt="" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                         <div className='flex-grow flex justify-end'>
-                            <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                            <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                         </div>
                     </div>
-                    <div className='lg:text-base md:text-[12px]'>
+                    <div className='xl:text-base md:text-[12px]'>
                         <p>Good part is their support, they try
                             to reply to you within 24-48 hrs
                             irrespective of the weekend</p>
@@ -292,16 +292,16 @@ const Eleven = () => {
             </div>
 
 
-            <div className=' grid-cols-2 gap-10 lg:mx-36  md:mx-20 mb-6 hidden md:grid '>
-                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color lg:px-12 lg:py-8 md:p-6 shadow-xl lg:text-2xl gap-3 md:text-[12px]   lg:max-w-[28rem] md:max-w-[19rem]'>
+            <div className=' grid-cols-2 gap-10 xl:mx-36  md:mx-20 mb-6 hidden md:grid '>
+                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color xl:px-12 xl:py-8 md:p-6 shadow-xl xl:text-2xl gap-3 md:text-[12px]   xl:max-w-[28rem] md:max-w-[19rem]'>
                     <div className='flex gap-3'>
                         <p className='font-bold'>Vaishali</p>
-                        <img src={stars} alt="" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                        <img src={stars} alt="" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                         <div className='flex-grow flex justify-end'>
-                            <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                            <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                         </div>
                     </div>
-                    <div className='lg:text-base md:text-[12px]'>
+                    <div className='xl:text-base md:text-[12px]'>
                         <p>I have been using sellerkin from a good
                             time, have a good exp. In using the product,
                             it does not glitch or get stuck in the middle
@@ -310,15 +310,15 @@ const Eleven = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color lg:px-12 lg:py-8 md:p-6 shadow-xl lg:text-2xl gap-3 md:text-[12px]   lg:max-w-[28rem] md:max-w-[19rem]'>
+                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color xl:px-12 xl:py-8 md:p-6 shadow-xl xl:text-2xl gap-3 md:text-[12px]   xl:max-w-[28rem] md:max-w-[19rem]'>
                     <div className='flex gap-3'>
                         <p className='font-bold'>Sahil</p>
-                        <img src={stars} alt="" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                        <img src={stars} alt="" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                         <div className='flex-grow flex justify-end'>
-                            <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                            <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                         </div>
                     </div>
-                    <div className='lg:text-base md:text-[12px]'>
+                    <div className='xl:text-base md:text-[12px]'>
                         <p>As I got the chance to interact with the
                             founder, I realised he has a lot of clarity on
                             what all needs to be created to solve a
@@ -330,31 +330,31 @@ const Eleven = () => {
             </div>
 
 
-            <div className=' grid-cols-2 gap-10 lg:mx-36  md:mx-20 mb-6 hidden md:grid '>
-                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color lg:px-12 lg:py-8 md:p-6 shadow-xl lg:text-2xl gap-3 md:text-[12px]   lg:max-w-[28rem] md:max-w-[19rem]'>
+            <div className=' grid-cols-2 gap-10 xl:mx-36  md:mx-20 mb-6 hidden md:grid '>
+                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color xl:px-12 xl:py-8 md:p-6 shadow-xl xl:text-2xl gap-3 md:text-[12px]   xl:max-w-[28rem] md:max-w-[19rem]'>
                     <div className='flex gap-3'>
                         <p className='font-bold'>Ankit</p>
-                        <img src={stars} alt="" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                        <img src={stars} alt="" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                         <div className='flex-grow flex justify-end'>
-                            <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                            <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                         </div>
                     </div>
-                    <div className='lg:text-base md:text-[12px]'>
+                    <div className='xl:text-base md:text-[12px]'>
                         <p>I loved the product, it's very
                             easy to use and user friendly</p>
                     </div>
                 </div>
 
 
-                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color lg:px-12 lg:py-8 md:p-6 shadow-xl lg:text-2xl gap-3 md:text-[12px]   lg:max-w-[28rem] md:max-w-[19rem]'>
+                <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color xl:px-12 xl:py-8 md:p-6 shadow-xl xl:text-2xl gap-3 md:text-[12px]   xl:max-w-[28rem] md:max-w-[19rem]'>
                     <div className='flex gap-3'>
                         <p className='font-bold'>Joseph</p>
-                        <img src={stars} alt="" className='md:w-15 md:h-3 lg:w-28 lg:h-5' />
+                        <img src={stars} alt="" className='md:w-15 md:h-3 xl:w-28 xl:h-5' />
                         <div className='flex-grow flex justify-end'>
-                            <img src={comma} alt="comma sign" className='lg:w-5 lg:h-4 md:w-3 md:h-2  relative lg:top-2' />
+                            <img src={comma} alt="comma sign" className='xl:w-5 xl:h-4 md:w-3 md:h-2  relative xl:top-2' />
                         </div>
                     </div>
-                    <div className='lg:text-base md:text-[12px]'>
+                    <div className='xl:text-base md:text-[12px]'>
                         <p>I am really glad that i came to know
                             about sellerkin, it's a value for money</p>
                     </div>

@@ -10,18 +10,18 @@ const Second = () => {
     return (
         <div>
             <div className="floating-box hidden md:block flex-col mt-20">
-                <div className='flex items-center justify-center relative lg:bottom-16 md:bottom-10'>
-                    <img className="flex items-center justify-center md:w-9 md:h-12 lg:w-20 lg:h-24 w-8 " src={pin} alt="pin" ></img>
+                <div className='flex items-center justify-center relative xl:bottom-16 md:bottom-10'>
+                    <img className="flex items-center justify-center md:w-9 md:h-12 xl:w-20 xl:h-24 w-8 " src={pin} alt="pin" ></img>
                 </div>
 
 
                 <div className='flex  gap-10 justify-evenly font-serif'>
                     <div className='flex   flex-col'>
-                        <div className="lg:left-10 relative">
+                        <div className="xl:left-10 relative">
 
                             <div className="flex gap-2">
-                                <img className="lg:w-14 lg:h-14 md:w-12 md:h-12 " src={face} alt="img loading"></img>
-                                <div className='flex flex-col lg:text-base md:text-[10px] relative lg:left-5 md:top-3'>
+                                <img className="xl:w-14 xl:h-14 md:w-12 md:h-12 " src={face} alt="img loading"></img>
+                                <div className='flex flex-col xl:text-base md:text-[10px] relative xl:left-5 md:top-3'>
                                     <p>To: All Business Owners</p>
                                     <p><strong>From the Desk of Amit Miglani</strong></p>
                                 </div>
@@ -31,7 +31,7 @@ const Second = () => {
 
                         </div>
 
-                        <div className='flex flex-col lg:gap-6 md:gap-2 lg:left-10 relative lg:text-base md:text-[10px] mt-8 font-serif'>
+                        <div className='flex flex-col xl:gap-6 md:gap-2 xl:left-10 relative xl:text-base md:text-[10px] mt-8 font-serif'>
                             <div>
                                 <p>It's a Proven Fact... </p>
                             </div>
@@ -54,7 +54,7 @@ const Second = () => {
                                 <p> ...because <strong>NO ONE IS DOING PROPER RESEARCH</strong></p>
                             </div>
                         </div>
-                        <div className='flex flex-col gap-3 relative lg:left-10 lg:text-base md:text-[10px] mt-4 font-serif'>
+                        <div className='flex flex-col gap-3 relative xl:left-10 xl:text-base md:text-[10px] mt-4 font-serif'>
                             <div className='flex gap-3'>
                                 <p><img className="w-4 h-4" src={vector} alt="dot"></img></p>
                                 <p>You make the <strong className='underline'>product</strong> </p>
@@ -72,22 +72,22 @@ const Second = () => {
                                 <p>You do all the <strong className='underline'>hard work</strong> </p>
                             </div>
                         </div>
-                        <div className='flex flex-col lg:text-base md:text-[10px] relative lg:ml-10 mt-4 font-serif'>
+                        <div className='flex flex-col xl:text-base md:text-[10px] relative xl:ml-10 mt-4 font-serif'>
                             <p>And hoping that you will start receiving traction</p>
                             <p>and sales only to <b>find out ZERO Sales next day..</b></p>
                         </div>
                     </div>
                     <div>
-                        <img className="lg:ml-10 relative top-10 md:w-64 md:h-72 lg:w-[416px] lg:h-[489px]" src={group84} alt="img loading"></img>
+                        <img className="xl:ml-10 relative top-10 md:w-64 md:h-72 xl:w-[416px] xl:h-[489px]" src={group84} alt="img loading"></img>
                     </div>
                 </div>
 
 
                 <div className='flex  justify-evenly mt-10 font-serif'>
                     <div>
-                        <img className="md:w-64 lg:w-[416px] lg:h-[489px]" src={group116} alt="img loading"></img>
+                        <img className="md:w-64 xl:w-[416px] xl:h-[489px]" src={group116} alt="img loading"></img>
                     </div>
-                    <div className='flex flex-col lg:gap-4 md:gap-2 lg:text-base md:text-[10px]'>
+                    <div className='flex flex-col lg:gap-4 md:gap-2 xl:text-base md:text-[10px]'>
                         <div>
                             <p>You immediately <b>start having self doubts...</b></p>
                         </div>

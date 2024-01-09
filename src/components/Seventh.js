@@ -34,14 +34,14 @@ const Seventh = () => {
                     <img src={first} alt="img loading" className='hidden md:block' />
                 </div>
                 <div className="mt-6 mx-6 rounded-lg flex justify-center flex-col xl:ml-24 font-serif z-20">
-                    <p className="text-center lg:text-[15px] md:text-[8px] bg-custom-color-1 border-t-2 p-2 rounded-t-2xl text-white flex justify-center gap-1 ">
+                    <p className="text-center xl:text-[15px] md:text-[8px] bg-custom-color-1 border-t-2 p-2 rounded-t-2xl text-white flex justify-center gap-1 ">
 
                         <img src={speaker} alt="speaker" className="hidden md:block"></img>
 
                         Make sure Your Sound Is Turned On! (Please Wait For Video To Fully Load)
                     </p>
                     <iframe
-                        className=" w-full aspect-video lg:w-[736px] lg:h-[388px] md:w-[453px] md:h-[260px]  border-b-2 rounded-b-xl"
+                        className=" w-full aspect-video xl:w-[736px] xl:h-[388px] md:w-[453px] md:h-[260px]  border-b-2 rounded-b-xl"
                         src="https://www.youtube.com/embed/VIDEO_ID"
                         title="video"
                         allowFullScreen></iframe>

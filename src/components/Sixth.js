@@ -6,9 +6,9 @@ import underline from "../img/Vector 37 (1).svg"
 const Sixth = () => {
     return (
         <div className='bg-custom-color mb-20 mt-10 ' id='how_it_works'>
-            <div className='flex lg:text-5xl text-4xl flex-col md:flex-row  justify-center items-center pt-20 font-bold font-sans'>
+            <div className='flex xl:text-5xl text-4xl flex-col md:flex-row  justify-center items-center pt-20 font-bold font-sans'>
                 <p className='flex justify-center items-center'>Sellerkin works in </p>
-                <div className='flex flex-col gap-3 relative md:right-9 lg:right-0 top-2 justify-center items-center'>
+                <div className='flex flex-col gap-3 relative md:right-9 xl:right-0 top-2 justify-center items-center'>
                     <p className='text-custom-color-1'>2 Easy Steps</p>
                     <img src={underline} alt="underline loading" className='hidden md:flex md:w-10/12' />
                 </div>

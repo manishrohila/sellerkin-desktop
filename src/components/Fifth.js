@@ -37,32 +37,32 @@ const Fifth = () => {
 
             <div className='mt-10 hidden md:flex flex-col justify-center items-center '>
 
-                <div className='flex relative  items-center justify-center lg:gap-5 mb-20 '>
+                <div className='flex relative  items-center justify-center xl:gap-5 mb-20 '>
                     <div>
-                        <img src={fourth} alt="" />
+                        <img src={fourth} alt="img loading" className='md:w-[400px] xl:w-[543px] '/>
                     </div>
                     <div>
-                        <img src={first} alt="family picture" className='' />
+                        <img src={first} alt="family picture" className='md:w-[220px] md:h-[240px] xl:w-[337px] xl:h-[348px]' />
                     </div>
 
                 </div>
 
-                <div className='flex relative lg:left-12 md:left-6  items-center justify-center gap-5 mb-20 '>
+                <div className='flex relative xl:left-12 md:left-6  items-center justify-center gap-5 mb-20 '>
                     <div>
-                        <img src={second} alt="family picture" className='' />
+                        <img src={second} alt="family picture" className='md:w-[220px] xl:w-[337px] md:h-[240px] xl:h-[348px]' />
                     </div>
 
                     <div>
-                        <img src={fifth} alt="" />
+                        <img src={fifth} alt="img loading" className='md:w-[400px] xl:w-[543px] '/>
                     </div>
                 </div>
 
                 <div className='flex relative  items-center justify-center gap-5 mb-20 '>
                     <div>
-                        <img src={sixth} alt="" />
+                        <img src={sixth} alt="" className='md:w-[400px] xl:w-[543px]'/>
                     </div>
                     <div>
-                        <img src={third} alt="family picture" className=' transform scale-x-[-1]' />
+                        <img src={third} alt="family picture" className=' transform md:w-[220px] md:h-[240px] scale-x-[-1] xl:w-[337px] xl:h-[348px]' />
                     </div>
                 </div>
 

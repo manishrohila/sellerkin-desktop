@@ -19,14 +19,14 @@ import './Fourth.css'
 const Fourth = () => {
     return (
         <div className='bg-[#FEFAE7]   pb-10 '>
-            <div className='hidden md:flex md:justify-center flex-row gap-2 pt-20 font-bold md:text-3xl font-sans lg:text-5xl ' >
+            <div className='hidden md:flex md:justify-center flex-row gap-2 pt-20 font-bold md:text-3xl font-sans xl:text-5xl ' >
                 <p className=' '>Introducing </p>
-                <div className='flex flex-col relative md:bottom-2 lg:static gap-2 md:w-4/12' >
+                <div className='flex flex-col relative md:bottom-2 xl:static gap-2 md:w-4/12' >
                     <div className='flex  gap-2'>
                         <img src={logo} alt="logo" className='' />
-                        <p className='md:relative top-2 lg:static'> SellerKin</p>
+                        <p className='md:relative top-2 xl:static'> SellerKin</p>
                     </div>
-                    <img src={underline} alt="" className='md:w-9/12 lg:w-8/12' />
+                    <img src={underline} alt="" className='md:w-9/12 xl:w-8/12' />
                 </div>
 
 
@@ -37,33 +37,33 @@ const Fourth = () => {
                 <img src={underline} alt="" className='' />
             </div>
 
-            <div className='hidden md:grid grid-cols-2 relative md:text-xs lg:text-lg font-serif '>
-                <div className='relative lg:pl-32 md:pl-20 mt-24'>
-                    <div className='mb-2  lg:mb-10 max-w-[28rem]'>
+            <div className='hidden md:grid grid-cols-2 relative md:text-xs xl:text-lg font-serif '>
+                <div className='relative xl:pl-32 md:pl-20 mt-24'>
+                    <div className='mb-2  xl:mb-10 max-w-[28rem]'>
                         <p >Sellerkin is a tool for Etsy sellers to help them &nbsp;
                             <strong>find the winning products & increase revenue for &nbsp;</strong>
                             their Etsy shop in less than <strong>60 seconds &nbsp;</strong>
                             <strong>without trial & error</strong></p>
                     </div>
-                    <div className='md:text-xs lg:text-lg md:mb-2 lg:mb-10 font-serif'>
+                    <div className='md:text-xs xl:text-lg md:mb-2 xl:mb-10 font-serif'>
                         <p>It works like a charm and can give you </p>
                         <p>the Winners faster than you can say Cheese.</p>
 
                     </div>
-                    <div className=' mb-10 flex flex-col gap-3 font-serif md:text-xs lg:text-lg'>
-                        <div className='flex lg:gap-3 md:gap-2 flex-row'>
-                            <p><img className="lg:w-4 lg:h-4 md:h-3 md:w-3 relative  md:top-1 lg:top-1" src={vector} alt="dot"></img></p>
+                    <div className=' mb-10 flex flex-col gap-3 font-serif md:text-xs xl:text-lg'>
+                        <div className='flex xl:gap-3 md:gap-2 flex-row'>
+                            <p><img className="xl:w-4 xl:h-4 md:h-3 md:w-3 relative  md:top-1 xl:top-1" src={vector} alt="dot"></img></p>
                             <p>Even if... You are New in the Game</p>
                         </div>
-                        <div className='flex lg:gap-3 md:gap-2 flex-row'>
-                            <p><img className="lg:w-4 lg:h-4 md:h-3 md:w-3 relative  md:top-1 lg:top-1" src={vector} alt="dot"></img></p>
+                        <div className='flex xl:gap-3 md:gap-2 flex-row'>
+                            <p><img className="xl:w-4 xl:h-4 md:h-3 md:w-3 relative  md:top-1 xl:top-1" src={vector} alt="dot"></img></p>
                             <div className='flex flex-col'>
                                 <p>Even if... You have never done any Business before</p>
                                 <p></p>
                             </div>
                         </div >
-                        <div className='flex lg:gap-3 md:gap-2 flex-row'>
-                            <p><img className="lg:w-4 lg:h-4 md:h-3 md:w-3 relative  md:top-1 lg:top-1" src={vector} alt="dot"></img></p>
+                        <div className='flex xl:gap-3 md:gap-2 flex-row'>
+                            <p><img className="xl:w-4 xl:h-4 md:h-3 md:w-3 relative  md:top-1 xl:top-1" src={vector} alt="dot"></img></p>
                             <p>Even if... You got stuck where to start</p>
                         </div>
                     </div>
@@ -128,9 +128,9 @@ const Fourth = () => {
 
                 <div className=' bg-custom-color-2  p-5 rounded-md shadow-custom h-1/2 '>
                     <div className='relative ml-3 top-2'>
-                        <p><img src={first} alt=" img" className='lg:h-16 lg:w-16 md:h-10 md:w-10' /></p>
+                        <p><img src={first} alt=" img" className='xl:h-16 xl:w-16 md:h-10 md:w-10' /></p>
                     </div>
-                    <div className='lg:text-base md:text-[10px] p-5 max-w-[18rem] '>
+                    <div className='xl:text-base md:text-[10px] p-5 max-w-[18rem] '>
 
                         <p><strong className='underline'>Product Finder :</strong> Helps you to
                             <strong> &nbsp; find winning products,</strong> which </p>
@@ -141,9 +141,9 @@ const Fourth = () => {
 
                 <div className=' bg-custom-color-2  p-5 rounded-md shadow-custom h-3/5'>
                     <div className='relative ml-3 top-2'>
-                        <p><img src={second} alt=" img" className='lg:h-16 lg:w-16 md:h-10 md:w-10' /></p>
+                        <p><img src={second} alt=" img" className='xl:h-16 xl:w-16 md:h-10 md:w-10' /></p>
                     </div>
-                    <div className='lg:text-base md:text-[10px]  p-5 max-w-[18rem] '>
+                    <div className='xl:text-base md:text-[10px]  p-5 max-w-[18rem] '>
 
 
                         <p><strong className='underline'>Shop Analyzer :</strong> Helps you to
@@ -157,9 +157,9 @@ const Fourth = () => {
 
                 <div className=' bg-custom-color-2 p-5 rounded-md shadow-custom'>
                     <div className='relative ml-3 top-2'>
-                        <p><img src={third} alt=" img" className='lg:h-16 lg:w-16 md:h-10 md:w-10' /></p>
+                        <p><img src={third} alt=" img" className='xl:h-16 xl:w-16 md:h-10 md:w-10' /></p>
                     </div>
-                    <div className='lg:text-base md:text-[10px] max-w-[18rem] p-5 '>
+                    <div className='xl:text-base md:text-[10px] max-w-[18rem] p-5 '>
 
 
 

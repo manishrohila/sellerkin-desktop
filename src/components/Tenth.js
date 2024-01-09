@@ -11,11 +11,11 @@ const Tenth = () => {
     return (
         <div className='bg-custom-color-2 pt-10' id='pricing'>
 
-            <div className='hidden md:flex gap-2  lg:text-5xl md:text-3xl items-center justify-center  font-sans font-extrabold md:relative md:left-28 lg:static'>
+            <div className='hidden md:flex gap-2  xl:text-5xl md:text-3xl items-center justify-center  font-sans font-extrabold md:relative md:left-28 xl:static'>
                 <p className='relative -top-1'>7 Days </p>
                 <div className='flex flex-col gap-2'>
                     <p><span className='text-custom-color-1'>Money Back Guarantee</span></p>
-                    <img src={line} alt="img loading line" className='lg:w-11/12 md:w-8/12' />
+                    <img src={line} alt="img loading line" className='xl:w-11/12 md:w-8/12' />
                 </div>
             </div>
             <div className='flex flex-col  md:hidden gap-2 text-4xl sm:text-5xl items-center justify-center pt-10 font-extrabold'>
@@ -28,7 +28,7 @@ const Tenth = () => {
 
 
             <div className='hidden md:flex  justify-center items-center gap-10 mt-10 font-serif md:px-20'>
-                <div className='bg-custom-color flex flex-col gap-5 justify-start items-center lg:p-14 text-left lg:max-w-[35rem] md:max-w-xs md:text-[10px] lg:text-base md:p-8'>
+                <div className='bg-custom-color flex flex-col gap-5 justify-start items-center xl:p-14 text-left xl:max-w-[35rem] md:max-w-xs md:text-[10px] xl:text-base md:p-8'>
                     <div className=''>
                         <p>"Sellerkin" comes with a Rock-solid promise: our
                         unbeatable 7-day, 100% Money Back Guarantee.</p>
@@ -46,7 +46,7 @@ const Tenth = () => {
 
                 </div>
                 <div>
-                    <img src={image} alt="img loading" className='md:w-[206px] md:h-[210px] lg:w-[324px] lg:h-[329px]'/>
+                    <img src={image} alt="img loading" className='md:w-[206px] md:h-[210px] xl:w-[324px] xl:h-[329px]'/>
                 </div>
             </div>
             <div className='flex  flex-col md:hidden font-serif  justify-center items-center gap-10 mt-10'>
@@ -83,10 +83,10 @@ const Tenth = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row lg:text-5xl md:text-3xl text-3xl font-sans font-extrabold justify-center items-center -mt-10 md:mt-16 gap-2 md:gap-0'>
+            <div className='flex flex-col md:flex-row xl:text-5xl md:text-3xl text-3xl font-sans font-extrabold justify-center items-center -mt-10 md:mt-16 gap-2 md:gap-0'>
                 <div className='flex flex-col  gap-3' >
                     <p className='text-custom-color-1 flex justify-center'>Pick the option</p>
-                    <img src={line2} alt="img loading curve line" className=' hidden md:block relative md:w-[230px] md:h-[5px] lg:w-[398px]  ' />
+                    <img src={line2} alt="img loading curve line" className=' hidden md:block relative md:w-[230px] md:h-[5px] xl:w-[398px]  ' />
                 </div>
                 <div className='relative bottom-2 '>
                     <p className=''> that's best for you </p>

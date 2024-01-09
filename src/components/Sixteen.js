@@ -7,7 +7,7 @@ import secure from "../img/lock1.svg";
 const Sixteen = () => {
     return (
         <div className='pt-10 bg-custom-color-2 mb-10'>
-            <div className='font-serif hidden md:flex flex-col gap-4 flex-wrap p-10 border-2 border-dashed md:w-10/12 lg:w-7/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto rounded-lg'>
+            <div className='font-serif hidden md:flex flex-col gap-4 flex-wrap p-10 border-2 border-dashed md:w-10/12 xl:w-7/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto rounded-lg'>
                 <div >
                     <p className='flex justify-center'>Sellerkin isn't just a tool; it's <strong> &nbsp; a gateway to success.</strong> &nbsp;it's like having a wise </p>
                     <p className='flex justify-center'>friends who guides you, helps you make smart decisions, and cheers you</p>

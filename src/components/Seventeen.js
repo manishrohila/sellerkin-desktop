@@ -41,9 +41,9 @@ const Seventeen = () => {
 
     return (
         <div className='bg-custom-color pt-10 '>
-            <div className='font-sans font-bold lg:text-5xl md:text-2xl hidden md:flex flex-col justify-center items-center gap-3'>
+            <div className='font-sans font-bold xl:text-5xl md:text-2xl hidden md:flex flex-col justify-center items-center gap-3'>
                 <p> Frequently Asked <span className='text-custom-color-1'>Questions</span></p>
-                <img src={underline} alt="img loading" className='lg:w-6/12 md:w-5/12 ' />
+                <img src={underline} alt="img loading" className='xl:w-6/12 md:w-5/12 ' />
             </div>
             <div className='font-sans font-bold text-3xl flex md:hidden flex-col justify-center items-center gap-3'>
                 <p> Frequently Asked </p>
