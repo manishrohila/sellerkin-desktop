@@ -6,7 +6,7 @@ import second from "../img/Group 593.svg"
 import third from "../img/Group 594.svg"
 import vector from "../img/Vector.svg"
 import macbook from "../img/Group 229.svg"
-import shop_ana from "../img/Group 515.svg"
+
 import underline from "../img/Vector 31.svg"
 import small_right from "../img/mingcute_arrows-right-line (1).svg"
 import small_left from "../img/Group.svg"

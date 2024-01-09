@@ -94,7 +94,7 @@ function First() {
                                     to="pricing"
                                     spy={true}
                                     smooth={true}
-                                    offset={20}
+                                    offset={1}
                                     duration={1000}
                                     onClick={closeMenu}
                                     className="text-lg text-black hover:text-orange-400 transition-all cursor-pointer"

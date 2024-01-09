@@ -12,7 +12,7 @@ import small_left from "../img/Group.svg"
 import ReactPlayer from 'react-player'
 
 const Eleven = () => {
-    const driveVideoLink = 'https://drive.google.com/file/d/1CpLozizkI6tcmOADEgbw3l-0w69JXvDj/view?usp=sharing';
+    const driveVideoLink = 'https://youtu.be/tlTdbc5byAs?si=gzKmESz1oMwbGILe';
     return (
         <div className='bg-custom-color pt-10 ' id='testimonials'>
             <div className='hidden md:flex flex-col justify-center items-center xl:text-5xl md:text-3xl font-extrabold font-sans'>
@@ -30,13 +30,15 @@ const Eleven = () => {
 
 
             <div className=' grid-cols-2 lg:w-9/12 gap-10 xl:mx-36 md:mx-20 mb-6 mt-10 hidden md:grid font-serif'>
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center md:w-46 md:h-[323px] xl:w-72 xl:h-[500px] border-6 xl:relative left-16'>
 
-                    <video className='md:w-46 md:h-[323px] xl:w-64 xl:h-[472px] border-6' controls>
-                        <source src='../public/Sellerkin Testimonial.mp4' type='video/mp4' ></source>
-                    </video>
-                    
-                    
+
+                    <ReactPlayer
+                        url='https://youtube.com/shorts/NaNlOnCL26A?si=ilBgX3Ldmbx_tX_c'
+
+                        controls={true}
+                    />
+
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-6'>
@@ -76,8 +78,14 @@ const Eleven = () => {
             </div>
 
             {/* Mobile version */}
-            <div className='flex md:hidden justify-center items-center mt-10'>
-                <img src={first} alt="image" />
+            <div className='flex md:hidden justify-center items-center mt-10 w-9/12 mx-auto' style={{ borderRadius: '15px', width: '80%', height: '800px' }}>
+                <ReactPlayer
+                    url='https://youtube.com/shorts/NaNlOnCL26A?si=ilBgX3Ldmbx_tX_c'
+                    controls={true}
+                    width='100%'
+                    height='100%'
+                    style={{ borderRadius: '15px' }}
+                />
             </div>
 
             <div className='grid grid-cols-1 md:hidden'>

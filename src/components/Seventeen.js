@@ -124,7 +124,7 @@ const Seventeen = () => {
                     </div>
 
                     {showAnswer5 && (<div className='ml-5 pt-2'>
-                    You can grab the lifetime deal at 67 USD with 500 searches per month for all the features - Product Finder, Shop Analyzer and Listing Analyzer with all the updates and upgrades on these features for lifetime access. 
+                    Please check the Pricing Table as mentioned above for all the features - Product Finder, Shop Analyzer, and Listing Analyzer with all the updates and upgrades on these features for lifetime access.  
                     </div>)}
 
                 </div>

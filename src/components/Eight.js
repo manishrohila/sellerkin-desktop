@@ -57,7 +57,7 @@ const Eight = () => {
 
             <div className='hidden mt-20 justify-center items-center gap-16 md:flex font-serif'>
                 <div>
-                    <div className='font-bold xl:text-lg md:text-sm'>
+                    <div className='font-bold xl:text-2xl md:text-sm'>
                         <p> <span className='text-custom-color-1'>Product Finder:</span> "Discover Winning Etsy</p>
                         <p>Products in Seconds with Product Finder!"</p>
                     </div>
@@ -445,11 +445,7 @@ const Eight = () => {
 
                         </td>
                     </tr>
-                    <tr>
-                        <td>Trustpilot Ratings</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+                    
                     <tr>
                         <td>Rights</td>
                         <td className='flex justify-center items-center'>Standard Rights</td>
@@ -522,11 +518,7 @@ const Eight = () => {
 
                         </td>
                     </tr>
-                    <tr>
-                        <td>Trustpilot Ratings</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+                    
                     <tr>
                         <td>Rights</td>
                         <td className='flex justify-center items-center'>Standard Rights</td>

@@ -55,7 +55,7 @@ const Nine = () => {
                     </div>
 
                     <div className='relative xl:right-6  font-serif mb-2'>
-                        <p className='font-bold md:text-[12px] xl:text-base'>(Value $X)</p>
+                        <p className='font-bold md:text-[12px] xl:text-base'>(Value $27)</p>
                     </div>
                     <div className='relative xl:right-6 font-serif md:text-[10px] xl:text-base'>
                         <p>
@@ -82,7 +82,7 @@ const Nine = () => {
                     </div>
 
                     <div className='relative xl:left-10 font-serif mb-2'>
-                        <p className='font-bold md:text-[12px] xl:text-base'>(Value $X)</p>
+                        <p className='font-bold md:text-[12px] xl:text-base'>(Value $27)</p>
                     </div>
                     <div className='relative xl:left-10 font-serif md:text-[10px] xl:text-base'>
                         <p>
@@ -103,7 +103,7 @@ const Nine = () => {
                     </div>
 
                     <div className=' font-serif mb-2'>
-                        <p className='font-bold md:text-[12px] xl:text-base'>(Value $X)</p>
+                        <p className='font-bold md:text-[12px] xl:text-base'>(Priceless)</p>
                     </div>
                     <div className='relative  font-serif md:text-[10px] xl:text-base'>
                         <p>

@@ -9,7 +9,7 @@ import vector from "../img/Vector.svg"
 const Tenth = () => {
 
     return (
-        <div className='bg-custom-color-2 pt-10' id='pricing'>
+        <div className='bg-custom-color-2 pt-10' >
 
             <div className='hidden md:flex gap-2  xl:text-5xl md:text-3xl items-center justify-center  font-sans font-extrabold md:relative md:left-28 xl:static'>
                 <p className='relative -top-1'>7 Days </p>
@@ -83,7 +83,7 @@ const Tenth = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row xl:text-5xl md:text-3xl text-3xl font-sans font-extrabold justify-center items-center -mt-10 md:mt-16 gap-2 md:gap-0'>
+            <div className='flex flex-col md:flex-row xl:text-5xl md:text-3xl text-3xl font-sans font-extrabold justify-center items-center -mt-10 md:mt-16 gap-2 md:gap-0' id='pricing'>
                 <div className='flex flex-col  gap-3' >
                     <p className='text-custom-color-1 flex justify-center'>Pick the option</p>
                     <img src={line2} alt="img loading curve line" className=' hidden md:block relative md:w-[230px] md:h-[5px] xl:w-[398px]  ' />
@@ -92,7 +92,7 @@ const Tenth = () => {
                     <p className=''> that's best for you </p>
                 </div>
             </div>
-            <div className=' hidden md:flex justify-center items-center mt-20 font-serif '>
+            <div className=' hidden md:flex justify-center items-center mt-20 font-serif ' >
                 <div className='w-5/6 mb-20'>
                     <table className='w-full table-rounded'>
                         <tr>
@@ -350,7 +350,7 @@ const Tenth = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>advanced data features</td>
+                            <td>Advanced Data Features</td>
                             <td>
                                 <div className='flex justify-center items-center' >
                                     <img src={correct} alt="tick" />
@@ -789,7 +789,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p>Advanced data features</p>
+                            <p>Advanced Data Features</p>
 
                         </div>
                     </div>
@@ -1028,7 +1028,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p>Advanced data features</p>
+                            <p>Advanced Data Features</p>
 
                         </div>
                     </div>
@@ -1269,7 +1269,7 @@ const Tenth = () => {
                             <img src={vector} alt="dot" className='relative top-1'/>
                         </div>
                         <div className='flex flex-col'>
-                            <p>advanced data features</p>
+                            <p>Advanced Data Features</p>
 
                         </div>
                     </div>
