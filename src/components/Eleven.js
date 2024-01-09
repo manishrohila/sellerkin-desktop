@@ -1,5 +1,5 @@
 import React from 'react'
-import first from "../img/Component 1.svg"
+import line from "../img/money back.svg"
 import stars from "../img/Group 486.svg"
 import left_arrow from "../img/mingcute_arrows-right-line.png";
 import right_arrow from "../img/mingcute_arrows-right-line (1).png";
@@ -10,6 +10,7 @@ import comma from "../img/Vector (2).svg"
 import small_right from "../img/mingcute_arrows-right-line (1).svg"
 import small_left from "../img/Group.svg"
 import ReactPlayer from 'react-player'
+import underline2 from "../img/winning_underline.svg"
 
 const Eleven = () => {
     const driveVideoLink = 'https://youtu.be/tlTdbc5byAs?si=gzKmESz1oMwbGILe';
@@ -17,7 +18,18 @@ const Eleven = () => {
         <div className='bg-custom-color pt-10 ' id='testimonials'>
             <div className='hidden md:flex flex-col justify-center items-center xl:text-5xl md:text-3xl font-extrabold font-sans'>
                 <p>Don't believe what we say,<span className='text-custom-color-1'> listen to real users</span></p>
-                <p><span className='text-custom-color-1'>winning with Sellerkin </span> every single day.</p>
+                <div className='flex justify-center gap-2  '>
+                    <div className='flex flex-col gap-2 relative '>
+                        <p><span className='text-custom-color-1'>winning with Sellerkin </span> </p>
+                        <img src={line} alt="img loading" className='hidden lg:w-11/12 lg:block ' />
+                        <img src={underline2} alt="img loading" className='lg:hidden' />
+                    </div>
+                    <div className='relative xl:right-6 '>
+                        <p>every single day.</p>
+                    </div>
+                </div>
+
+
             </div>
             <div className='flex md:hidden font-bold font-sans flex-col justify-center items-center text-3xl'>
                 <p>Don't believe what </p>

@@ -9,7 +9,8 @@ import bonus3 from "../img/Group 441.svg"
 import bonus11 from "../img/Component 25 (1).svg"
 import bonus12 from "../img/Component 25 (2).svg"
 import bonus13 from "../img/Component 25 (3).svg"
-
+import gift from "../img/gift(1).svg"
+import gift2 from "../img/gift(2).svg"
 import visa1 from "../img/toppng 4.svg"
 import secure from "../img/lock1.svg";
 import days from "../img/7days1.svg";
@@ -36,7 +37,21 @@ const Nine = () => {
                 </div>
 
 
+
             </div>
+            <div className='relative'>
+                <div className='absolute left-[50px] bottom-px'>
+                    <img src={gift} alt="" className='  ' />
+                </div>
+            </div>
+            <div className='relative'>
+                <div className='absolute right-[50px] bottom-px'>
+                    <img src={gift2} alt="" className='  ' />
+                </div>
+            </div>
+            
+
+
             {/* mobile version */}
             <div className='md:hidden flex flex-col text-3xl justify-center items-center font-sans font-extrabold'>
                 <p className='flex justify-center  '><span>Not just that, <span className='text-custom-color-1'>If you</span></span> </p>

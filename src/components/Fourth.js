@@ -173,7 +173,7 @@ const Fourth = () => {
                             being able to check how
                             much <strong>quantity is left</strong> and Your&nbsp;
                             <strong className='underline'> Listing </strong> &nbsp;will be able to <strong>Shine & &nbsp;</strong>
-                            <strong>Rank</strong> in the <strong className='underline'>Marketplace</strong></p>
+                            <strong>Rank</strong> in the <strong className='underline'>marketplace</strong></p>
                     </div>
                 </div>
 

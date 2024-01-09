@@ -128,7 +128,7 @@ const Third = () => {
                 <div className='flex justify-center w-11/12 font-serif md:mt-10 flex-col md:flex md:flex-row relative xl:-top-56 '>
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 md:-mr-px rounded-md flex-col relative'>
                         <p className='flex justify-center'><img src={checkbook} alt='check ' className='absolute -top-7'></img></p>
-                        <p>Then to find out &nbsp; <strong>what</strong> </p>
+                        <p>Then to find out <strong>what</strong> </p>
                         <p><strong>people are commenting</strong></p>
                         <p> <strong>on ads</strong>  one by one</p>
                     </div>
