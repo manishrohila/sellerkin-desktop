@@ -39,7 +39,7 @@ const Eighteen = () => {
                 </div>
                 <div className="flex justify-center mb-5 gap-4">
                     <img src={mac} alt="payment" className="w-24 md:w-auto "></img>
-                    <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
+                    <img src={window} alt="payment" className="relative  w-24 md:w-auto"></img>
                 </div>
             </div>
             <div className='font-serif flex  md:hidden flex-col gap-4 flex-wrap p-10 border-2 border-dashed w-10/12 bg-custom-color border-custom-color-1 justify-center items-center mx-auto rounded-lg'>
@@ -79,8 +79,8 @@ const Eighteen = () => {
                     </div>
                 </div>
                 <div className="flex justify-center mb-5 gap-4">
-                    <img src={mac} alt="payment" className="w-24 md:w-auto "></img>
-                    <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
+                    <img src={mac} alt="payment" className="w-24 md:w-auto  "></img>
+                    <img src={window} alt="payment" className="relative  mb-2 w-24 md:w-auto"></img>
                 </div>
             </div>
 

@@ -28,7 +28,7 @@ const Thirteen = () => {
       </div>
 
       <div className='place-items-center xl:text-2xl md:text-lg md:flex hidden flex-col mt-5 font-serif italic'>
-        <p>You don't need a marketing degree to crack the code. you just found</p>
+        <p>You don't need a marketing degree to crack the code. You just found</p>
         <p> <span className='underline'>Sellerkin</span> which gives you <strong>winning products of your niche in <span className='underline'>minutes</span> .</strong></p>
       </div>
       <div className='place-items-center text-xl md:hidden flex flex-col mt-7 font-serif'>

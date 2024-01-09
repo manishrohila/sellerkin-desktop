@@ -125,7 +125,7 @@ const Seventh = () => {
                 </div>
                 <div className="flex justify-center mb-5 gap-4">
                     <img src={mac} alt="payment" className="w-24 md:w-auto "></img>
-                    <img src={window} alt="payment" className="relative mb-2 w-24 md:w-auto"></img>
+                    <img src={window} alt="payment" className="relative  w-24 md:w-auto"></img>
                 </div>
 
             </div>

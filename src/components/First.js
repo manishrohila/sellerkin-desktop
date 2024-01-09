@@ -361,7 +361,7 @@ function First() {
                 </div>
                 <div className="relative">
                     <img src={cart} alt="top1 " className=" hidden md:block absolute  m-4 xl:left-20 md:left-16 md:w-20 xl:w-28"></img>
-                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 xl:right-20 md:right-16 md:w-16 xl:w-24 xl:top-0 md:top-3"></img>
+                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 xl:right-20 md:right-16 md:w-16 xl:w-20 xl:top-3 md:top-3"></img>
                 </div>
             </div>
             <div className="mt-5 block md:hidden justify-center text-center text-xl font-serif">
@@ -422,7 +422,7 @@ function First() {
 
             <div className="flex justify-center mb-5 gap-4">
                 <img src={mac} alt="payment" className="w-28 md:w-32 xl:w-44 "></img>
-                <img src={window} alt="payment" className="w-28 relative mb-2 xl:w-44 md:w-32"></img>
+                <img src={window} alt="payment" className="w-28 relative  xl:w-44 md:w-32"></img>
             </div>
 
             <div className="m-5 flex flex-col gap-2 md:hidden justify-center font-serif ">
