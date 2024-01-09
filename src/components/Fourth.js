@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../img/logo.svg";
-import bgimage from "../img/Group 226.svg"
+import bgimage from "../img/Group 591 (1).svg"
 import first from "../img/Group 592.svg"
 import second from "../img/Group 593.svg"
 import third from "../img/Group 594.svg"
@@ -19,7 +19,7 @@ import './Fourth.css'
 const Fourth = () => {
     return (
         <div className='bg-[#FEFAE7]   pb-10 '>
-            <div className='hidden md:flex md:justify-center flex-row gap-2 pt-20 font-bold md:text-3xl font-sans xl:text-5xl ' >
+            <div className='hidden md:flex md:justify-center flex-row gap-2 pt-20 font-bold md:text-3xl font-sans xl:text-5xl xl:left-7 xl:relative' >
                 <p className=' '>Introducing </p>
                 <div className='flex flex-col relative md:bottom-2 xl:static gap-2 md:w-4/12' >
                     <div className='flex  gap-2'>
@@ -37,9 +37,9 @@ const Fourth = () => {
                 <img src={underline} alt="" className='' />
             </div>
 
-            <div className='hidden md:grid grid-cols-2 relative md:text-xs xl:text-lg font-serif '>
+            <div className='hidden md:grid grid-cols-1 relative md:text-xs xl:text-lg font-serif '>
                 <div className='relative xl:pl-32 md:pl-20 mt-24'>
-                    <div className='mb-2  xl:mb-10 max-w-[28rem]'>
+                    <div className='mb-2  xl:mb-10 xl:max-w-[28rem] md:max-w-[19rem]'>
                         <p >Sellerkin is a tool for Etsy sellers to help them &nbsp;
                             <strong>find the winning products & increase revenue for &nbsp;</strong>
                             their Etsy shop in less than <strong>60 seconds &nbsp;</strong>
@@ -68,13 +68,14 @@ const Fourth = () => {
                         </div>
                     </div>
                 </div>
-                <div className='relative '>
-                    <img src={bgimage} alt="image  " className='' />
-                </div>
-                {/* <img src={shop_ana} alt="image" className=' absolute h-32 w-52 bottom-[9rem] right-[20rem]  ' /> */}
 
 
 
+
+
+            </div>
+            <div className='relative flex justify-end '>
+                <img src={bgimage} alt="image  " className='absolute hidden md:block md:bottom-[-220px] md:w-[600px] xl:bottom-[-380px] xl:w-[1000px] ' />
             </div>
             <div className='md:hidden flex justify-center items-center flex-wrap mt-10  gap-4 text-lg mb-10 font-serif'>
                 <div className='mb-7 border-top-2 border-custom-color-1 relative' >
@@ -123,7 +124,7 @@ const Fourth = () => {
 
             {/* Three points */}
 
-            <div className='md:flex hidden gap-7 flex-col md:flex-row justify-center pb-16 px-10 '>
+            <div className='md:flex hidden gap-7 flex-col md:flex-row justify-center pb-16 px-10 md:mt-56 xl:mt-72 '>
 
 
                 <div className=' bg-custom-color-2  p-5 rounded-md shadow-custom h-1/2 '>

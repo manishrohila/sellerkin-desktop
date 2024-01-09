@@ -9,7 +9,10 @@ import days from "../img/7days1.svg";
 import comma from "../img/Vector (2).svg"
 import small_right from "../img/mingcute_arrows-right-line (1).svg"
 import small_left from "../img/Group.svg"
+import ReactPlayer from 'react-player'
+
 const Eleven = () => {
+    const driveVideoLink = 'https://drive.google.com/file/d/1CpLozizkI6tcmOADEgbw3l-0w69JXvDj/view?usp=sharing';
     return (
         <div className='bg-custom-color pt-10 ' id='testimonials'>
             <div className='hidden md:flex flex-col justify-center items-center xl:text-5xl md:text-3xl font-extrabold font-sans'>
@@ -28,7 +31,13 @@ const Eleven = () => {
 
             <div className=' grid-cols-2 lg:w-9/12 gap-10 xl:mx-36 md:mx-20 mb-6 mt-10 hidden md:grid font-serif'>
                 <div className='flex justify-center items-center'>
-                    <img src={first} alt="image" className='md:w-46 md:h-[323px] xl:w-64 xl:h-[472px]' />
+
+                    <video className='md:w-46 md:h-[323px] xl:w-64 xl:h-[472px] border-6' controls>
+                        <source src='../public/Sellerkin Testimonial.mp4' type='video/mp4' ></source>
+                    </video>
+                    
+                    
+
                 </div>
                 <div className='flex flex-col justify-center items-center gap-6'>
                     <div className='flex flex-col bg-custom-color-2 justify-center border-2 border-custom-color p-6 pt-8 xl:max-w-[25rem]  shadow-xl xl:text-2xl gap-3 md:text-[12px] md:max-w-[19rem]'>
