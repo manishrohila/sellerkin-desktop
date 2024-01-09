@@ -360,8 +360,8 @@ function First() {
                     <p className="ml-5">Minutes without <span className="font-bold">Trial and Error</span> </p>
                 </div>
                 <div className="relative">
-                    <img src={cart} alt="top1 " className=" hidden md:block absolute  m-4 xl:left-20 md:left-16 md:w-20 xl:w-28"></img>
-                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 xl:right-20 md:right-16 md:w-20 xl:w-24 xl:top-3 md:top-3"></img>
+                    <img src={cart} alt="top1 " className=" hidden md:block absolute  m-4 xl:left-20 md:left-16 md:w-[143px] "></img>
+                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 xl:right-20 md:right-16 md:w-[107px]  xl:top-3 md:top-3"></img>
                 </div>
             </div>
             <div className="mt-5 block md:hidden justify-center text-center text-xl font-serif">
