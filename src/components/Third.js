@@ -163,7 +163,7 @@ const Third = () => {
             <div className='font-serif mt-10'>
                 <div className='xl:text-2xl md:text-base hidden md:flex justify-center flex-col items-center  mb-10'>
                     <p> <span className='text-custom-color-1'>However </span>if we go ahead and start doing this <span className='text-custom-color-1'>manually, it can take over</span> </p>
-                    <p> <span className='text-custom-color-1'>48 hours of research</span>  and even then you would be making guess</p>
+                    <p> <span className='text-custom-color-1'>48 hours of research</span>  and even then you would be making guesses</p>
                 </div>
 
                 <div className='text-lg flex md:hidden justify-center flex-col items-center   mb-10'>
@@ -173,7 +173,7 @@ const Third = () => {
                         <span className='text-custom-color-1'>can take over 8 hours of </span>
                     </p>
                     <p> <span className='text-custom-color-1'>research</span>  and even then you </p>
-                    <p>would be making guess</p>
+                    <p>would be making guesses</p>
                 </div>
             </div>
 

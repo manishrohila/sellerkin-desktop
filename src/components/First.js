@@ -223,7 +223,7 @@ function First() {
                         <span className="font-sans"> And</span>
                     </h2>
                     <h2 className="text-3xl tracking-wider font-bold word-spacing italic">
-                        Copying Them For Your Instant Sucess
+                        Copying Them For Your Instant Success
                     </h2>
                 </div>
             </div>
@@ -361,7 +361,7 @@ function First() {
                 </div>
                 <div className="relative">
                     <img src={cart} alt="top1 " className=" hidden md:block absolute  m-4 xl:left-20 md:left-16 md:w-20 xl:w-28"></img>
-                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 xl:right-20 md:right-16 md:w-16 xl:w-20 xl:top-3 md:top-3"></img>
+                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 xl:right-20 md:right-16 md:w-20 xl:w-24 xl:top-3 md:top-3"></img>
                 </div>
             </div>
             <div className="mt-5 block md:hidden justify-center text-center text-xl font-serif">

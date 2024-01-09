@@ -43,7 +43,7 @@ const Fourth = () => {
                         <p >Sellerkin is a tool for Etsy sellers to help them &nbsp;
                             <strong>find the winning products & increase revenue for &nbsp;</strong>
                             their Etsy shop in less than <strong>60 seconds &nbsp;</strong>
-                            <strong>without trial & error</strong></p>
+                            <strong>without trial & error.</strong></p>
                     </div>
                     <div className='md:text-xs xl:text-lg md:mb-2 xl:mb-10 font-serif'>
                         <p>It works like a charm and can give you </p>
@@ -87,7 +87,7 @@ const Fourth = () => {
                     <p>help them <strong>find the winning products & </strong> </p>
                     <p><strong> increase revenue </strong> for their Etsy</p>
                     <p>in less than <strong>60 seconds</strong></p>
-                    <p><strong>without trial & error</strong></p>
+                    <p><strong>without trial & erro.</strong></p>
                 </div>
 
                 <div className='flex flex-col justify-center items-center text-lg'>

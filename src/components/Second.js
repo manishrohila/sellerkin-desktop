@@ -89,7 +89,7 @@ const Second = () => {
                     </div>
                     <div className='flex flex-col lg:gap-4 md:gap-2 xl:text-base md:text-[10px]'>
                         <div>
-                            <p>You immediately <b className='underline'>start having self doubts</b>...</p>
+                            <p>You immediately <b className='underline'>start having self doubts</b> ...</p>
                         </div>
                         <div>
                             <p>NOT only on Your Products BUT <strong>on </strong> <strong className='underline'>Yourself</strong> as well</p>
