@@ -19,14 +19,14 @@ import './Fourth.css'
 const Fourth = () => {
     return (
         <div className='bg-[#FEFAE7]   pb-10 '>
-            <div className='hidden md:flex md:justify-center flex-row gap-2 pt-20 font-bold md:text-2xl font-sans lg:text-5xl ' >
+            <div className='hidden md:flex md:justify-center flex-row gap-2 pt-20 font-bold md:text-3xl font-sans lg:text-5xl ' >
                 <p className=' '>Introducing </p>
-                <div className='flex flex-col gap-2 md:w-4/12' >
+                <div className='flex flex-col relative md:bottom-2 lg:static gap-2 md:w-4/12' >
                     <div className='flex  gap-2'>
                         <img src={logo} alt="logo" className='' />
                         <p className='md:relative top-2 lg:static'> SellerKin</p>
                     </div>
-                    <img src={underline} alt="" className='md:w-7/12 lg:w-8/12' />
+                    <img src={underline} alt="" className='md:w-9/12 lg:w-8/12' />
                 </div>
 
 
