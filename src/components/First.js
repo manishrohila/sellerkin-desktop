@@ -109,9 +109,7 @@ function First() {
 
                     {/* button */}
                     <div className="space-x-10 hidden md:flex md:left-20 md:relative  xl:static -mt-2 md:justify-end">
-                        <button className="border-2 rounded border-custom-color-1 px-2.5 py-0.5 xl:text-xl font-medium md:text-sm">
-                            Log in
-                        </button>
+                        
                         <button className="border-2 rounded border-custom-color-1 bg-custom-color-1 font-medium px-2.5 py-0.5 text-white xl:text-xl md:text-sm">
                             Get Started
                         </button>
@@ -151,7 +149,7 @@ function First() {
             </nav>
             <div className="relative font-serif" >
                 <p className="border-2  rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white font-serif xl:text-base md:text-xs">
-                    This is an invite only page...
+                    This is an invite only page ...
                 </p>
                 <div className="relative">
                     <img src={top1} alt="top1 " className="opacity-25 z-0 hidden md:block absolute md:w-28 xl:w-40  m-4 left-0"></img>
@@ -362,8 +360,8 @@ function First() {
                     <p className="ml-5">Minutes without <span className="font-bold">Trial and Error</span> </p>
                 </div>
                 <div className="relative">
-                    <img src={cart} alt="top1 " className=" hidden md:block absolute  m-4 xl:left-20 md:left-16 md:w-20"></img>
-                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 xl:right-20 md:right-16 md:w-16 md:top-3"></img>
+                    <img src={cart} alt="top1 " className=" hidden md:block absolute  m-4 xl:left-20 md:left-16 md:w-20 xl:w-28"></img>
+                    <img src={graph_bg} alt="top1 " className=" hidden md:block absolute  m-4 xl:right-20 md:right-16 md:w-16 xl:w-24 xl:top-0 md:top-3"></img>
                 </div>
             </div>
             <div className="mt-5 block md:hidden justify-center text-center text-xl font-serif">

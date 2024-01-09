@@ -489,9 +489,9 @@ const Eleven = () => {
             </div>
 
 
-            <div className="hidden md:flex md:flex-row justify-center mt-10 font-sans ">
+            <div className="hidden md:flex md:flex-row justify-center mt-2 font-sans ">
                 <div>
-                    <img src={left_arrow} alt="left arrow"></img>
+                    <img src={left_arrow} alt="left arrow" className='flex items-center justify-center relative top-3'></img>
                 </div>
                 <div className="bg-custom-color-1 m-1 text-2xl px-5 py-3 border-2 rounded-lg flex justify-center flex-col md:flex md:flex-col text-white mb-10">
                     <p className="mr-1 md:mr-1">Get instant Access to Sellerkin</p>
@@ -499,7 +499,7 @@ const Eleven = () => {
                     <p className='flex justify-center text-base'>Soon, Prices are going to be increased</p>
                 </div>
                 <div>
-                    <img src={right_arrow} alt="right arrow 2"></img>
+                    <img src={right_arrow} alt="right arrow 2" className='flex items-center justify-center relative top-3'></img>
                 </div>
             </div>
             <div className="flex flex-row  md:hidden justify-center mt-5 font-sans mb-10">

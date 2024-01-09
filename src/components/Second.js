@@ -74,7 +74,7 @@ const Second = () => {
                         </div>
                         <div className='flex flex-col xl:text-base md:text-[10px] relative xl:ml-10 mt-4 font-serif'>
                             <p>And hoping that you will start receiving traction</p>
-                            <p>and sales only to <b>find out ZERO Sales next day..</b></p>
+                            <p>and sales only to <b>find out ZERO Sales next day...</b></p>
                         </div>
                     </div>
                     <div>
@@ -89,26 +89,24 @@ const Second = () => {
                     </div>
                     <div className='flex flex-col lg:gap-4 md:gap-2 xl:text-base md:text-[10px]'>
                         <div>
-                            <p>You immediately <b>start having self doubts...</b></p>
+                            <p>You immediately <b className='underline'>start having self doubts...</b></p>
                         </div>
                         <div>
-                            <p>NOT only on Your Products BUT <strong>on Yourself</strong>  as well</p>
+                            <p>NOT only on Your Products BUT <strong>on </strong> <strong className='underline'>Yourself</strong> as well</p>
                         </div>
                         <div>
-                            <p>Your <b>Confidence</b> also starts <b>shaking</b></p>
+                            <p>Your Confidence also starts shaking</p>
                         </div>
                         <div>
-                            <p>You Start imaging those <b>late nights</b> when you </p>
+                            <p>You Start imaging those <b className='underline'>late nights</b> when you </p>
                             <p>were perfecting your product</p>
                         </div>
                         <div>
-                            <p>Your <strong> Countless tweaks</strong> to get every detail just right</p>
+                            <p>Your <strong className='underline'> Countless tweaks</strong> to get every detail just right</p>
                         </div>
+                        
                         <div>
-                            <p>Your <b>Countless tweaks</b> to get every detail just right</p>
-                        </div>
-                        <div>
-                            <p>You made this amount of <b> effort</b> just to have a</p>
+                            <p>You made this amount of <b className='underline'> effort</b> just to have a</p>
                             <p><b>ZERO SALE SURPRISE</b></p>
                         </div>
                         <div>
@@ -121,7 +119,7 @@ const Second = () => {
                             <p>share that with you...</p>
                         </div>
                         <div>
-                            <p>Well here is the <b>Winning Formula...</b></p>
+                            <p>Well here is the Winning Formula...</p>
                         </div>
                     </div>
                 </div>
@@ -197,7 +195,7 @@ const Second = () => {
                             <div className='flex flex-col relative  mt-4'>
                                 <p className='flex justify-center'>And hoping that you will start </p>
                                 <p className='flex justify-center'> receiving traction and sales only to</p>
-                                <p className='flex justify-center'> <b>find out ZERO Sales next day..</b></p>
+                                <p className='flex justify-center'> <b>find out ZERO Sales next day...</b></p>
                             </div>
                         </div>
 

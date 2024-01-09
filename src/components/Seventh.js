@@ -76,7 +76,7 @@ const Seventh = () => {
                     <img src={rectangle} alt="image loading" className='' />
                 </div> */}
             </div>
-            <div className='bg-custom-color pt-10 pb-12'>
+            <div className='bg-custom-color pt-px xl:mt-16 md:mt-10 pb-12'>
                 <div className='text-xl flex justify-center items-center md:mt-10 font-serif'>
                     <p>Special Deal ending in :</p>
                 </div>

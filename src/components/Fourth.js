@@ -149,7 +149,7 @@ const Fourth = () => {
 
                         <p><strong className='underline'>Shop Analyzer :</strong> Helps you to
                             Analyze the <strong>competitor</strong>
-                            <strong> &nbsp;stats-</strong>how much <strong>sales</strong>
+                            <strong> &nbsp;stats-</strong>how much <strong>sales,</strong>
                             <strong> &nbsp; views, conversion rate </strong> they
                             are getting and may be
                             more .. Your Jaws will drop</p>
@@ -171,8 +171,8 @@ const Fourth = () => {
                             are <strong>NEW</strong> in the Game by
 
                             being able to check how
-                            more <strong>quantity is left</strong> and Your
-                            <strong> &nbsp;Listing </strong>will be able to <strong>Shine & &nbsp;</strong>
+                            much <strong>quantity is left</strong> and Your&nbsp;
+                            <strong className='underline'> Listing </strong> &nbsp;will be able to <strong>Shine & &nbsp;</strong>
                             <strong>Rank</strong> in the <strong className='underline'>Marketplace</strong></p>
                     </div>
                 </div>

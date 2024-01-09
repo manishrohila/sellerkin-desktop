@@ -260,7 +260,7 @@ const Eight = () => {
                     <div className='mt-4 xl:text-lg md:text-xs'>
                         <p>Analyze competitors' listings, <strong>see quantities left, </strong>and</p>
                         <p>watch your own listings shine and rank higher. Crush</p>
-                        <p>the competition and be the Etsy star</p>
+                        <p>the competition and be the Etsy star"</p>
                     </div>
                     <div className='mt-4 xl:text-lg md:text-xs'>
                         <div className='flex gap-2 mt-1'>
@@ -274,7 +274,7 @@ const Eight = () => {
                         <div className='flex gap-2 mt-1 xl:text-lg md:text-xs'>
                             <img src={vector} alt="dot" className='md:w-3 md:h-3 xl:w-[16px] xl:h-[24px] md:relative md:top-1 xl:top-0'  />
                             <div>
-                                <p>Monitor the <strong className='underline'>quantity</strong> of a product <span className='underline'>left in stock</span> to</p>
+                                <p>Monitor the <strong className='underline'>quantity</strong> of a product <span className='underline font-semibold'>left in stock</span> to</p>
                                 <p>stay informed about market dynamics</p>
                             </div>
                         </div>
@@ -403,14 +403,14 @@ const Eight = () => {
             <div className='md:flex hidden justify-center items-center mt-10 '>
                 <table className='w-3/5 table1 '>
                     <tr>
-                        <th className='text-left pl-6'>Features</th>
+                        <th className='text-left pl-7 font-semibold'>Features</th>
                         <th>
                             <div className='flex middle justify-center items-center'>
                                 <img src={logo} alt="" />
-                                <p className='text-xl'>SellerKin</p>
+                                <p className='text-xl font-semibold pr-12'>SellerKin</p>
                             </div>
                         </th>
-                        <th>Other Tools</th>
+                        <th className='font-semibold'>Other Tools</th>
                     </tr>
                     <tr>
                         <td>Pricing</td>

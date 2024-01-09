@@ -17,3 +17,6 @@
   z-index: 1;
   position:relative ;
  }
+ .cut-text {
+  text-decoration: line-through;
+}

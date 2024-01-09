@@ -48,7 +48,7 @@ const Third = () => {
                 <div className='gap-4 flex flex-col'>
                     <p className='text-custom-color-1'>Winning Formula &nbsp;</p>
                     <img src={underline} alt="" className='md:w-7/12 xl:w-11/12 md:relative md:left-20 xl:static' />
-                    
+
                 </div>
                 <div className='xl:relative md:relative md:right-24 xl:right-5'>
                     <p>Revealed</p>
@@ -82,7 +82,7 @@ const Third = () => {
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
                         <p className='flex justify-center ' ><img src={meta} alt='meta ' className='absolute -top-7 '></img></p>
-                        <p> <strong> <span className='underline-offset-1 underline'>Go</span> to facebook ads library</strong></p>
+                        <p> <strong> <span className='underline-offset-1 underline'>Go</span> to Facebook Ads Library</strong></p>
                         <p>and then find out what</p>
                         <p>people are running ads on</p>
                     </div>
@@ -93,7 +93,7 @@ const Third = () => {
 
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
                         <p className='flex justify-center'><img src={drive} alt='drive ' className='absolute -top-7 '></img></p>
-                        <p> <strong><span className='underline-offset-1 underline'>Go</span> to google Ads Library</strong> and</p>
+                        <p> <strong><span className='underline-offset-1 underline'>Go</span> to Google Ads Library</strong> and</p>
                         <p> find the ads being run</p>
                         <p>on different products</p>
                     </div>
@@ -128,8 +128,8 @@ const Third = () => {
                 <div className='flex justify-center w-11/12 font-serif md:mt-10 flex-col md:flex md:flex-row relative xl:-top-56 '>
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 md:-mr-px rounded-md flex-col relative'>
                         <p className='flex justify-center'><img src={checkbook} alt='check ' className='absolute -top-7'></img></p>
-                        <p>Then to find out<strong>what</strong> </p>
-                        <p><storn>people are commenting</storn></p>
+                        <p>Then to find out &nbsp; <strong>what</strong> </p>
+                        <p><strong>people are commenting</strong></p>
                         <p> <strong>on ads</strong>  one by one</p>
                     </div>
                     <img src={arrow} alt="arrow sign" className='hidden md:block w-24 relative left-5'></img>
@@ -151,7 +151,7 @@ const Third = () => {
                     <div className='border-2 w-72 h-36  border-custom-color-1 bg-custom-color text-black flex justify-center text-center m-9 rounded-md flex-col relative'>
                         <p className='flex justify-center'><img src={chat} alt='chat' className='absolute -top-7'></img></p>
                         <p>And then People can <strong>start</strong> </p>
-                        <p><strong>guessing,</strong>  that this could</p>
+                        <p><strong>guessing,</strong>  that this <strong className='underline'>could</strong></p>
                         <p> <strong className='underline underline-offset-1'>be the winning product</strong> </p>
                     </div>
 
@@ -181,8 +181,13 @@ const Third = () => {
 
             <div>
                 <div className='xl:text-5xl md:text-3xl hidden md:flex justify-center flex-col items-center  font-bold font-sans'>
-                    <p className='word-spacing'>But <span className='text-custom-color-1'>what if you had a solution,</span></p>
-                    <p className='word-spacing'>through which you can:</p>
+                    <div>
+                        <p className='word-spacing'>But <span className='text-custom-color-1'>what if you had a solution,</span></p>
+                        <img src={underline} alt="img loading" className='w-10/12 relative xl:left-28 xl:top-2   md:left-16'/>
+                    </div>
+
+
+                    <p className='word-spacing mt-2'>through which you can:</p>
                 </div>
 
                 <div className='text-2xl font-sans  flex md:hidden justify-center flex-col items-center  font-bold  mb-10'>
@@ -207,10 +212,10 @@ const Third = () => {
 
                 <div className='flex justify-center items-center gap-10  mb-8'>
                     <div>
-                        <img src={li33} alt="img loading" className='md:w-[308px] xl:w-[500px]'/>
+                        <img src={li33} alt="img loading" className='md:w-[308px] xl:w-[500px]' />
                     </div>
                     <div>
-                        <img src={li34} alt="img loading" className='md:w-[308px] xl:w-[500px]'/>
+                        <img src={li34} alt="img loading" className='md:w-[308px] xl:w-[500px]' />
                     </div>
                 </div>
                 <div className='flex justify-center items-center gap-10 mb-8'>
@@ -218,7 +223,7 @@ const Third = () => {
                         <img src={li35} alt="img loading" className='md:w-[308px] xl:w-[500px]' />
                     </div>
                     <div>
-                        <img src={li36} alt="img loading"  className='md:w-[308px] xl:w-[500px]'/>
+                        <img src={li36} alt="img loading" className='md:w-[308px] xl:w-[500px]' />
                     </div>
                 </div>
                 <div className='flex justify-center items-center gap-10 mb-8'>
@@ -226,7 +231,7 @@ const Third = () => {
                         <img src={li37} alt="img loading" className='md:w-[308px] xl:w-[500px]' />
                     </div>
                     <div>
-                        <img src={li38} alt="img loading" className='md:w-[308px] xl:w-[500px]'/>
+                        <img src={li38} alt="img loading" className='md:w-[308px] xl:w-[500px]' />
                     </div>
                 </div>
             </div>
@@ -266,7 +271,7 @@ const Third = () => {
                 </div>
             </div>
 
-            <div className="hidden md:flex md:flex-row justify-center mt-10 font-sans gap-5 mb-10">
+            <div className="hidden md:flex md:flex-row justify-center mt-10 font-sans  mb-10">
                 <div >
                     <img src={left_arrow} alt="left arrow" className='flex items-center justify-center relative top-3'></img>
                 </div>

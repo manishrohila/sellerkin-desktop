@@ -99,7 +99,7 @@ const Fifth = () => {
                 <p>features. Grow your business to <strong>new heights</strong> through <strong>deep insights</strong></p>
             </div>
             <div className='md:flex hidden flex-col flex-wrap font-serif justify-center items-center mb-10'>
-                <p>Leave your competitors <strong>behind</strong>and become a <span>standout leader</span> <strong>Biggest</strong></p>
+                <p>Leave your competitors <strong>behind</strong>and become a <span  className='cut-text'>standout leader</span> <strong>Biggest</strong></p>
                 <p><strong>Player</strong> in your niche, all powered by <strong>Sellerkin's advanced tools</strong></p>
             </div>
             <div className='flex md:hidden flex-col flex-wrap font-serif justify-center items-center text-base mb-10'>
@@ -111,7 +111,7 @@ const Fifth = () => {
 
             <div className='md:hidden flex flex-col flex-wrap font-serif justify-center items-center mb-10 text-base'>
                 <p>Leave your competitors <strong>behind</strong> &nbsp;and </p>
-                <p>become a <span>standout leader</span> <strong>Biggest</strong></p>
+                <p>become a <span className='cut-text'>standout leader</span> <strong>Biggest</strong></p>
                 <p><strong>Player</strong> in your niche, all powered by  </p>
                 <p> <strong>Sellerkin's advanced tools</strong></p>
             </div>

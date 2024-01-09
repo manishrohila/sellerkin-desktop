@@ -154,7 +154,7 @@ const Seventeen = () => {
                     </div>
 
                     {showAnswer7 && (<div className='ml-5 pt-2'>
-                    Yes, Sellerkin works for both new and experienced sellers, making it suitable for those who are just starting out.
+                    Yes, Sellerkin works for both new and experienced sellers.
 
 
                     </div>)}

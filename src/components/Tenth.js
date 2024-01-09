@@ -261,15 +261,15 @@ const Tenth = () => {
 
                         </tr>
                         <tr>
-                            <td>Team Members</td>
-                            <td>
+                            <td className='font-bold'>Team Members</td>
+                            <td className='font-bold'>
                                 Add upto 2 Team Members
                             </td>
-                            <td>
+                            <td className='font-bold'>
                                 Add upto 6 Team Members
 
                             </td>
-                            <td>
+                            <td className='font-bold'>
                                 Add upto 12 Team Members
 
                             </td>
@@ -310,20 +310,20 @@ const Tenth = () => {
                             </td>
 
                             <td>
-                                <div className='flex justify-center items-center' >
-                                    <p>500</p>
+                                <div className='flex justify-center items-center ' >
+                                    <p className='font-bold'>500</p>
                                 </div>
 
                             </td>
                             <td>
                                 <div className='flex justify-center items-center' >
-                                    <p>1500</p>
+                                    <p className='font-bold'>1500</p>
                                 </div>
 
                             </td>
                             <td>
                                 <div className='flex justify-center items-center' >
-                                    <p>5000</p>
+                                    <p className='font-bold'>5000</p>
                                 </div>
 
                             </td>
